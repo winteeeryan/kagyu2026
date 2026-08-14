@@ -1,0 +1,47 @@
+.page {
+  background: #f7f7f7;
+  color: #222222;
+  min-height: 100vh;
+  padding-bottom: var(--page-footer-gap);
+}
+
+.imageSection {
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.headerImage {
+  display: block;
+  height: calc(min(82vh, 56rem) + 2px);
+  margin: 0;
+  object-fit: contain;
+  object-position: center bottom;
+  padding-top: 2px;
+  width: 100%;
+}
+
+.introInner {
+  margin: 0 auto;
+  max-width: 46rem;
+  text-align: left;
+}
+
+.introInner p {
+  color: rgba(34, 34, 34, 0.82);
+  font-size: clamp(1rem, 1.25vw, 1.12rem);
+  letter-spacing: 0.045em;
+  line-height: 2.1;
+  margin: 0;
+}
+
+.introInner p + p {
+  margin-top: 1.35rem;
+}
+
+@media (max-width: 560px) {
+  .imageSection {
+    padding: 0;
+  }
+}

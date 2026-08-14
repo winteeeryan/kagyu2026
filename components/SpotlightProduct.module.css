@@ -1,0 +1,139 @@
+.section {
+  background: rgb(var(--color-maroon));
+  color: rgb(var(--color-paper));
+  padding: clamp(4rem, 7vw, 6rem) 0;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1.15fr 0.95fr;
+}
+
+.gallery {
+  display: grid;
+  gap: 1rem;
+}
+
+.mainImageWrap {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.mainImageWrap img,
+.thumbnailRow img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.thumbnailRow {
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.thumbButton {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+  padding: 0;
+}
+
+.thumbActive {
+  border-color: rgb(var(--color-paper));
+}
+
+.content {
+  display: grid;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.productName {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 4vw, 3.3rem);
+  line-height: 0.98;
+  margin: 0;
+}
+
+.price {
+  align-items: baseline;
+  display: flex;
+  gap: 0.8rem;
+  margin: 0;
+}
+
+.price s {
+  opacity: 0.65;
+}
+
+.price span {
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.purchaseRow {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 0 0.2rem;
+}
+
+.quantity {
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: inline-flex;
+}
+
+.quantity button,
+.quantity span {
+  align-items: center;
+  color: inherit;
+  display: inline-flex;
+  height: 3rem;
+  justify-content: center;
+  width: 3rem;
+}
+
+.quantity button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.copy {
+  color: rgba(255, 255, 255, 0.88);
+  display: grid;
+  gap: 1rem;
+  line-height: 1.72;
+}
+
+.copy p {
+  margin: 0;
+}
+
+.link {
+  color: inherit;
+  font-size: 0.88rem;
+  letter-spacing: 0.18em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .purchaseRow {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,66 @@
+.page {
+  background: #f7f7f7;
+  color: #222222;
+  min-height: 100vh;
+  padding-bottom: var(--page-footer-gap);
+}
+
+.imageSection {
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.headerImage {
+  display: block;
+  height: calc(min(82vh, 56rem) + 2px);
+  margin: 0;
+  object-fit: contain;
+  object-position: center bottom;
+  padding-top: 2px;
+  width: 100%;
+}
+
+.articleInner {
+  margin: 0 auto;
+  max-width: 52rem;
+}
+
+.prose {
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+  text-align: left;
+}
+
+.prose p {
+  color: rgba(34, 34, 34, 0.82);
+  font-size: clamp(1rem, 1.25vw, 1.12rem);
+  letter-spacing: 0.045em;
+  line-height: 2.1;
+  margin: 0;
+}
+
+.prose p + p {
+  margin-top: 1.15rem;
+}
+
+.subsection {
+  margin-top: 2rem;
+}
+
+.prose h4 {
+  color: #4a0e17;
+  font-family:
+    "Source Han Serif TC",
+    "Source Han Serif CN",
+    "Noto Serif TC",
+    "Songti TC",
+    var(--font-display),
+    serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  line-height: 1.55;
+  margin: 2.2rem 0 0.9rem;
+  text-align: center;
+}

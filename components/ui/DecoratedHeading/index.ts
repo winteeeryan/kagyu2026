@@ -1,0 +1,1 @@
+export { DecoratedHeading } from "./DecoratedHeading";

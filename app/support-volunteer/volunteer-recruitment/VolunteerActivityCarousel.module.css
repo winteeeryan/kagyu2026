@@ -1,0 +1,175 @@
+.carousel {
+  position: relative;
+}
+
+.scroller {
+  display: grid;
+  gap: clamp(0.8rem, 1vw, 1.25rem);
+  grid-auto-columns: 230px;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  padding: 0.25rem 0 0.75rem;
+  scroll-behavior: smooth;
+}
+
+.card {
+  background: rgb(var(--color-paper));
+  border: var(--card-border);
+  min-width: 0;
+  transition: var(--card-transition);
+}
+
+.card:hover,
+.card:focus-within {
+  border-color: var(--card-hover-border-color);
+  box-shadow: var(--card-hover-shadow);
+  transform: var(--card-hover-lift);
+}
+
+.cardLink {
+  color: inherit;
+  display: grid;
+  height: 100%;
+  text-decoration: none;
+}
+
+.media {
+  aspect-ratio: 3 / 4;
+  background: var(--card-placeholder-background);
+  overflow: hidden;
+}
+
+.activityImage {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--card-image-transition);
+  width: 100%;
+}
+
+.card:hover .activityImage,
+.card:focus-within .activityImage {
+  transform: var(--card-image-hover-scale);
+}
+
+.placeholder {
+  align-content: space-between;
+  background:
+    radial-gradient(circle at 20% 18%, rgba(149, 69, 69, 0.12), transparent 22%),
+    linear-gradient(145deg, rgba(245, 239, 234, 0.96), rgba(233, 223, 214, 0.92));
+  border-bottom: 1px solid rgba(149, 69, 69, 0.08);
+  color: rgba(149, 69, 69, 0.72);
+  display: grid;
+  height: 100%;
+  padding: 1rem;
+  transition: var(--card-image-transition);
+  width: 100%;
+}
+
+.card:hover .placeholder,
+.card:focus-within .placeholder {
+  transform: var(--card-image-hover-scale);
+}
+
+.placeholderIndex {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 300;
+  line-height: 1;
+}
+
+.placeholderLabel {
+  align-self: end;
+  font-size: 0.72rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+}
+
+.cardContent {
+  display: grid;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.cardContent h3 {
+  color: rgb(var(--color-card-title));
+  font-family: var(--font-serif-tc);
+  font-size: 15.2px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.35;
+  margin: 0;
+}
+
+.cardContent p {
+  color: rgb(var(--color-accent));
+  display: grid;
+  font-family: var(--font-serif-tc);
+  font-size: 12.48px;
+  gap: 0.1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.control {
+  align-items: center;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  border-radius: 999px;
+  box-shadow: 0 10px 24px rgba(17, 17, 17, 0.08);
+  color: rgb(var(--color-ink));
+  display: inline-flex;
+  height: 2.85rem;
+  justify-content: center;
+  position: absolute;
+  text-decoration: none;
+  top: 34%;
+  transform: translateY(-50%);
+  transition: all 0.3s ease-in-out;
+  width: 2.85rem;
+  z-index: 1;
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.control:hover {
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.controlDisabled {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.leftControl {
+  left: -1.4rem;
+}
+
+.rightControl {
+  right: -1.4rem;
+}
+
+.control span {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+@media (max-width: 1100px) {
+  .scroller {
+    grid-auto-columns: 230px;
+  }
+}
+
+@media (max-width: 760px) {
+  .scroller {
+    gap: 0.85rem;
+    grid-auto-columns: min(22rem, 86vw);
+  }
+
+  .control {
+    display: none;
+  }
+}

@@ -1,0 +1,133 @@
+.overlay {
+  align-items: center;
+  animation: overlayIn 220ms ease forwards;
+  backdrop-filter: blur(3px);
+  background: rgba(10, 8, 8, 0.82);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  opacity: 0;
+  padding: 5vh 6vw;
+  position: fixed;
+  z-index: 1000;
+  -webkit-backdrop-filter: blur(3px);
+}
+
+.posterStage {
+  align-items: center;
+  animation: posterIn 220ms ease forwards;
+  display: flex;
+  justify-content: center;
+  max-height: 90vh;
+  max-width: min(760px, 88vw);
+  opacity: 0;
+  position: relative;
+  transform: scale(0.96);
+}
+
+.posterImage {
+  display: block;
+  height: auto;
+  max-height: 90vh;
+  max-width: min(760px, 88vw);
+  object-fit: contain;
+  opacity: 0;
+  width: auto;
+}
+
+.posterImageLoaded {
+  opacity: 1;
+}
+
+.closeButton {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  border-radius: 999px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font: inherit;
+  font-size: 1.6rem;
+  height: 44px;
+  justify-content: center;
+  line-height: 1;
+  position: fixed;
+  right: max(1rem, 3vw);
+  top: max(1rem, 3vw);
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease;
+  width: 44px;
+  z-index: 1001;
+}
+
+.closeButton:hover,
+.closeButton:focus-visible {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.7);
+  outline: none;
+}
+
+.spinner {
+  animation: spin 800ms linear infinite;
+  border: 2px solid rgba(255, 255, 255, 0.26);
+  border-radius: 999px;
+  border-top-color: rgba(255, 255, 255, 0.86);
+  height: 2rem;
+  position: absolute;
+  width: 2rem;
+}
+
+@keyframes overlayIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes posterIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 900px) {
+  .posterStage,
+  .posterImage {
+    max-height: 88vh;
+    max-width: 88vw;
+  }
+}
+
+@media (max-width: 640px) {
+  .overlay {
+    padding: 5vh 3vw;
+  }
+
+  .posterStage,
+  .posterImage {
+    max-height: 88vh;
+    max-width: 94vw;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .overlay,
+  .posterStage,
+  .spinner {
+    animation: none;
+  }
+
+  .overlay,
+  .posterStage {
+    opacity: 1;
+    transform: none;
+  }
+}

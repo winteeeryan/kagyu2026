@@ -1,0 +1,189 @@
+:root {
+  --font-source-han-serif:
+    "Source Han Serif TC",
+    "思源宋體",
+    "Source Han Serif CN",
+    "Source Han Serif",
+    "Noto Serif CJK TC",
+    "Noto Serif TC",
+    "Songti TC",
+    serif;
+  --font-body: var(--font-source-han-serif);
+  --font-display: var(--font-source-han-serif);
+  --font-serif: var(--font-source-han-serif);
+  --color-paper: 252, 249, 252;
+  --color-ink: 31, 27, 22;
+  --color-black: 17, 17, 17;
+  --color-bronze: 132, 84, 0;
+  --color-sand: 240, 224, 208;
+  --color-accent-soft: 249, 243, 242;
+  --color-accent: 189, 21, 23;
+  --color-card-title: 28, 3, 3;
+  --color-maroon: 158, 62, 76;
+  --color-royal-blue: 25, 86, 170;
+  --color-soft-gold: 246, 234, 194;
+  --page-footer-gap: clamp(6rem, 10vw, 9rem);
+  --font-serif-tc: var(--font-source-han-serif);
+  --font-serif-cn: var(--font-source-han-serif);
+  --caption-color: rgba(74, 14, 23, 0.78);
+  --caption-font-size: clamp(0.86rem, 1vw, 0.95rem);
+  --caption-letter-spacing: 0.02em;
+  --card-border: 1px solid rgba(var(--color-black), 0.08);
+  --card-hover-border-color: rgba(var(--color-accent), 0.2);
+  --card-hover-shadow: 0 12px 30px rgba(var(--color-black), 0.07);
+  --card-hover-lift: translateY(-5px);
+  --card-image-hover-scale: scale(1.04);
+  --card-placeholder-background:
+    linear-gradient(
+      135deg,
+      rgba(var(--color-accent), 0.08),
+      rgba(var(--color-accent-soft), 0.82)
+    ),
+    rgb(var(--color-accent-soft));
+  --card-transition:
+    border-color 220ms ease,
+    box-shadow 220ms ease,
+    transform 220ms ease;
+  --card-image-transition: transform 380ms ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(var(--color-paper));
+  color: rgb(var(--color-ink));
+  font-family: var(--font-body);
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 86rem;
+  padding: 0 1.25rem;
+  width: 100%;
+}
+
+.button {
+  align-items: center;
+  background: rgb(var(--color-bronze));
+  border: 1px solid rgb(var(--color-bronze));
+  color: rgb(var(--color-paper));
+  display: inline-flex;
+  justify-content: center;
+  letter-spacing: 0.16em;
+  min-height: 3.1rem;
+  padding: 0 1.35rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition:
+    transform 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .button:hover {
+    background: rgb(var(--color-black));
+    border-color: rgb(var(--color-black));
+    transform: translateY(-1px);
+  }
+}
+
+.eyebrow {
+  color: rgba(149, 69, 69, 0.6);
+  font-size: 0.82rem;
+  letter-spacing: 0.24rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 4vw, 4rem);
+  font-weight: 400;
+  line-height: 0.96;
+  margin: 0;
+}
+
+.sectionTitle em {
+  font-style: italic;
+}
+
+.visuallyHidden {
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.imageCaption {
+  color: var(--caption-color) !important;
+  font-family: var(--font-serif-cn);
+  font-size: var(--caption-font-size) !important;
+  letter-spacing: var(--caption-letter-spacing) !important;
+  text-align: center !important;
+}
+
+.karmapaArticleStart {
+  padding: clamp(2.25rem, 5vw, 4rem) 1.5rem 0;
+}
+
+.karmapaHiddenH1 h1 {
+  visibility: hidden;
+}
+
+.karmapaArticleStart a {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 0 1px;
+  color: rgba(149, 69, 69, 0.7);
+  text-decoration: none;
+  transition:
+    background-size 300ms ease,
+    color 300ms ease;
+}
+
+.karmapaArticleStart a:hover,
+.karmapaArticleStart a:focus-visible {
+  background-size: 100% 1px;
+  color: rgba(149, 69, 69, 0.6);
+}
+
+.karmapaArticleStart ol::marker,
+.karmapaArticleStart li::marker {
+  color: rgb(var(--color-accent));
+}
+
+@media (max-width: 560px) {
+  .karmapaArticleStart {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+}

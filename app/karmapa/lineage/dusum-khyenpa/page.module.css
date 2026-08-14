@@ -1,0 +1,11 @@
+.lineagePortrait {
+  margin: clamp(2.5rem, 5vw, 4rem) auto 0;
+  max-width: 24rem;
+}
+
+.lineagePortrait img {
+  border: var(--card-border);
+  display: block;
+  height: auto;
+  width: 100%;
+}

@@ -1,0 +1,8 @@
+.next
+node_modules
+npm-debug.log*
+dist
+.DS_Store
+tmp/
+backups/
+tsconfig.tsbuildinfo

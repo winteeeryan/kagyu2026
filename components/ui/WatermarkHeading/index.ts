@@ -1,0 +1,1 @@
+export { WatermarkHeading } from "./WatermarkHeading";

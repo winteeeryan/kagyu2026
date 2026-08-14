@@ -1,0 +1,165 @@
+.section {
+  display: grid;
+  gap: 1.75rem;
+}
+
+.heading {
+  display: grid;
+  gap: 0.75rem;
+  justify-items: center;
+  text-align: center;
+}
+
+.carousel {
+  position: relative;
+}
+
+.scroller {
+  display: grid;
+  gap: 1rem;
+  grid-auto-columns: calc((100% - 4rem) / 5);
+  grid-auto-flow: column;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  padding: 0.25rem 0 0.75rem;
+  scroll-behavior: smooth;
+}
+
+.scroller::-webkit-scrollbar {
+  height: 0.45rem;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+  background: rgba(149, 69, 69, 0.16);
+  border-radius: 999px;
+}
+
+.card {
+  background: rgb(var(--color-paper));
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  min-width: 0;
+  transition:
+    box-shadow 220ms ease,
+    transform 220ms ease,
+    border-color 220ms ease;
+}
+
+.card:hover,
+.card:focus-within {
+  border-color: rgba(149, 69, 69, 0.2);
+  box-shadow: 0 12px 30px rgba(17, 17, 17, 0.07);
+  transform: translateY(-5px);
+}
+
+.cardLink {
+  color: inherit;
+  display: grid;
+  text-decoration: none;
+}
+
+.media {
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+}
+
+.image {
+  height: 100%;
+  object-fit: cover;
+  transition: transform 320ms ease;
+  width: 100%;
+}
+
+.card:hover .image,
+.card:focus-within .image {
+  transform: scale(1.03);
+}
+
+.content {
+  display: grid;
+  gap: 0.45rem;
+  padding: 0.9rem 0.95rem 1rem;
+}
+
+.content h3 {
+  color: #1c0303;
+  font-size: 0.95rem;
+  font-weight: 400;
+  letter-spacing: 0.15rem;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.content p {
+  color: rgba(var(--color-ink), 0.58);
+  font-size: 0.78rem;
+  letter-spacing: 0.15rem;
+  margin: 0;
+}
+
+.control {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  border-radius: 999px;
+  box-shadow: 0 10px 24px rgba(17, 17, 17, 0.08);
+  color: rgb(var(--color-ink));
+  display: inline-flex;
+  height: 2.85rem;
+  justify-content: center;
+  position: absolute;
+  text-decoration: none;
+  top: 34%;
+  transform: translateY(-50%);
+  transition:
+    opacity 180ms ease,
+    background-color 180ms ease;
+  width: 2.85rem;
+  z-index: 1;
+}
+
+.control:hover {
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.controlDisabled {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.leftControl {
+  left: -1.4rem;
+}
+
+.rightControl {
+  right: -1.4rem;
+}
+
+.control span {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.dots {
+  font-size: 1.15rem;
+  letter-spacing: 0.08rem;
+  transform: translateY(-0.12rem);
+}
+
+@media (max-width: 1100px) {
+  .scroller {
+    grid-auto-columns: calc((100% - 2rem) / 4);
+  }
+}
+
+@media (max-width: 760px) {
+  .scroller {
+    gap: 0.85rem;
+    grid-auto-columns: calc((100% - 0.85rem) / 2);
+  }
+
+  .control {
+    display: none;
+  }
+}

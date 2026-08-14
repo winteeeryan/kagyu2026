@@ -1,0 +1,71 @@
+.page {
+  background: #f7f7f7;
+  color: #222222;
+  min-height: 100vh;
+  padding-bottom: var(--page-footer-gap);
+}
+
+.bannerPage {
+  padding-top: 0;
+}
+
+.bannerSection {
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.bannerImage {
+  display: block;
+  height: calc(min(82vh, 56rem) + 2px);
+  margin: 0;
+  object-fit: contain;
+  object-position: center bottom;
+  padding-top: 2px;
+  width: 100%;
+}
+
+.articleInner {
+  margin: 0 auto;
+  max-width: 88rem;
+}
+
+.cardSection {
+  display: grid;
+  gap: clamp(1.5rem, 2vw, 2rem);
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+  text-align: left;
+}
+
+.cardGrid {
+  display: grid;
+  gap: clamp(1rem, 1.6vw, 1.5rem);
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.saintCard h3 {
+  white-space: normal;
+}
+
+.saintCard p span {
+  display: block;
+}
+
+@media (max-width: 1180px) {
+  .cardGrid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 820px) {
+  .cardGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .cardGrid {
+    grid-template-columns: 1fr;
+  }
+}

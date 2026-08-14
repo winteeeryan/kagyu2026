@@ -1,0 +1,81 @@
+.section {
+  background: rgb(var(--color-sand));
+  padding: clamp(2rem, 5vw, 4rem) 0 clamp(4rem, 7vw, 5rem);
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1.2fr 1fr;
+}
+
+.tile {
+  color: inherit;
+  min-height: 22rem;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+
+.tile:hover .image,
+.tile:focus-visible .image {
+  transform: scale(1.05);
+}
+
+.image {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  transition: transform 480ms ease;
+  width: 100%;
+}
+
+.overlay {
+  inset: 0;
+  position: absolute;
+}
+
+.tileDark .overlay {
+  background: linear-gradient(180deg, rgba(17, 17, 17, 0.15), rgba(17, 17, 17, 0.68));
+}
+
+.tileLight .overlay {
+  background: linear-gradient(180deg, rgba(80, 69, 57, 0.1), rgba(80, 69, 57, 0.45));
+}
+
+.tileDark {
+  color: rgb(var(--color-paper));
+}
+
+.tileLight {
+  color: rgb(var(--color-paper));
+}
+
+.content {
+  bottom: 0;
+  display: grid;
+  gap: 1rem;
+  left: 0;
+  padding: 2rem;
+  position: absolute;
+}
+
+.content h3 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 400;
+  margin: 0;
+}
+
+.content span {
+  font-size: 0.82rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

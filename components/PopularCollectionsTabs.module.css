@@ -1,0 +1,139 @@
+.wrapper {
+  margin: 0 auto;
+  max-width: 70rem;
+}
+
+.collectionNav {
+  display: grid;
+  gap: clamp(0.85rem, 1.6vw, 1.15rem);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.collectionCard {
+  background: #ffffff;
+  border: 1px solid rgba(149, 69, 69, 0.16);
+  color: inherit;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-width: 0;
+  text-decoration: none;
+  transition:
+    border-color 220ms ease,
+    box-shadow 220ms ease,
+    transform 220ms ease;
+}
+
+.collectionCard:hover,
+.collectionCard:focus-visible {
+  border-color: rgba(149, 69, 69, 0.45);
+  box-shadow: 0 16px 36px rgba(17, 17, 17, 0.08);
+  outline: 0;
+  transform: translateY(-4px);
+}
+
+.collectionMedia {
+  aspect-ratio: 4 / 3;
+  background: #f7f7f7;
+  overflow: hidden;
+}
+
+.collectionImage {
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 320ms ease;
+  width: 100%;
+}
+
+.collectionCard:hover .collectionImage,
+.collectionCard:focus-visible .collectionImage {
+  transform: scale(1.03);
+}
+
+.collectionPlaceholder {
+  align-content: center;
+  background:
+    linear-gradient(135deg, rgba(149, 69, 69, 0.08), rgba(255, 255, 255, 0.9)),
+    #f7f7f7;
+  color: rgba(43, 7, 7, 0.58);
+  display: grid;
+  font-family: var(--font-serif-tc);
+  font-size: clamp(1.18rem, 2vw, 1.65rem);
+  height: 100%;
+  justify-items: center;
+  line-height: 1.4;
+  padding: 1rem;
+  text-align: center;
+}
+
+.collectionContent {
+  align-content: space-between;
+  display: grid;
+  gap: 1.15rem;
+  min-height: 8rem;
+  padding: clamp(1.1rem, 2vw, 1.45rem);
+}
+
+.collectionContent h3 {
+  color: #2b0707;
+  font-family: var(--font-serif-tc);
+  font-size: clamp(1.35rem, 2.2vw, 1.9rem);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.08;
+  margin: 0;
+}
+
+.collectionContent sup {
+  color: #954545;
+  font-size: 0.48em;
+  line-height: 1;
+  margin-left: 0.18rem;
+  position: relative;
+  top: -0.44em;
+}
+
+.collectionContent span {
+  align-self: end;
+  color: rgba(43, 7, 7, 0.62);
+  display: inline-flex;
+  font-family: var(--font-serif-tc);
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  line-height: 1;
+  position: relative;
+  width: fit-content;
+}
+
+.collectionContent span::after {
+  background: currentColor;
+  bottom: -0.35rem;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 220ms ease;
+  width: 100%;
+}
+
+.collectionCard:hover .collectionContent span,
+.collectionCard:focus-visible .collectionContent span {
+  color: #954545;
+}
+
+.collectionCard:hover .collectionContent span::after,
+.collectionCard:focus-visible .collectionContent span::after {
+  transform: scaleX(1);
+}
+
+@media (max-width: 760px) {
+  .collectionNav {
+    grid-template-columns: 1fr;
+  }
+
+  .collectionContent {
+    min-height: 0;
+  }
+}

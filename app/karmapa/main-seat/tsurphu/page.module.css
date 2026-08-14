@@ -1,0 +1,86 @@
+.page {
+  background: #f7f7f7;
+  color: #222222;
+  min-height: 100vh;
+  padding-bottom: var(--page-footer-gap);
+}
+
+.imageSection {
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.headerImage {
+  display: block;
+  height: calc(min(82vh, 56rem) + 2px);
+  margin: 0;
+  object-fit: contain;
+  object-position: center bottom;
+  padding-top: 2px;
+  width: 100%;
+}
+
+.articleInner {
+  margin: 0 auto;
+  max-width: 52rem;
+}
+
+.prose {
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+  text-align: left;
+}
+
+.prose p,
+.prose li {
+  color: rgba(34, 34, 34, 0.82);
+  font-size: clamp(1rem, 1.25vw, 1.12rem);
+  letter-spacing: 0.045em;
+  line-height: 2.1;
+  text-align: left;
+}
+
+.prose p {
+  margin: 0;
+}
+
+.prose p + p {
+  margin-top: 1.15rem;
+}
+
+.prose ul {
+  display: grid;
+  gap: 0.9rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.prose li {
+  padding-left: 1.35rem;
+  position: relative;
+}
+
+.prose li::before {
+  background: #bd1517;
+  border-radius: 999px;
+  content: "";
+  height: 0.38rem;
+  left: 0;
+  position: absolute;
+  top: 0.82em;
+  width: 0.38rem;
+}
+
+.closingImage {
+  margin: clamp(3.5rem, 7vw, 5.5rem) auto 0;
+  max-width: 42rem;
+}
+
+.closingImage img {
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  display: block;
+  height: auto;
+  width: 100%;
+}

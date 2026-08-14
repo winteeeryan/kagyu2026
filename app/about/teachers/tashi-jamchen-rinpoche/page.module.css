@@ -1,0 +1,15 @@
+.teacherPortrait {
+  margin: clamp(2.5rem, 5vw, 4rem) auto 0;
+  max-width: 24rem;
+}
+
+.teacherPortrait img {
+  border: var(--card-border);
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.teacherCaption {
+  margin-bottom: clamp(2rem, 4vw, 3rem) !important;
+}

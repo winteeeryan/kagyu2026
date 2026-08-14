@@ -1,0 +1,152 @@
+.teachingImage {
+  margin: clamp(2.5rem, 5vw, 4rem) auto clamp(3.5rem, 7vw, 6rem);
+  max-width: 24rem;
+}
+
+.teachingImage img {
+  border: var(--card-border);
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.teachingImage figcaption {
+  margin-top: 0.85rem;
+}
+
+.verse {
+  white-space: pre-line;
+}
+
+.centeredVerse {
+  text-align: center;
+}
+
+.spacer {
+  height: 1.15rem;
+}
+
+.bulletSection {
+  margin: 0 0 1.4rem;
+}
+
+.bulletSection p {
+  margin: 0;
+}
+
+.bulletList {
+  margin: 1rem 0 0;
+  padding-left: 1.35rem;
+}
+
+.bulletList li {
+  margin: 0.55rem 0;
+  padding-left: 0.2rem;
+}
+
+.bulletList + * {
+  margin-top: 1.8rem;
+}
+
+.teachingProse h4 {
+  margin-bottom: 3rem;
+}
+
+.articleNav {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  margin: clamp(2.5rem, 6vw, 4rem) 0 0;
+  padding-top: clamp(1.4rem, 3vw, 2rem);
+}
+
+.navLink,
+.navSpacer {
+  min-width: 0;
+}
+
+.navLink {
+  color: #70231e;
+  display: inline-grid;
+  gap: 0.38rem;
+  max-width: 100%;
+  text-decoration: none;
+  transition: color 240ms ease;
+  width: fit-content;
+}
+
+.navLink:hover,
+.navLink:focus-visible {
+  color: #a62c24;
+  outline: none;
+}
+
+.previous {
+  justify-items: start;
+  justify-self: start;
+  text-align: left;
+}
+
+.overview {
+  justify-items: center;
+  justify-self: center;
+  padding-top: calc(0.62rem * 1.4 + 0.38rem);
+  text-align: center;
+}
+
+.next {
+  justify-items: end;
+  justify-self: end;
+  text-align: right;
+}
+
+.navEyebrow {
+  color: rgba(47, 41, 35, 0.52);
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  line-height: 1.4;
+  text-transform: uppercase;
+  transition: color 240ms ease;
+}
+
+.navTitle {
+  color: #70231e;
+  font-family: var(--font-display);
+  font-size: clamp(0.88rem, 1.15vw, 1rem);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+  transition: color 240ms ease;
+}
+
+.navLink:hover .navEyebrow,
+.navLink:focus-visible .navEyebrow {
+  color: rgba(47, 41, 35, 0.68);
+}
+
+.navLink:hover .navTitle,
+.navLink:focus-visible .navTitle {
+  color: #a62c24;
+}
+
+@media (max-width: 680px) {
+  .articleNav {
+    grid-template-columns: 1fr;
+  }
+
+  .previous,
+  .overview,
+  .next {
+    justify-items: center;
+    text-align: center;
+  }
+
+  .overview {
+    order: -1;
+    padding-top: 0;
+  }
+
+  .navSpacer {
+    display: none;
+  }
+}

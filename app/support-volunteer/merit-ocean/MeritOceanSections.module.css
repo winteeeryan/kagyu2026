@@ -1,0 +1,478 @@
+.sections {
+  display: grid;
+  gap: clamp(10rem, 18vw, 15rem);
+  margin: 0 auto;
+  max-width: 1080px;
+  text-align: left;
+}
+
+.section {
+  scroll-margin-top: 7rem;
+}
+
+.sectionHeader {
+  margin: 0 0 clamp(1.5rem, 3vw, 2rem);
+  max-width: 760px;
+}
+
+.sectionEyebrow {
+  color: #bd1517;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  line-height: 1.5;
+  margin: 0 0 0.55rem;
+  text-transform: uppercase;
+}
+
+.sectionHeader h2 {
+  color: #8a1f21;
+  font-family: var(--font-serif-tc);
+  font-size: clamp(1.28rem, 2.1vw, 1.95rem);
+  font-weight: 400;
+  letter-spacing: clamp(0.16em, 0.65vw, 0.3em);
+  line-height: 1.25;
+  margin: 0;
+}
+
+.sectionHeader p:last-child {
+  color: rgba(var(--color-ink), 0.68);
+  font-size: clamp(1rem, 1.3vw, 1.08rem);
+  letter-spacing: 0.035em;
+  line-height: 1.9;
+  margin: 0.85rem 0 0;
+}
+
+.accordionStack,
+.nestedStack {
+  display: grid;
+}
+
+.nestedStack {
+  gap: 0;
+}
+
+.accordion {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid rgba(34, 34, 34, 0.16);
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.accordion + .accordion {
+  margin-top: 0;
+}
+
+.accordion:last-child {
+  border-bottom: 1px solid rgba(34, 34, 34, 0.16);
+}
+
+.nestedAccordion {
+  background: transparent;
+  border-color: rgba(34, 34, 34, 0.13);
+  border-radius: 0;
+}
+
+.summary {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: rgb(var(--color-ink));
+  cursor: pointer;
+  display: grid;
+  font-family: var(--font-serif-tc);
+  font-size: clamp(1rem, 1.35vw, 1.12rem);
+  font-weight: 500;
+  gap: 1.5rem;
+  grid-template-columns: minmax(0, 1fr) auto;
+  letter-spacing: 0.06em;
+  line-height: 1.45;
+  list-style: none;
+  min-height: 0;
+  padding: clamp(1.2rem, 2.4vw, 1.65rem) 0;
+  text-align: left;
+  transition: color 180ms ease;
+  width: 100%;
+}
+
+.summary::-webkit-details-marker {
+  display: none;
+}
+
+.summary:hover {
+  color: #bd1517;
+}
+
+.summary:focus-visible {
+  outline: 1px solid rgba(189, 21, 23, 0.7);
+  outline-offset: 0.35rem;
+}
+
+.plusIcon {
+  display: inline-block;
+  flex: 0 0 auto;
+  height: 1.15rem;
+  position: relative;
+  width: 1.15rem;
+}
+
+.plusIcon::before,
+.plusIcon::after {
+  background: rgba(34, 34, 34, 0.72);
+  content: "";
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition:
+    opacity 220ms ease,
+    transform 220ms ease,
+    background-color 180ms ease;
+}
+
+.plusIcon::before {
+  height: 1px;
+  width: 100%;
+}
+
+.plusIcon::after {
+  height: 100%;
+  width: 1px;
+}
+
+.summary:hover .plusIcon::before,
+.summary:hover .plusIcon::after,
+.summary:focus-visible .plusIcon::before,
+.summary:focus-visible .plusIcon::after {
+  background: #bd1517;
+}
+
+.plusIconOpen::after {
+  opacity: 0;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.panel {
+  color: rgba(var(--color-ink), 0.75);
+  display: grid;
+  font-size: clamp(0.94rem, 1.08vw, 1rem);
+  grid-template-rows: 0fr;
+  letter-spacing: 0.035em;
+  line-height: 1.9;
+  pointer-events: none;
+  transition: grid-template-rows 300ms ease;
+}
+
+.panelOpen {
+  grid-template-rows: 1fr;
+  pointer-events: auto;
+}
+
+.panelInner {
+  overflow: hidden;
+  padding: 0 3rem clamp(1.45rem, 2.6vw, 2rem) 0;
+}
+
+.panel p {
+  margin: 0;
+}
+
+.panel a {
+  color: #7f1617;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+}
+
+.panel a:hover,
+.panel a:focus-visible {
+  color: #bd1517;
+}
+
+.table {
+  border: 1px solid rgba(34, 34, 34, 0.16);
+  border-collapse: collapse;
+  color: rgba(34, 34, 34, 0.78);
+  font-size: clamp(0.9rem, 1.02vw, 0.98rem);
+  letter-spacing: 0.025em;
+  line-height: 1.65;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  border: 1px solid rgba(34, 34, 34, 0.14);
+  padding: 0.82rem 0.9rem;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.table thead th {
+  background: rgb(var(--color-accent-soft));
+  color: #4a0e17;
+  font-family: var(--font-serif-tc);
+  font-weight: 500;
+}
+
+.table tbody th {
+  background: rgb(var(--color-accent-soft));
+  color: #4a0e17;
+  font-weight: 500;
+  width: 34%;
+}
+
+.table td {
+  background: rgb(var(--color-paper));
+}
+
+.medicalGrid {
+  align-items: start;
+  display: grid;
+  gap: clamp(2rem, 5vw, 3.5rem);
+  grid-template-columns: minmax(0, 1.45fr) minmax(18rem, 0.8fr);
+}
+
+.bankCard {
+  background:
+    linear-gradient(180deg, rgba(255, 253, 248, 0.94), rgba(249, 243, 235, 0.96)),
+    #fffdf8;
+  border: 1px solid rgba(189, 21, 23, 0.18);
+  border-radius: 10px;
+  color: rgb(var(--color-ink));
+  padding: clamp(1.75rem, 4vw, 2.5rem);
+  position: sticky;
+  text-align: center;
+  top: 7rem;
+}
+
+.lotusMark {
+  height: 3.75rem;
+  margin: 0 auto 1.1rem;
+  position: relative;
+  width: 3.75rem;
+}
+
+.lotusMark,
+.lotusMark::before,
+.lotusMark::after,
+.lotusMark span {
+  border: 1px solid rgba(189, 21, 23, 0.38);
+  border-radius: 999px 999px 6px 6px;
+}
+
+.lotusMark {
+  transform: rotate(45deg);
+}
+
+.lotusMark::before,
+.lotusMark::after,
+.lotusMark span {
+  content: "";
+  height: 2.2rem;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform-origin: 50% 100%;
+  width: 1.25rem;
+}
+
+.lotusMark::before {
+  transform: translate(-50%, -58%) rotate(-40deg);
+}
+
+.lotusMark::after {
+  transform: translate(-50%, -58%) rotate(40deg);
+}
+
+.lotusMark span {
+  transform: translate(-50%, -58%) rotate(0deg);
+}
+
+.bankCard h3 {
+  color: #8a1f21;
+  font-family: var(--font-serif-tc);
+  font-size: clamp(1.35rem, 2.2vw, 1.65rem);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  line-height: 1.45;
+  margin: 0 0 1.35rem;
+}
+
+.bankCard dl {
+  display: grid;
+  gap: 0.85rem;
+  margin: 0;
+  text-align: left;
+}
+
+.bankCard dl div {
+  border-top: 1px solid rgba(189, 21, 23, 0.12);
+  display: grid;
+  gap: 0.25rem;
+  padding-top: 0.85rem;
+}
+
+.bankCard dt {
+  color: #8a1f21;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+}
+
+.bankCard dd {
+  color: rgba(var(--color-ink), 0.76);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.thanksCard {
+  background:
+    linear-gradient(90deg, rgba(255, 253, 248, 0.98), rgba(255, 253, 248, 0.86)),
+    #fffdf8;
+  border: 1px solid rgba(189, 21, 23, 0.16);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: clamp(2rem, 5vw, 3rem);
+  position: relative;
+  scroll-margin-top: 7rem;
+}
+
+.watermark {
+  border: 1px solid rgba(189, 21, 23, 0.08);
+  border-radius: 999px 999px 12px 12px;
+  height: clamp(10rem, 22vw, 16rem);
+  opacity: 0.8;
+  position: absolute;
+  right: clamp(1rem, 5vw, 4rem);
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  width: clamp(10rem, 22vw, 16rem);
+}
+
+.watermark::before,
+.watermark::after {
+  border: 1px solid rgba(189, 21, 23, 0.08);
+  border-radius: 999px 999px 12px 12px;
+  content: "";
+  height: 70%;
+  position: absolute;
+  top: 16%;
+  width: 36%;
+}
+
+.watermark::before {
+  left: 15%;
+  transform: rotate(-35deg);
+}
+
+.watermark::after {
+  right: 15%;
+  transform: rotate(35deg);
+}
+
+.thanksContent {
+  max-width: 700px;
+  position: relative;
+  z-index: 1;
+}
+
+.date {
+  color: rgba(var(--color-ink), 0.48);
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  margin: 0 0 0.65rem;
+}
+
+.thanksContent h3 {
+  color: #8a1f21;
+  font-family: var(--font-serif-tc);
+  font-size: clamp(1.28rem, 2.1vw, 1.95rem);
+  font-weight: 400;
+  letter-spacing: clamp(0.16em, 0.65vw, 0.3em);
+  line-height: 1.25;
+  margin: 0 0 1rem;
+}
+
+.thanksContent > p:not(.date) {
+  color: rgba(var(--color-ink), 0.72);
+  font-size: 1rem;
+  letter-spacing: 0.035em;
+  line-height: 1.9;
+  margin: 0 0 1.5rem;
+}
+
+.thanksContent .nestedAccordion {
+  max-width: 42rem;
+}
+
+.letterContent {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.letterContent p {
+  margin: 0;
+}
+
+.letterImages {
+  display: grid;
+  gap: 1rem;
+  margin-top: 0.6rem;
+}
+
+.letterImages img {
+  background: rgb(var(--color-paper));
+  border: 1px solid rgba(34, 34, 34, 0.14);
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+@media (max-width: 860px) {
+  .medicalGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .bankCard {
+    position: relative;
+    top: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .sections {
+    gap: 4rem;
+  }
+
+  .summary {
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .panel {
+    padding-right: 0;
+  }
+
+  .panelInner {
+    padding-right: 0;
+  }
+
+  .table th,
+  .table td {
+    padding: 0.68rem 0.65rem;
+  }
+
+  .thanksCard {
+    padding: 1.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .summary,
+  .panel,
+  .plusIcon::after {
+    transition: none;
+  }
+}

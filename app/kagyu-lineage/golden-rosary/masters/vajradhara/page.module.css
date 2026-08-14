@@ -1,0 +1,86 @@
+.page {
+  background: #f7f7f7;
+  color: #222222;
+  min-height: 100vh;
+  padding-bottom: var(--page-footer-gap);
+}
+
+.articleInner {
+  margin: 0 auto;
+  max-width: 52rem;
+}
+
+.prose {
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+  text-align: left;
+}
+
+.prose p,
+.prose li {
+  color: rgba(34, 34, 34, 0.82);
+  font-size: clamp(1rem, 1.25vw, 1.12rem);
+  letter-spacing: 0.045em;
+  line-height: 2.1;
+  text-align: left;
+}
+
+.prose p {
+  margin: 0;
+}
+
+.prose p + p {
+  margin-top: 1.15rem;
+}
+
+.prose ul {
+  display: grid;
+  gap: 0.9rem;
+  list-style: none;
+  margin: clamp(1.35rem, 3vw, 2.1rem) 0;
+  padding: 0;
+}
+
+.prose h4 {
+  color: #4a0e17;
+  font-family:
+    "Source Han Serif TC",
+    "Source Han Serif CN",
+    "Noto Serif TC",
+    "Songti TC",
+    var(--font-display),
+    serif;
+  font-size: clamp(1.16rem, 1.8vw, 1.45rem);
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  line-height: 1.55;
+  margin: clamp(3rem, 5vw, 4rem) 0 1.2rem;
+  text-align: center;
+}
+
+.prose li {
+  padding-left: 1.35rem;
+  position: relative;
+}
+
+.prose li::before {
+  background: #bd1517;
+  border-radius: 999px;
+  content: "";
+  height: 0.38rem;
+  left: 0;
+  position: absolute;
+  top: 0.82em;
+  width: 0.38rem;
+}
+
+.articlePortrait {
+  margin: clamp(2.5rem, 5vw, 4rem) auto 0;
+  max-width: 24rem;
+}
+
+.articlePortrait img {
+  border: var(--card-border);
+  display: block;
+  height: auto;
+  width: 100%;
+}

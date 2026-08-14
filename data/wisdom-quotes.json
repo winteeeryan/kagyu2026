@@ -1,0 +1,1397 @@
+{
+  "version": 1,
+  "description": "Traditional Chinese poster paraphrases mapped to wisdom source filenames. sourceTitle preserves editorial traceability.",
+  "generatedFrom": "app/study-practice/dharma-wisdom/karmapa-teachings/page.tsx",
+  "entries": {
+    "wisdomoriginal001.jpg": {
+      "quote": "心懷謙卑，功德便有安住與增長的空間。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "謙卑的胸懷，含攝一切功德"
+    },
+    "wisdomoriginal002.jpg": {
+      "quote": "少看自己的優越，多看他人的善與功德。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "傲慢者自滿，難以累積功德"
+    },
+    "wisdomoriginal003.jpg": {
+      "quote": "利他的心不是口號，而是生活中真實的選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "眾生無量，菩薩的學習也無邊"
+    },
+    "wisdomoriginal004.jpg": {
+      "quote": "不隨外境起伏，安然照看此刻的一念心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "家鄉來的藏人，以真誠教育了我"
+    },
+    "wisdomoriginal005.jpg": {
+      "quote": "願一切作為不只為自己，也能減輕眾生的苦。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "為了利他，我願鍛鍊自己的心"
+    },
+    "wisdomoriginal006.jpg": {
+      "quote": "讓心柔軟而清醒，所見的世界也會漸漸不同。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "以「吃虧」來削減「我執」"
+    },
+    "wisdomoriginal007.jpg": {
+      "quote": "帶著知足的心，一口呼吸也能成為真實的幸福。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "靜靜給你快樂，默默承擔痛苦"
+    },
+    "wisdomoriginal008.jpg": {
+      "quote": "無我不是失去自己，而是看見萬物彼此相依。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "空正見：幫你回復本來狀態，重新開始"
+    },
+    "wisdomoriginal009.jpg": {
+      "quote": "心懷謙卑，功德便有安住與增長的空間。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "菩薩謙卑，才能利他"
+    },
+    "wisdomoriginal010.jpg": {
+      "quote": "聽聞與思惟終要落實於生活，才會成為真正的智慧。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「修心」即是強力矯正和守護自心"
+    },
+    "wisdomoriginal011.jpg": {
+      "quote": "少一些準備與藉口，現在就踏實走上修行之路。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "別再「準備」了，現在就去修行！"
+    },
+    "wisdomoriginal012.jpg": {
+      "quote": "每一個念頭與行動，都在悄悄塑造未來。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "知道因果還造惡，就是無福之人"
+    },
+    "wisdomoriginal013.jpg": {
+      "quote": "修行不是外在的模樣，而是一次次改變自己的心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「佛教徒」的真正障礙，不是違緣，而是「失去信念」"
+    },
+    "wisdomoriginal014.jpg": {
+      "quote": "生活從不離開佛法；工作與相處都是修心之處。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "知足惜福，做世間的清風"
+    },
+    "wisdomoriginal015.jpg": {
+      "quote": "讓慈心與悲心，成為每一個行動的起點。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "以愛與慈悲，取代負面情緒"
+    },
+    "wisdomoriginal016.jpg": {
+      "quote": "煩惱如雨雲來去，心的本性仍如虛空不動。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "煩惱來去如雨雲，自性不動如虛空"
+    },
+    "wisdomoriginal017.jpg": {
+      "quote": "看見輪迴的苦，才能真心走向自在與解脫。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "想修解脫道，又放不下世間法？"
+    },
+    "wisdomoriginal018.jpg": {
+      "quote": "不必等待明天；當下，就是開始修行的時刻。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "沒有憶念死亡跟出離輪迴的人，才可憐！"
+    },
+    "wisdomoriginal019.jpg": {
+      "quote": "看見輪迴的苦，才能真心走向自在與解脫。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "只要穿上僧袍，就離輪迴窮盡之日不遠"
+    },
+    "wisdomoriginal020.jpg": {
+      "quote": "不隨外境起伏，安然照看此刻的一念心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "一日行善到處吹噓，一生造惡不慚不愧？"
+    },
+    "wisdomoriginal021.jpg": {
+      "quote": "讓慈心與悲心，成為每一個行動的起點。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "在小愛與大愛間，學習圓融與平衡"
+    },
+    "wisdomoriginal022.jpg": {
+      "quote": "相信因果，便會更願意負責，也更懂得感恩。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "負責及感恩，就是重視因果"
+    },
+    "wisdomoriginal023.jpg": {
+      "quote": "願一切作為不只為自己，也能減輕眾生的苦。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "從煩惱，生起清淨菩提心"
+    },
+    "wisdomoriginal024.jpg": {
+      "quote": "不隨外境起伏，安然照看此刻的一念心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "勝道寶鬘集"
+    },
+    "wisdomoriginal025.jpg": {
+      "quote": "修行不是外在的模樣，而是一次次改變自己的心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "八萬四千法門"
+    },
+    "wisdomoriginal026.jpg": {
+      "quote": "人身難得，莫讓短暫的生命消耗在無意義之中。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "暇滿人身，圓滿修持的起點"
+    },
+    "wisdomoriginal027.jpg": {
+      "quote": "不必等待明天；當下，就是開始修行的時刻。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "此十分難得的清淨人身，如果用它來造作罪業，實在可惜"
+    },
+    "wisdomoriginal028.jpg": {
+      "quote": "憶念無常，不是悲觀，而是提醒自己珍惜此刻。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "此難得的暇滿清淨人身，不用它來學佛，而讓它平凡的死去，實在可惜"
+    },
+    "wisdomoriginal029.jpg": {
+      "quote": "回到自心，在每一個當下練習清明與善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "在這個惡濁時代，把自己短暫的人生浪費在無意義的事情上，實在可惜。"
+    },
+    "wisdomoriginal030.jpg": {
+      "quote": "出離不是逃避生活，而是不再被執著牽引。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "自心的法身離戲本體，讓它沈陷於迷幻的輪迴泥沼裡，實在可惜。"
+    },
+    "wisdomoriginal031.jpg": {
+      "quote": "少一些準備與藉口，現在就踏實走上修行之路。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "學佛要做好人，不是做怪人"
+    },
+    "wisdomoriginal032.jpg": {
+      "quote": "人身難得，莫讓短暫的生命消耗在無意義之中。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "人身難得，別做地球的垃圾"
+    },
+    "wisdomoriginal033.jpg": {
+      "quote": "回到自心，在每一個當下練習清明與善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "降伏自心，做個好人"
+    },
+    "wisdomoriginal034.jpg": {
+      "quote": "依止善知識，不是追隨外相，而是學習轉變自心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "必須具備智慧和信心，小心理解賢德上師的心意"
+    },
+    "wisdomoriginal035.jpg": {
+      "quote": "真正的悲心，是願意承擔並立刻走向受苦的人。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "慈悲，是瞋心自然的解藥"
+    },
+    "wisdomoriginal036.jpg": {
+      "quote": "不隨外境起伏，安然照看此刻的一念心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "永遠記得自己發的願"
+    },
+    "wisdomoriginal037.jpg": {
+      "quote": "回到自心，在每一個當下練習清明與善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "行為要無貪無著，才不會被別人牽著鼻子走"
+    },
+    "wisdomoriginal038.jpg": {
+      "quote": "真正的悲心，是願意承擔並立刻走向受苦的人。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "必須發起慈心、悲心，而嚮往直接、間接的利眾事業"
+    },
+    "wisdomoriginal039.jpg": {
+      "quote": "看見輪迴的苦，才能真心走向自在與解脫。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "你的念頭，就是飄蕩輪迴之因"
+    },
+    "wisdomoriginal040.jpg": {
+      "quote": "不隨外境起伏，安然照看此刻的一念心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "世間的痛苦，都來自於「想太多」或「看錯了」"
+    },
+    "wisdomoriginal041.jpg": {
+      "quote": "回到自心，在每一個當下練習清明與善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "理論是產生智慧的技巧，實際運用才重要"
+    },
+    "wisdomoriginal042.jpg": {
+      "quote": "讓心柔軟而清醒，所見的世界也會漸漸不同。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "理論是產生智慧的技巧，實際運用才重要"
+    },
+    "wisdomoriginal043.jpg": {
+      "quote": "以慈悲照看眾生，也溫柔鬆開心中的負面情緒。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "觀自在菩薩"
+    },
+    "wisdomoriginal044.jpg": {
+      "quote": "不隨外境起伏，安然照看此刻的一念心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "理論思想合一：以正確的見地，開展智慧"
+    },
+    "wisdomoriginal045.jpg": {
+      "quote": "放下對實有的緊抓，智慧才有生起的空間。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "空正見，是智慧生起的基礎"
+    },
+    "wisdomoriginal046.jpg": {
+      "quote": "以空性的智慧鬆開執著，讓心回到本來的開放。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "以「無我」超越小我，開啟與萬物相互依存的「大我」"
+    },
+    "wisdomoriginal047.jpg": {
+      "quote": "願一切作為不只為自己，也能減輕眾生的苦。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "捨棄「一位」眾生，就等於捨棄「所有」眾生"
+    },
+    "wisdomoriginal048.jpg": {
+      "quote": "出離不是逃避生活，而是不再被執著牽引。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "一切輪迴苦，都來自「放不下此生」"
+    },
+    "wisdomoriginal049.jpg": {
+      "quote": "心中不忘眾生，所行便能漸漸成為菩薩之道。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「菩提心」本身就是善法，因此應心生歡喜"
+    },
+    "wisdomoriginal050.jpg": {
+      "quote": "願一切作為不只為自己，也能減輕眾生的苦。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "努力積聚福慧二資糧者，就是菩薩"
+    },
+    "wisdomoriginal051.jpg": {
+      "quote": "守護戒律，就是在每一刻守護自己的善心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "四種黑法，是四種該捨棄的事情"
+    },
+    "wisdomoriginal052.jpg": {
+      "quote": "心中不忘眾生，所行便能漸漸成為菩薩之道。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "取捨黑白法，生生世世守護菩提心"
+    },
+    "wisdomoriginal053.jpg": {
+      "quote": "願一切作為不只為自己，也能減輕眾生的苦。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "如是具慧者，受菩提心已， 應發廣大意，歡喜並雀躍， 讚揚其功德"
+    },
+    "wisdomoriginal054.jpg": {
+      "quote": "每一個念頭與行動，都在悄悄塑造未來。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "世間正見，就是相信因果"
+    },
+    "wisdomoriginal055.jpg": {
+      "quote": "真誠看見過失，立願不再重犯，便是懺悔的力量。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "不求罪惡者的長壽、不求無意義的長壽"
+    },
+    "wisdomoriginal056.jpg": {
+      "quote": "情緒生起時，先保持覺知，呼一口氣，再輕輕放下。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「心」和「煩惱」如同「水」和「水中的雜質」"
+    },
+    "wisdomoriginal057.jpg": {
+      "quote": "修行不是外在的模樣，而是一次次改變自己的心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "好不容易具備順緣、排除逆緣的此刻，就該好好去實修"
+    },
+    "wisdomoriginal058.jpg": {
+      "quote": "憶念無常，不是悲觀，而是提醒自己珍惜此刻。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "臨終，是投生的最重要時刻"
+    },
+    "wisdomoriginal059.jpg": {
+      "quote": "人身難得，莫讓短暫的生命消耗在無意義之中。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「人身寶」比鑽石還貴重"
+    },
+    "wisdomoriginal060.jpg": {
+      "quote": "先做一個善良的人，再讓佛法照亮每一個選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "所謂實修，要身心因緣都具備，且具歡喜心"
+    },
+    "wisdomoriginal061.jpg": {
+      "quote": "相信因果，便會更願意負責，也更懂得感恩。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「引業」和「滿業」"
+    },
+    "wisdomoriginal062.jpg": {
+      "quote": "學習因果，是為了看見自己的過失與他人的功德。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "透過如法懺悔，銷毀惡業的種子"
+    },
+    "wisdomoriginal063.jpg": {
+      "quote": "每一個念頭與行動，都在悄悄塑造未來。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "定業與不定業"
+    },
+    "wisdomoriginal064.jpg": {
+      "quote": "不隨外境起伏，安然照看此刻的一念心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「詆毀」的邪見"
+    },
+    "wisdomoriginal065.jpg": {
+      "quote": "學習因果，是為了看見自己的過失與他人的功德。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "學習因果，是為了「看到自己的過失，看到別人的功德」"
+    },
+    "wisdomoriginal066.jpg": {
+      "quote": "每一個念頭與行動，都在悄悄塑造未來。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "不要將因果侷限於「與某人的關係」或「今生的關係」"
+    },
+    "wisdomoriginal067.jpg": {
+      "quote": "以慈悲照看眾生，也溫柔鬆開心中的負面情緒。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "三種慈心：緣眾生、緣法意、無所緣之慈心"
+    },
+    "wisdomoriginal068.jpg": {
+      "quote": "不隨外境起伏，安然照看此刻的一念心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "僅修「慈」與「悲」，自有「喜」與「捨」"
+    },
+    "wisdomoriginal069.jpg": {
+      "quote": "讓慈心與悲心，成為每一個行動的起點。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "身為大乘人，剎那間也不應離開慈心與悲心"
+    },
+    "wisdomoriginal070.jpg": {
+      "quote": "心中不忘眾生，所行便能漸漸成為菩薩之道。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "大乘最重要的是「為眾生的發心」"
+    },
+    "wisdomoriginal071.jpg": {
+      "quote": "真正的悲心，是願意承擔並立刻走向受苦的人。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "悲心與出離心，如同硬幣的兩面"
+    },
+    "wisdomoriginal072.jpg": {
+      "quote": "利他的心不是口號，而是生活中真實的選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "佛法的精髓就是菩提心"
+    },
+    "wisdomoriginal073.jpg": {
+      "quote": "以慈悲照看眾生，也溫柔鬆開心中的負面情緒。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "真實的悲心需要智慧的觀察"
+    },
+    "wisdomoriginal074.jpg": {
+      "quote": "真正的悲心，是願意承擔並立刻走向受苦的人。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "大乘的悲心，是「我來幫助每一個人離開痛苦」的承擔"
+    },
+    "wisdomoriginal075.jpg": {
+      "quote": "讓慈心與悲心，成為每一個行動的起點。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "生起真實悲心時，片刻不會等待"
+    },
+    "wisdomoriginal076.jpg": {
+      "quote": "積聚福慧，不在聲勢，而在每一分清淨的善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「七支供養」"
+    },
+    "wisdomoriginal077.jpg": {
+      "quote": "願一切作為不只為自己，也能減輕眾生的苦。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "菩薩的無私精神，付出不必求回報"
+    },
+    "wisdomoriginal078.jpg": {
+      "quote": "積聚福慧，不在聲勢，而在每一分清淨的善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "藏傳佛教壇城：八供"
+    },
+    "wisdomoriginal079.jpg": {
+      "quote": "真心隨喜一切善行，自己的心也會明亮開闊。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "八吉祥的意涵"
+    },
+    "wisdomoriginal080.jpg": {
+      "quote": "先做一個善良的人，再讓佛法照亮每一個選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "越瞭解佛法的殊勝，越會真正去實踐"
+    },
+    "wisdomoriginal081.jpg": {
+      "quote": "利他的心不是口號，而是生活中真實的選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "願菩提心和行菩提心二戒律，如同國民應盡之義務"
+    },
+    "wisdomoriginal082.jpg": {
+      "quote": "聽聞與思惟終要落實於生活，才會成為真正的智慧。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "守護善心如敬法寶"
+    },
+    "wisdomoriginal083.jpg": {
+      "quote": "皈依不只是一分信心，更是願意走上覺醒之道。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "能從內心深處深刻瞭解並害怕輪迴痛苦，才是小士夫皈依"
+    },
+    "wisdomoriginal084.jpg": {
+      "quote": "真正的皈依，是相信自己也能抵達覺悟。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "皈依需具備二因「畏懼」與「信心」"
+    },
+    "wisdomoriginal085.jpg": {
+      "quote": "憶念無常，不是悲觀，而是提醒自己珍惜此刻。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「修法者」是「思維來世者」，思維今生者不能被稱為「修法者」"
+    },
+    "wisdomoriginal086.jpg": {
+      "quote": "觀察上師的功德，也讓自己生起實踐的勇氣。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「噶瑪巴千諾」整句咒語的大意可為"
+    },
+    "wisdomoriginal087.jpg": {
+      "quote": "真正的改變，從誠實看見自己的心開始。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "佛曾預言噶瑪巴"
+    },
+    "wisdomoriginal088.jpg": {
+      "quote": "以慈悲照看眾生，也溫柔鬆開心中的負面情緒。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "密乘之皈依，緣起於對眾生受苦之大悲心"
+    },
+    "wisdomoriginal089.jpg": {
+      "quote": "觀察上師的功德，也讓自己生起實踐的勇氣。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "“噶瑪巴千諾”聖號之重要性和功德利益"
+    },
+    "wisdomoriginal090.jpg": {
+      "quote": "真正的皈依，是相信自己也能抵達覺悟。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「真實皈依」的前提，在於能慎思明察皈依對境"
+    },
+    "wisdomoriginal091.jpg": {
+      "quote": "真正的改變，從誠實看見自己的心開始。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "僅有信心不足夠，還要去實行、去達到相同果位"
+    },
+    "wisdomoriginal092.jpg": {
+      "quote": "願一切作為不只為自己，也能減輕眾生的苦。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "只要是發大菩提心的人,一心持念噶瑪巴千諾即可消除業障增長功德,可以往生西方極樂世界"
+    },
+    "wisdomoriginal093.jpg": {
+      "quote": "修行不是外在的模樣，而是一次次改變自己的心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "大寶法王黑寶冠帽"
+    },
+    "wisdomoriginal094.jpg": {
+      "quote": "真正的皈依，是相信自己也能抵達覺悟。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "僅對三寶有信心，不能稱為真實佛教徒"
+    },
+    "wisdomoriginal095.jpg": {
+      "quote": "真正的改變，從誠實看見自己的心開始。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "十七世紀時，衛藏地區寺院多由尼師所守持"
+    },
+    "wisdomoriginal096.jpg": {
+      "quote": "少看自己的優越，多看他人的善與功德。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "觀察上師的功德，而非缺失"
+    },
+    "wisdomoriginal097.jpg": {
+      "quote": "憶念無常，不是悲觀，而是提醒自己珍惜此刻。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "以無常念努力尋找上師"
+    },
+    "wisdomoriginal098.jpg": {
+      "quote": "觀察上師的功德，也讓自己生起實踐的勇氣。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "攝取上師的功德，而非過失"
+    },
+    "wisdomoriginal099.jpg": {
+      "quote": "最深的憶念，是讓自己的心逐漸契合上師的教言。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「示現凡夫相」的上師對我們是好事"
+    },
+    "wisdomoriginal100.jpg": {
+      "quote": "依止善知識，不是追隨外相，而是學習轉變自心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「弟子的明鏡就是上師」"
+    },
+    "wisdomoriginal101.jpg": {
+      "quote": "觀察上師的功德，也讓自己生起實踐的勇氣。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "阿底峽尊者以依止上師，成就至尊佛行事業"
+    },
+    "wisdomoriginal102.jpg": {
+      "quote": "少看自己的優越，多看他人的善與功德。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "看他人功德，自己的因果因此漸趨圓滿"
+    },
+    "wisdomoriginal103.jpg": {
+      "quote": "依止善知識，不是追隨外相，而是學習轉變自心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "上師重要，弟子更重要"
+    },
+    "wisdomoriginal104.jpg": {
+      "quote": "觀察上師的功德，也讓自己生起實踐的勇氣。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "上師的需要，弟子盡力承辦，就是上等依止法"
+    },
+    "wisdomoriginal105.jpg": {
+      "quote": "回到自心，在每一個當下練習清明與善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "外在事物結合內心體會，才會事半功倍"
+    },
+    "wisdomoriginal106.jpg": {
+      "quote": "依止善知識，不是追隨外相，而是學習轉變自心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "善知識分為「內善知識」和「外善知識」兩種"
+    },
+    "wisdomoriginal107.jpg": {
+      "quote": "人身難得，莫讓短暫的生命消耗在無意義之中。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "所有修持中，「觀修無常」最為重要"
+    },
+    "wisdomoriginal108.jpg": {
+      "quote": "先做一個善良的人，再讓佛法照亮每一個選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "自己不修持，佛怎麼轉法輪都沒有用"
+    },
+    "wisdomoriginal109.jpg": {
+      "quote": "回到自心，在每一個當下練習清明與善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "僅是「信『佛』不夠，還要堅信「自己能成佛」"
+    },
+    "wisdomoriginal110.jpg": {
+      "quote": "願一切作為不只為自己，也能減輕眾生的苦。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "為調伏三種不同眾生，而安立三寶為皈依對境"
+    },
+    "wisdomoriginal111.jpg": {
+      "quote": "皈依不只是一分信心，更是願意走上覺醒之道。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "輪迴中，「佛、法、僧」如同我們的醫生、藥及醫護人員"
+    },
+    "wisdomoriginal112.jpg": {
+      "quote": "真正的皈依，是相信自己也能抵達覺悟。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "善加明瞭何謂「因皈依」與「果皈依」"
+    },
+    "wisdomoriginal113.jpg": {
+      "quote": "回到自心，在每一個當下練習清明與善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "僅對佛有信心仍不夠，還要相信自己能成佛"
+    },
+    "wisdomoriginal114.jpg": {
+      "quote": "真正的皈依，是相信自己也能抵達覺悟。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "要先能明瞭事理，才能求受到「皈依戒」"
+    },
+    "wisdomoriginal115.jpg": {
+      "quote": "心中不忘眾生，所行便能漸漸成為菩薩之道。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "依殊勝發心，來受持大乘布薩律儀，就不用擔心退失皈依戒"
+    },
+    "wisdomoriginal116.jpg": {
+      "quote": "情緒生起時，先保持覺知，呼一口氣，再輕輕放下。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "對於「業」與「煩惱」之病，佛陀早已為我們配好良藥"
+    },
+    "wisdomoriginal117.jpg": {
+      "quote": "不必等待明天；當下，就是開始修行的時刻。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "外器世間無常;內情無常"
+    },
+    "wisdomoriginal118.jpg": {
+      "quote": "聽聞與思惟終要落實於生活，才會成為真正的智慧。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "分別你我、分別教派的心，就算是謗法"
+    },
+    "wisdomoriginal119.jpg": {
+      "quote": "真心隨喜一切善行，自己的心也會明亮開闊。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "快樂很簡單，就是知足和隨喜"
+    },
+    "wisdomoriginal120.jpg": {
+      "quote": "不隨外境起伏，安然照看此刻的一念心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "各教派間，不應存偏執自宗與詆毀他宗之心"
+    },
+    "wisdomoriginal121.jpg": {
+      "quote": "回到自心，在每一個當下練習清明與善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「爭執」是釋迦牟尼佛教義毀滅之因，要謹慎面對"
+    },
+    "wisdomoriginal122.jpg": {
+      "quote": "真正的皈依，是相信自己也能抵達覺悟。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "皈依僧後，不與惡友同行"
+    },
+    "wisdomoriginal123.jpg": {
+      "quote": "真正的改變，從誠實看見自己的心開始。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「貪執自宗、詆毀其他教派者」，就是「惡友」"
+    },
+    "wisdomoriginal124.jpg": {
+      "quote": "先做一個善良的人，再讓佛法照亮每一個選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "修行，是一種向內觀修"
+    },
+    "wisdomoriginal125.jpg": {
+      "quote": "修行不是外在的模樣，而是一次次改變自己的心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "佛法不只是儀軌，也不只在佛堂裡"
+    },
+    "wisdomoriginal126.jpg": {
+      "quote": "利他的心不是口號，而是生活中真實的選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "大乘行者，最重要的就是不捨眾生、不忘眾生"
+    },
+    "wisdomoriginal127.jpg": {
+      "quote": "少一些準備與藉口，現在就踏實走上修行之路。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "法王的特殊、不共修行方式"
+    },
+    "wisdomoriginal128.jpg": {
+      "quote": "願一切作為不只為自己，也能減輕眾生的苦。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "利他是改變的動機"
+    },
+    "wisdomoriginal129.jpg": {
+      "quote": "利他的心不是口號，而是生活中真實的選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "心中放著眾生，才能看到、體會別人的苦樂"
+    },
+    "wisdomoriginal130.jpg": {
+      "quote": "心中不忘眾生，所行便能漸漸成為菩薩之道。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "生活當中去實踐利他，就是佛法"
+    },
+    "wisdomoriginal131.jpg": {
+      "quote": "願一切作為不只為自己，也能減輕眾生的苦。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "對眾生的愛，如同珍寶一般"
+    },
+    "wisdomoriginal132.jpg": {
+      "quote": "讓慈心與悲心，成為每一個行動的起點。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "修持觀音菩薩──由生活中落實，慈心、悲心、空性"
+    },
+    "wisdomoriginal133.jpg": {
+      "quote": "帶著知足的心，一口呼吸也能成為真實的幸福。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "生活是不離佛法的"
+    },
+    "wisdomoriginal134.jpg": {
+      "quote": "觀察上師的功德，也讓自己生起實踐的勇氣。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "上師、善知識的重要"
+    },
+    "wisdomoriginal135.jpg": {
+      "quote": "不必等待明天；當下，就是開始修行的時刻。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "實相的老師──一切所見所聞、順逆無常，都是上師"
+    },
+    "wisdomoriginal136.jpg": {
+      "quote": "帶著知足的心，一口呼吸也能成為真實的幸福。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「如何將修持融入到我們生活當中？」"
+    },
+    "wisdomoriginal137.jpg": {
+      "quote": "禪修之前，先鬆開緊繃，讓心自然回到清明。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "如何做正行的禪修：座上修"
+    },
+    "wisdomoriginal138.jpg": {
+      "quote": "聽聞與思惟終要落實於生活，才會成為真正的智慧。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "將一天變成吉祥日的修行"
+    },
+    "wisdomoriginal139.jpg": {
+      "quote": "帶著知足的心，一口呼吸也能成為真實的幸福。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "工作中的修行"
+    },
+    "wisdomoriginal140.jpg": {
+      "quote": "生活從不離開佛法；工作與相處都是修心之處。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "夫妻間的修行"
+    },
+    "wisdomoriginal141.jpg": {
+      "quote": "放下緊抓，不讓貪著綁住心，才有自在的空間。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "照顧孩子的修行方式"
+    },
+    "wisdomoriginal142.jpg": {
+      "quote": "讓身心放鬆，安住當下片刻，也是一種修行。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "讓心放鬆安住，至少十分鐘"
+    },
+    "wisdomoriginal143.jpg": {
+      "quote": "禪修之前，先鬆開緊繃，讓心自然回到清明。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "禪修之前，先放鬆心情"
+    },
+    "wisdomoriginal144.jpg": {
+      "quote": "保持覺知，不追逐念頭，也不必排斥念頭。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "不要作意就是專一"
+    },
+    "wisdomoriginal145.jpg": {
+      "quote": "讓身心放鬆，安住當下片刻，也是一種修行。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "知足的人，容易放鬆"
+    },
+    "wisdomoriginal146.jpg": {
+      "quote": "生活從不離開佛法；工作與相處都是修心之處。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "貪欲的生起是不自主、不理性的"
+    },
+    "wisdomoriginal147.jpg": {
+      "quote": "放下緊抓，不讓貪著綁住心，才有自在的空間。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "貪愛執著的繫縳"
+    },
+    "wisdomoriginal148.jpg": {
+      "quote": "不隨外境起伏，安然照看此刻的一念心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "喜歡與否，還是一念心"
+    },
+    "wisdomoriginal149.jpg": {
+      "quote": "生活從不離開佛法；工作與相處都是修心之處。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "節制你的貪欲"
+    },
+    "wisdomoriginal150.jpg": {
+      "quote": "放下緊抓，不讓貪著綁住心，才有自在的空間。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "理性的面對感情問題"
+    },
+    "wisdomoriginal151.jpg": {
+      "quote": "以慈悲照看眾生，也溫柔鬆開心中的負面情緒。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "慈悲與貪欲的不同"
+    },
+    "wisdomoriginal152.jpg": {
+      "quote": "不隨外境起伏，安然照看此刻的一念心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "放下，就是不執著"
+    },
+    "wisdomoriginal153.jpg": {
+      "quote": "放下緊抓，不讓貪著綁住心，才有自在的空間。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "夫妻感情，要成為快樂的因"
+    },
+    "wisdomoriginal154.jpg": {
+      "quote": "懺悔不是停在自責，而是清醒地重新選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "智者重罪輕受 愚者輕罪重受"
+    },
+    "wisdomoriginal155.jpg": {
+      "quote": "少一些準備與藉口，現在就踏實走上修行之路。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "佛法無深淺，人心才有深淺"
+    },
+    "wisdomoriginal156.jpg": {
+      "quote": "利他的心不是口號，而是生活中真實的選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "看見眾生苦，如見鍋中燒，剎那不能忍"
+    },
+    "wisdomoriginal157.jpg": {
+      "quote": "守護戒律，就是在每一刻守護自己的善心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "將三戒融為一體去修持，是至關重要之事"
+    },
+    "wisdomoriginal158.jpg": {
+      "quote": "情緒生起時，先保持覺知，呼一口氣，再輕輕放下。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "三毒指的就是我們的貪心、嗔心還有愚痴"
+    },
+    "wisdomoriginal159.jpg": {
+      "quote": "守護戒律，就是在每一刻守護自己的善心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "如何同時守護三戒，是最為關鍵之處"
+    },
+    "wisdomoriginal160.jpg": {
+      "quote": "懺悔不是停在自責，而是清醒地重新選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "帶著三種發心所作的懺悔，懺悔的力量會更大"
+    },
+    "wisdomoriginal161.jpg": {
+      "quote": "真誠看見過失，立願不再重犯，便是懺悔的力量。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "後悔之心，論中大概有提到三種，先講兩種。"
+    },
+    "wisdomoriginal162.jpg": {
+      "quote": "懺悔不是停在自責，而是清醒地重新選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "談到四種力量的第二個：誓不再造罪的心。"
+    },
+    "wisdomoriginal163.jpg": {
+      "quote": "真誠看見過失，立願不再重犯，便是懺悔的力量。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "昔所造罪如腹毒，以大慚畏悔懺罪"
+    },
+    "wisdomoriginal164.jpg": {
+      "quote": "懺悔不是停在自責，而是清醒地重新選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "嚪婆羅尊者，懺悔除罪"
+    },
+    "wisdomoriginal165.jpg": {
+      "quote": "真誠看見過失，立願不再重犯，便是懺悔的力量。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "觀察無有意義而生起追悔"
+    },
+    "wisdomoriginal166.jpg": {
+      "quote": "懺悔不是停在自責，而是清醒地重新選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "觀察怖畏，也就是因為恐懼而生起後悔之心。"
+    },
+    "wisdomoriginal167.jpg": {
+      "quote": "真心隨喜一切善行，自己的心也會明亮開闊。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "一切福德、一切善行，一切悅意的事，我們都要隨喜"
+    },
+    "wisdomoriginal168.jpg": {
+      "quote": "積聚福慧，不在聲勢，而在每一分清淨的善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "懂得隨喜讚歎的人，他的心隨時都是愉悅的"
+    },
+    "wisdomoriginal169.jpg": {
+      "quote": "回到自心，在每一個當下練習清明與善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "我們不應該擅自批評或輕易詆毁。"
+    },
+    "wisdomoriginal170.jpg": {
+      "quote": "積聚福慧，不在聲勢，而在每一分清淨的善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "顛倒的隨喜，是對隨喜的一種誤解。"
+    },
+    "wisdomoriginal171.jpg": {
+      "quote": "真正的改變，從誠實看見自己的心開始。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "雙手合十的意義與功德"
+    },
+    "wisdomoriginal172.jpg": {
+      "quote": "懺悔不是停在自責，而是清醒地重新選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "積福除障，七支供養最殊勝"
+    },
+    "wisdomoriginal173.jpg": {
+      "quote": "修行不是外在的模樣，而是一次次改變自己的心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "修行，是一種向內觀修"
+    },
+    "wisdomoriginal174.jpg": {
+      "quote": "利他的心不是口號，而是生活中真實的選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "大乘行者，最重要的就是不捨眾生、不忘眾生"
+    },
+    "wisdomoriginal175.jpg": {
+      "quote": "依止善知識，不是追隨外相，而是學習轉變自心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "最好的憶念，是證得上師心意"
+    },
+    "wisdomoriginal176.jpg": {
+      "quote": "不隨外境起伏，安然照看此刻的一念心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "放下分別心，本質相同才重要"
+    },
+    "wisdomoriginal177.jpg": {
+      "quote": "修行不是外在的模樣，而是一次次改變自己的心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "教證並重，要學習、也要實修"
+    },
+    "wisdomoriginal178.jpg": {
+      "quote": "相信因果，便會更願意負責，也更懂得感恩。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「法」即是「善業」、「福德」"
+    },
+    "wisdomoriginal179.jpg": {
+      "quote": "人身難得，莫讓短暫的生命消耗在無意義之中。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "所謂「思維暇滿難得」"
+    },
+    "wisdomoriginal180.jpg": {
+      "quote": "不必等待明天；當下，就是開始修行的時刻。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「出離心」：「暇滿難得、人生無常、因果不虛、輪迴過患」"
+    },
+    "wisdomoriginal181.jpg": {
+      "quote": "相信因果，便會更願意負責，也更懂得感恩。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "業果不虛輪迴苦，思維能斷後世欲"
+    },
+    "wisdomoriginal182.jpg": {
+      "quote": "人身難得，莫讓短暫的生命消耗在無意義之中。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「無常」才有「選擇的機會」"
+    },
+    "wisdomoriginal183.jpg": {
+      "quote": "利他的心不是口號，而是生活中真實的選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "所謂「業之因果」不是單指一人的行為，而是與眾生息息相關"
+    },
+    "wisdomoriginal184.jpg": {
+      "quote": "不隨外境起伏，安然照看此刻的一念心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "痛苦與痛苦之間就是暫時的變相痛苦"
+    },
+    "wisdomoriginal185.jpg": {
+      "quote": "生活從不離開佛法；工作與相處都是修心之處。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "解決究竟的痛苦才有真快樂"
+    },
+    "wisdomoriginal186.jpg": {
+      "quote": "利他的心不是口號，而是生活中真實的選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "出離若無菩提心 所持則亦不能成 無上菩提樂因故 智者應發菩提心"
+    },
+    "wisdomoriginal187.jpg": {
+      "quote": "以慈悲照看眾生，也溫柔鬆開心中的負面情緒。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "悲心從根生、輪迴如火坑"
+    },
+    "wisdomoriginal188.jpg": {
+      "quote": "真正的悲心，是願意承擔並立刻走向受苦的人。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「無悲心」是苦難眾生的殺手"
+    },
+    "wisdomoriginal189.jpg": {
+      "quote": "修行不是外在的模樣，而是一次次改變自己的心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「見世出世一切法 從因生果皆不虛 所執之境本無者 彼入佛陀所喜道」"
+    },
+    "wisdomoriginal190.jpg": {
+      "quote": "以空性的智慧鬆開執著，讓心回到本來的開放。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "所謂「空性」，就如同科學家或科學家理論中的「零」"
+    },
+    "wisdomoriginal191.jpg": {
+      "quote": "學習因果，是為了看見自己的過失與他人的功德。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "無欺業果輪迴苦，修此可斷後世執。"
+    },
+    "wisdomoriginal192.jpg": {
+      "quote": "每一個念頭與行動，都在悄悄塑造未來。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "思維業果"
+    },
+    "wisdomoriginal193.jpg": {
+      "quote": "看見輪迴的苦，才能真心走向自在與解脫。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "思維輪迴過患"
+    },
+    "wisdomoriginal194.jpg": {
+      "quote": "生活從不離開佛法；工作與相處都是修心之處。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "認出快樂，感覺一口呼吸的美好"
+    },
+    "wisdomoriginal195.jpg": {
+      "quote": "放下緊抓，不讓貪著綁住心，才有自在的空間。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "帶著知足的心去感受就容易活得幸福"
+    },
+    "wisdomoriginal196.jpg": {
+      "quote": "帶著知足的心，一口呼吸也能成為真實的幸福。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "認出快樂，感覺一口呼吸的美好"
+    },
+    "wisdomoriginal197.jpg": {
+      "quote": "真心隨喜一切善行，自己的心也會明亮開闊。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "隨何木等雕佛像，諸有智者咸供養， 縱使我詩非巧妙，依正法說勿當輕。"
+    },
+    "wisdomoriginal198.jpg": {
+      "quote": "讓心柔軟而清醒，所見的世界也會漸漸不同。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "具德我演如如教，為生福愛而興述， 真善宜應可審聽，此頌名為聖祇底。"
+    },
+    "wisdomoriginal199.jpg": {
+      "quote": "真正的改變，從誠實看見自己的心開始。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "王雖先解如如教，更聞佛語增勝解 ，猶如粉壁月光輝， 豈不鮮明益姝妙"
+    },
+    "wisdomoriginal200.jpg": {
+      "quote": "出離不是逃避生活，而是不再被執著牽引。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "無有清淨出離心，求有海樂無法息， 貪執世間束縛眾，故當首先尋出離。"
+    },
+    "wisdomoriginal201.jpg": {
+      "quote": "回到自心，在每一個當下練習清明與善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "心能自主，才有真正的自由"
+    },
+    "wisdomoriginal202.jpg": {
+      "quote": "聽聞與思惟終要落實於生活，才會成為真正的智慧。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "想做佛教徒，要先做個善良的好人"
+    },
+    "wisdomoriginal203.jpg": {
+      "quote": "人身難得，莫讓短暫的生命消耗在無意義之中。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "觀死無常，當下就修行"
+    },
+    "wisdomoriginal204.jpg": {
+      "quote": "每一個念頭與行動，都在悄悄塑造未來。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "貪執此生，任何善業都是輪迴法"
+    },
+    "wisdomoriginal205.jpg": {
+      "quote": "看見輪迴的苦，才能真心走向自在與解脫。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "沒有出離心，修什麼大法都不解脫"
+    },
+    "wisdomoriginal206.jpg": {
+      "quote": "觀察上師的功德，也讓自己生起實踐的勇氣。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "修行不是趕流行，別當上師的「粉絲」"
+    },
+    "wisdomoriginal207.jpg": {
+      "quote": "放下對實有的緊抓，智慧才有生起的空間。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "空正見，是智慧生起的基礎"
+    },
+    "wisdomoriginal208.jpg": {
+      "quote": "讓身心放鬆，安住當下片刻，也是一種修行。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "https://zoom.us/j/9923519368?pwd=ah0nd9QUFGp1ENFN%2FqnpEQ%3D%3D"
+    },
+    "wisdomoriginal209.jpg": {
+      "quote": "無我不是失去自己，而是看見萬物彼此相依。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "以「無我」超越小我，開啟與萬物相互依存的「大我」"
+    },
+    "wisdomoriginal210.jpg": {
+      "quote": "最深的憶念，是讓自己的心逐漸契合上師的教言。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "對自己也生起同等信心時，就能與上師心意無別"
+    },
+    "wisdomoriginal211.jpg": {
+      "quote": "依止善知識，不是追隨外相，而是學習轉變自心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "依止上師時，不要讓自己變成「粉絲」"
+    },
+    "wisdomoriginal212.jpg": {
+      "quote": "學習因果，是為了看見自己的過失與他人的功德。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "負責及感恩，就是重視因果"
+    },
+    "wisdomoriginal213.jpg": {
+      "quote": "修行不是外在的模樣，而是一次次改變自己的心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "能改變自心，才是偉大的法"
+    },
+    "wisdomoriginal214.jpg": {
+      "quote": "心中不忘眾生，所行便能漸漸成為菩薩之道。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "信心的門一開，諸佛菩薩就會衝進來"
+    },
+    "wisdomoriginal215.jpg": {
+      "quote": "願一切作為不只為自己，也能減輕眾生的苦。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "生起菩提心，才算進入資糧道"
+    },
+    "wisdomoriginal216.jpg": {
+      "quote": "不隨外境起伏，安然照看此刻的一念心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "無學道佛果，為何稱正等正覺？"
+    },
+    "wisdomoriginal217.jpg": {
+      "quote": "心中不忘眾生，所行便能漸漸成為菩薩之道。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "修道菩薩，應該修什麼？"
+    },
+    "wisdomoriginal218.jpg": {
+      "quote": "願一切作為不只為自己，也能減輕眾生的苦。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "小乘論師為何認為「大乘非佛說」？"
+    },
+    "wisdomoriginal219.jpg": {
+      "quote": "讓慈心與悲心，成為每一個行動的起點。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "觀自在菩薩，是我們很熟悉的名稱"
+    },
+    "wisdomoriginal220.jpg": {
+      "quote": "以空性的智慧鬆開執著，讓心回到本來的開放。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "用心聽心經：原來佛這樣說法！"
+    },
+    "wisdomoriginal221.jpg": {
+      "quote": "修行不是外在的模樣，而是一次次改變自己的心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "爾時世尊等入甚深明了三摩地法之異們"
+    },
+    "wisdomoriginal222.jpg": {
+      "quote": "利他的心不是口號，而是生活中真實的選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "菩薩摩訶薩"
+    },
+    "wisdomoriginal223.jpg": {
+      "quote": "以空性的智慧鬆開執著，讓心回到本來的開放。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "法之異門"
+    },
+    "wisdomoriginal224.jpg": {
+      "quote": "願一切作為不只為自己，也能減輕眾生的苦。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "大乘經典，確實是佛說"
+    },
+    "wisdomoriginal225.jpg": {
+      "quote": "回到自心，在每一個當下練習清明與善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "承佛威力-佛陀身口意三門之中「意」的威力"
+    },
+    "wisdomoriginal226.jpg": {
+      "quote": "以空性的智慧鬆開執著，讓心回到本來的開放。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "《心經》經文正說"
+    },
+    "wisdomoriginal227.jpg": {
+      "quote": "無我不是失去自己，而是看見萬物彼此相依。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "《心經》經名講解"
+    },
+    "wisdomoriginal228.jpg": {
+      "quote": "放下對實有的緊抓，智慧才有生起的空間。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "《心經》版本介紹"
+    },
+    "wisdomoriginal229.jpg": {
+      "quote": "回到自心，在每一個當下練習清明與善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "薄伽梵：大師圓滿"
+    },
+    "wisdomoriginal230.jpg": {
+      "quote": "讓心柔軟而清醒，所見的世界也會漸漸不同。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "鷲峰山：處所圓滿"
+    },
+    "wisdomoriginal231.jpg": {
+      "quote": "不必等待明天；當下，就是開始修行的時刻。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "不一定有明天，別等老了再修！"
+    },
+    "wisdomoriginal232.jpg": {
+      "quote": "先做一個善良的人，再讓佛法照亮每一個選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "法王噶瑪巴 | 新年的意義"
+    },
+    "wisdomoriginal233.jpg": {
+      "quote": "修行不是外在的模樣，而是一次次改變自己的心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "五圓滿和合，正法才現前"
+    },
+    "wisdomoriginal234.jpg": {
+      "quote": "保持覺知，不追逐念頭，也不必排斥念頭。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "「在這個禪修墊上，我就要成佛！」"
+    },
+    "wisdomoriginal235.jpg": {
+      "quote": "以空性的智慧鬆開執著，讓心回到本來的開放。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "到彼岸：分「能到」和「已到」兩種"
+    },
+    "wisdomoriginal236.jpg": {
+      "quote": "不隨外境起伏，安然照看此刻的一念心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "佛經，不一定要佛親口說"
+    },
+    "wisdomoriginal237.jpg": {
+      "quote": "放下對實有的緊抓，智慧才有生起的空間。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "用心聽心經：原來佛這樣說法！"
+    },
+    "wisdomoriginal238.jpg": {
+      "quote": "以空性的智慧鬆開執著，讓心回到本來的開放。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "世尊等入甚深明了三摩地法之異門"
+    },
+    "wisdomoriginal239.jpg": {
+      "quote": "真正的改變，從誠實看見自己的心開始。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "理論思想合一：以正確的見地，開展智慧"
+    },
+    "wisdomoriginal240.jpg": {
+      "quote": "不隨外境起伏，安然照看此刻的一念心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "修，就是精進、如理的去做"
+    },
+    "wisdomoriginal241.jpg": {
+      "quote": "回到自心，在每一個當下練習清明與善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "他人出於嫉妒心，非理辱罵謗我等， 粗惡穢言我取受，願將勝利奉獻他。"
+    },
+    "wisdomoriginal242.jpg": {
+      "quote": "懺悔不是停在自責，而是清醒地重新選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "秉性邪惡眾有情，恆為猛烈罪苦迫， 見時如遇大寶藏，願恆惜此難得寶"
+    },
+    "wisdomoriginal243.jpg": {
+      "quote": "看清煩惱，而不跟隨它，就是調伏自心的開始。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "一舉一動觀自心，正當煩惱初萌生， 即將惱害自他時，願疾呵斥令消除。"
+    },
+    "wisdomoriginal244.jpg": {
+      "quote": "心中不忘眾生，所行便能漸漸成為菩薩之道。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "隨處與誰為伴時，視己較諸眾人卑， 從心深處思利他，恆常尊他為最上。"
+    },
+    "wisdomoriginal245.jpg": {
+      "quote": "回到自心，在每一個當下練習清明與善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "我於一切有情眾，視之尤勝如意寶， 依彼能成究竟利，願常心懷珍愛情。"
+    },
+    "wisdomoriginal246.jpg": {
+      "quote": "最深的憶念，是讓自己的心逐漸契合上師的教言。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "吾昔饒益助某人，且曾深心寄厚望， 彼雖非理妄加害，願視彼為善知識。"
+    },
+    "wisdomoriginal247.jpg": {
+      "quote": "真正的改變，從誠實看見自己的心開始。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "無論直接與間接，願獻利樂於慈母， 如母有情諸苦患，我願暗中自取受。"
+    },
+    "wisdomoriginal248.jpg": {
+      "quote": "出離不是逃避生活，而是不再被執著牽引。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "願此一切我所行，不為八法念垢染， 以知諸法如幻智，無執離縛而解脫。"
+    },
+    "wisdomoriginal249.jpg": {
+      "quote": "看清煩惱，而不跟隨它，就是調伏自心的開始。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "學習不動佛精神，調伏煩惱情緒"
+    },
+    "wisdomoriginal250.jpg": {
+      "quote": "煩惱如雨雲來去，心的本性仍如虛空不動。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "觀察煩惱，要重質量的盯著看"
+    },
+    "wisdomoriginal251.jpg": {
+      "quote": "願一切作為不只為自己，也能減輕眾生的苦。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "效法不動佛大願：不對眾生起嗔心"
+    },
+    "wisdomoriginal252.jpg": {
+      "quote": "看清煩惱，而不跟隨它，就是調伏自心的開始。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "保持覺知，放鬆對治煩惱"
+    },
+    "wisdomoriginal253.jpg": {
+      "quote": "煩惱如雨雲來去，心的本性仍如虛空不動。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "煩惱來去如雨雲，自性不動如虛空"
+    },
+    "wisdomoriginal254.jpg": {
+      "quote": "情緒生起時，先保持覺知，呼一口氣，再輕輕放下。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "讓「正念」的自動播放機，提醒自己不生氣的承諾"
+    },
+    "wisdomoriginal255.jpg": {
+      "quote": "看清煩惱，而不跟隨它，就是調伏自心的開始。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "覺知自己的情緒，呼口氣、放下它！"
+    },
+    "wisdomoriginal256.jpg": {
+      "quote": "以慈悲照看眾生，也溫柔鬆開心中的負面情緒。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "以愛與慈悲，取代負面情緒"
+    },
+    "wisdomoriginal257.jpg": {
+      "quote": "修行不是外在的模樣，而是一次次改變自己的心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "好好運用切身經驗，別浪費修行機會"
+    },
+    "wisdomoriginal258.jpg": {
+      "quote": "聽聞與思惟終要落實於生活，才會成為真正的智慧。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "修行，就是要改個性！"
+    },
+    "wisdomoriginal259.jpg": {
+      "quote": "依止善知識，不是追隨外相，而是學習轉變自心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "別自欺欺人，做個真正的佛弟子吧"
+    },
+    "wisdomoriginal260.jpg": {
+      "quote": "先做一個善良的人，再讓佛法照亮每一個選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "天人交戰時，下定決心做好人"
+    },
+    "wisdomoriginal261.jpg": {
+      "quote": "修行不是外在的模樣，而是一次次改變自己的心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "好好運用切身經驗，別浪費修行機會"
+    },
+    "wisdomoriginal262.jpg": {
+      "quote": "讓心柔軟而清醒，所見的世界也會漸漸不同。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "世間強者，常和證悟背道而馳"
+    },
+    "wisdomoriginal263.jpg": {
+      "quote": "看見輪迴的苦，才能真心走向自在與解脫。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "下定決心求解脫，才是好行者"
+    },
+    "wisdomoriginal264.jpg": {
+      "quote": "先做一個善良的人，再讓佛法照亮每一個選擇。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "噶當派口訣，針對修心「對症下藥」"
+    },
+    "wisdomoriginal265.jpg": {
+      "quote": "依止善知識，不是追隨外相，而是學習轉變自心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "好上師，要幫學生找出病根下對藥"
+    },
+    "wisdomoriginal266.jpg": {
+      "quote": "聽聞與思惟終要落實於生活，才會成為真正的智慧。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "改變頑強心續，才是清淨聞思修"
+    },
+    "wisdomoriginal267.jpg": {
+      "quote": "讓慈心與悲心，成為每一個行動的起點。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "沒有真實四無量心，想成佛是自欺欺人"
+    },
+    "wisdomoriginal268.jpg": {
+      "quote": "不隨外境起伏，安然照看此刻的一念心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "無處不在的「我」"
+    },
+    "wisdomoriginal269.jpg": {
+      "quote": "修行不是外在的模樣，而是一次次改變自己的心。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "佛法中的每一個字，都是修行口訣"
+    },
+    "wisdomoriginal270.jpg": {
+      "quote": "少看自己的優越，多看他人的善與功德。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "先管好自己，別忙著自讚毀他"
+    },
+    "wisdomoriginal271.jpg": {
+      "quote": "少一些準備與藉口，現在就踏實走上修行之路。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "少找藉口，誰說有存款才能修行？"
+    },
+    "wisdomoriginal272.jpg": {
+      "quote": "情緒生起時，先保持覺知，呼一口氣，再輕輕放下。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "最重要的是你明白多少道理，克服多少煩惱，清凈多少心靈。"
+    },
+    "wisdomoriginal273.jpg": {
+      "quote": "放下對實有的緊抓，智慧才有生起的空間。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "煩惱消融於空性？少空口說白話！"
+    },
+    "wisdomoriginal274.jpg": {
+      "quote": "聽聞與思惟終要落實於生活，才會成為真正的智慧。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "心向於法，就是有福氣的人"
+    },
+    "wisdomoriginal275.jpg": {
+      "quote": "真正的改變，從誠實看見自己的心開始。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "紙上談兵，不如現在直接上路"
+    },
+    "wisdomoriginal276.jpg": {
+      "quote": "出離不是逃避生活，而是不再被執著牽引。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "你修的是人間福報，或出世間解脫道？"
+    },
+    "wisdomoriginal277.jpg": {
+      "quote": "回到自心，在每一個當下練習清明與善意。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "裝模作樣，逃不過閻羅王的照妖鏡"
+    },
+    "wisdomoriginal278.jpg": {
+      "quote": "聽聞與思惟終要落實於生活，才會成為真正的智慧。",
+      "attribution": "—— 法王噶瑪巴語錄・意譯",
+      "sourceTitle": "光說不練，嘴上的佛法澆不熄五毒"
+    }
+  }
+}

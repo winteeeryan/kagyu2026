@@ -1,0 +1,60 @@
+.wrapper {
+  position: relative;
+}
+
+.scroller {
+  display: grid;
+  gap: 0.9rem;
+  grid-auto-columns: minmax(16rem, 1fr);
+  grid-auto-flow: column;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  padding-bottom: 0.6rem;
+  scroll-behavior: smooth;
+  scroll-snap-type: x proximity;
+}
+
+.scroller::-webkit-scrollbar {
+  height: 0.5rem;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+  background: rgba(132, 84, 0, 0.25);
+  border-radius: 999px;
+}
+
+.scroller > * {
+  scroll-snap-align: start;
+}
+
+.arrow {
+  align-items: center;
+  background: rgba(252, 249, 252, 0.94);
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 999px;
+  color: rgb(var(--color-ink));
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1.5rem;
+  height: 2.75rem;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.75rem;
+  z-index: 1;
+}
+
+.left {
+  left: -1rem;
+}
+
+.right {
+  right: -1rem;
+}
+
+@media (max-width: 900px) {
+  .arrow {
+    display: none;
+  }
+}

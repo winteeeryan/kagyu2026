@@ -1,0 +1,341 @@
+.page {
+  background: #f8f8f8;
+  min-height: 100vh;
+  padding: clamp(8rem, 13vw, 11rem) 1.5rem var(--page-footer-gap);
+}
+
+.article {
+  margin: 0 auto;
+  max-width: 880px;
+}
+
+.mediaStoryPage {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.mediaStoryArticle {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.videoHero {
+  background: #111111;
+  margin: calc(clamp(8rem, 13vw, 11rem) * -0.52) auto clamp(3rem, 7vw, 5rem);
+  max-width: min(100%, 86rem);
+  overflow: hidden;
+  position: relative;
+}
+
+.videoHero::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+}
+
+.videoFrame,
+.videoCover {
+  border: 0;
+  height: 100%;
+  inset: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.videoCover {
+  align-items: center;
+  background: #000000;
+  background-position: center;
+  background-size: cover;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.videoCover::before {
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  content: "";
+  inset: clamp(1rem, 2.6vw, 2.2rem);
+  pointer-events: none;
+  position: absolute;
+}
+
+.videoCover::after {
+  background: rgba(255, 255, 255, 0.14);
+  content: "";
+  height: 1px;
+  left: 50%;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: min(78%, 52rem);
+}
+
+.videoCover:disabled {
+  cursor: default;
+}
+
+.playButton {
+  align-items: center;
+  background: rgba(248, 248, 248, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.82);
+  border-radius: 999px;
+  color: #bd1517;
+  display: inline-flex;
+  height: clamp(4.5rem, 8vw, 6rem);
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  transition:
+    background-color 220ms ease,
+    opacity 220ms ease,
+    transform 220ms ease;
+  width: clamp(4.5rem, 8vw, 6rem);
+  z-index: 1;
+}
+
+.videoCover:hover .playButton,
+.videoCover:focus-visible .playButton {
+  background: #ffffff;
+  transform: translateY(-3px);
+}
+
+.videoCover:focus-visible {
+  outline: 2px solid #bd1517;
+  outline-offset: 4px;
+}
+
+.playIcon {
+  border-bottom: 0.72rem solid transparent;
+  border-left: 1rem solid currentColor;
+  border-top: 0.72rem solid transparent;
+  display: block;
+  height: 0;
+  margin-left: 0.2rem;
+  width: 0;
+}
+
+.storyHeader {
+  margin: 0 auto clamp(2rem, 5vw, 3.5rem);
+  max-width: 720px;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.storyOverview {
+  margin: 0 auto clamp(3rem, 7vw, 5rem);
+  max-width: 720px;
+  padding: 0 1.5rem;
+}
+
+.storyOverview p {
+  color: rgba(var(--color-ink), 0.82);
+  font-family: var(--font-serif-tc);
+  font-size: clamp(1rem, 1.25vw, 1.12rem);
+  letter-spacing: 0.045em;
+  line-height: 2.15;
+  margin: 0;
+  white-space: pre-line;
+}
+
+.storyOverview p + p {
+  margin-top: 1.2rem;
+}
+
+.storyOverview .centeredVerse {
+  text-align: center;
+}
+
+.storyGallery {
+  display: grid;
+  gap: clamp(2rem, 5vw, 3.5rem);
+  margin: 0 auto;
+  max-width: min(72rem, calc(100% - 3rem));
+}
+
+.galleryImageFrame,
+.galleryPlaceholder {
+  align-items: center;
+  aspect-ratio: 3 / 2;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.galleryImageFrame {
+  background: #111111;
+}
+
+.galleryImage {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.galleryPlaceholder {
+  background:
+    linear-gradient(135deg, rgba(189, 21, 23, 0.08), transparent 34%),
+    rgba(255, 255, 255, 0.58);
+  border: 1px solid rgba(189, 21, 23, 0.16);
+}
+
+.galleryImageFrame:nth-child(even),
+.galleryPlaceholder:nth-child(even) {
+  justify-self: end;
+  width: min(88%, 58rem);
+}
+
+.galleryImageFrame:nth-child(odd),
+.galleryPlaceholder:nth-child(odd) {
+  justify-self: start;
+  width: min(88%, 58rem);
+}
+
+.header {
+  margin: 0 auto clamp(2rem, 4vw, 3rem);
+  max-width: 720px;
+  text-align: center;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 0;
+}
+
+.content p {
+  color: rgba(var(--color-ink), 0.78);
+  font-family: var(--font-serif-tc);
+  font-size: clamp(1rem, 1.25vw, 1.12rem);
+  letter-spacing: 0.045em;
+  line-height: 2.1;
+  margin: 0;
+  white-space: pre-line;
+}
+
+.content p + p {
+  margin-top: 1.15rem;
+}
+
+.content .centeredParagraph {
+  text-align: center;
+}
+
+.projectNav {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  margin: 0 auto;
+  max-width: 52rem;
+}
+
+.navLink,
+.navSpacer {
+  min-width: 0;
+}
+
+.navLink {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 0 1px;
+  color: rgba(149, 69, 69, 0.7);
+  display: inline-grid;
+  gap: 0.38rem;
+  max-width: 100%;
+  text-decoration: none;
+  transition:
+    background-size 300ms ease,
+    color 300ms ease;
+  width: fit-content;
+}
+
+.navLink:hover,
+.navLink:focus-visible {
+  background-size: 100% 1px;
+  color: rgba(149, 69, 69, 0.6);
+  outline: none;
+}
+
+.previous {
+  justify-items: start;
+  justify-self: start;
+  text-align: left;
+}
+
+.overview {
+  justify-items: center;
+  justify-self: center;
+  padding-top: calc(0.62rem * 1.4 + 0.38rem);
+  text-align: center;
+}
+
+.next {
+  justify-items: end;
+  justify-self: end;
+  text-align: right;
+}
+
+.navEyebrow {
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.navTitle {
+  font-family: var(--font-display);
+  font-size: clamp(0.88rem, 1.15vw, 1rem);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .mediaStoryPage {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .videoHero {
+    margin-top: -2rem;
+  }
+
+  .galleryPlaceholder,
+  .galleryImageFrame,
+  .galleryImageFrame:nth-child(even),
+  .galleryImageFrame:nth-child(odd),
+  .galleryPlaceholder:nth-child(even),
+  .galleryPlaceholder:nth-child(odd) {
+    width: 100%;
+  }
+
+  .projectNav {
+    grid-template-columns: 1fr;
+  }
+
+  .previous,
+  .overview,
+  .next {
+    justify-items: center;
+    text-align: center;
+  }
+
+  .overview {
+    order: -1;
+    padding-top: 0;
+  }
+
+  .navSpacer {
+    display: none;
+  }
+}

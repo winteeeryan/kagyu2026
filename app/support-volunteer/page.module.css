@@ -1,0 +1,5 @@
+.page {
+  background: #f8f8f8;
+  min-height: 100vh;
+  padding-top: clamp(8rem, 13vw, 11rem);
+}

@@ -1,0 +1,46 @@
+.trigger {
+  background: transparent;
+  border: 0;
+  cursor: zoom-in;
+  display: block;
+  padding: 0;
+  width: 100%;
+}
+
+.trigger img {
+  transition:
+    box-shadow 240ms ease,
+    transform 240ms ease;
+}
+
+.trigger:hover img,
+.trigger:focus-visible img {
+  box-shadow: 0 14px 32px rgba(17, 17, 17, 0.12);
+  transform: translateY(-2px);
+}
+
+.overlay {
+  background: rgba(17, 17, 17, 0.46);
+  cursor: zoom-out;
+  inset: 0;
+  overflow: auto;
+  padding: clamp(2rem, 5vw, 4rem);
+  position: fixed;
+  z-index: 2000;
+}
+
+.canvas {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.fullImage {
+  box-shadow: 0 20px 56px rgba(17, 17, 17, 0.24);
+  display: block;
+  height: auto;
+  max-width: none;
+  width: auto;
+}

@@ -1,0 +1,68 @@
+.card {
+  background: rgb(var(--color-paper));
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.media {
+  aspect-ratio: 3 / 4;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.image {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  transition:
+    opacity 260ms ease,
+    transform 400ms ease;
+  width: 100%;
+}
+
+.hoverImage {
+  opacity: 0;
+}
+
+.card:hover .image,
+.card:focus-within .image {
+  transform: scale(1.04);
+}
+
+.card:hover .hoverImage,
+.card:focus-within .hoverImage {
+  opacity: 1;
+}
+
+.content {
+  display: grid;
+  gap: 0.55rem;
+  padding: 1rem;
+}
+
+.content h3 {
+  color: #1c0303;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.35;
+  margin: 0;
+}
+
+.price {
+  align-items: center;
+  display: flex;
+  gap: 0.6rem;
+  margin: 0;
+}
+
+.price s {
+  color: rgba(var(--color-ink), 0.5);
+}
+
+.price span {
+  font-weight: 600;
+}

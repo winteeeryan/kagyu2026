@@ -1,0 +1,59 @@
+.page {
+  background: #f7f7f7;
+  color: #222222;
+  min-height: 100vh;
+  padding-bottom: var(--page-footer-gap);
+}
+
+.imageSection {
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.headerImage {
+  display: block;
+  height: calc(min(82vh, 56rem) + 2px);
+  margin: 0;
+  object-fit: contain;
+  object-position: center bottom;
+  padding-top: 2px;
+  width: 100%;
+}
+
+.articleInner {
+  margin: 0 auto;
+  max-width: 64rem;
+}
+
+.prose {
+  margin-top: clamp(2.5rem, 5vw, 4rem);
+  text-align: left;
+}
+
+.prose p {
+  color: rgba(34, 34, 34, 0.82);
+  font-size: clamp(1rem, 1.25vw, 1.12rem);
+  letter-spacing: 0.045em;
+  line-height: 2.05;
+  margin: 0;
+}
+
+.featuredImage {
+  background: #ffffff;
+  border: 1px solid rgba(74, 14, 23, 0.12);
+  margin: clamp(2.5rem, 5vw, 4rem) auto 0;
+  max-width: 46rem;
+  padding: clamp(0.8rem, 1.8vw, 1.2rem);
+}
+
+.calligraphyImage {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.notice {
+  margin-top: clamp(2.25rem, 4vw, 3.25rem) !important;
+}

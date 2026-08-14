@@ -1,0 +1,115 @@
+.page {
+  background: #f7f7f7;
+  color: #222222;
+  min-height: 100vh;
+  padding-bottom: var(--page-footer-gap);
+}
+
+.imageSection {
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.headerImage {
+  display: block;
+  height: calc(min(82vh, 56rem) + 2px);
+  margin: 0;
+  object-fit: contain;
+  object-position: center bottom;
+  padding-top: 2px;
+  width: 100%;
+}
+
+.articleInner {
+  --temple-card-width: 230px;
+  --temple-card-height: 430px;
+  --temple-orbit-gap: clamp(3.5rem, 5vw, 4.5rem);
+  --temple-orbit-radius: calc(var(--temple-card-width) + var(--temple-orbit-gap));
+
+  margin: 0 auto;
+  max-width: calc(var(--temple-card-width) + (var(--temple-orbit-radius) * 2));
+}
+
+.templeSection {
+  min-height: calc(var(--temple-card-height) + (var(--temple-orbit-radius) * 2));
+  margin-top: clamp(1.25rem, 3vw, 2.5rem);
+  position: relative;
+  text-align: left;
+}
+
+.centerMark {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  min-height: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  z-index: 0;
+}
+
+.centerMark img {
+  display: block;
+  height: auto;
+  max-width: clamp(3.75rem, 7vw, 6rem);
+  opacity: 0.1;
+  width: 22vw;
+}
+
+.templeCard {
+  left: 50%;
+  min-height: var(--temple-card-height);
+  position: absolute;
+  top: 50%;
+  width: var(--temple-card-width);
+  z-index: 1;
+}
+
+.templeCard:nth-of-type(1) {
+  transform: translate(-50%, calc(-50% - var(--temple-orbit-radius)));
+}
+
+.templeCard:nth-of-type(2) {
+  transform: translate(calc(-50% + var(--temple-orbit-radius)), -50%);
+}
+
+.templeCard:nth-of-type(3) {
+  transform: translate(-50%, calc(-50% + var(--temple-orbit-radius)));
+}
+
+.templeCard:nth-of-type(4) {
+  transform: translate(calc(-50% - var(--temple-orbit-radius)), -50%);
+}
+
+.templeCard h3 {
+  white-space: normal;
+}
+
+@media (max-width: 559px) {
+  .templeSection {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    min-height: auto;
+  }
+
+  .centerMark {
+    margin: 1rem 0;
+    order: 3;
+    position: static;
+    transform: none;
+  }
+
+  .templeCard {
+    left: auto;
+    position: relative;
+    top: auto;
+    transform: none;
+  }
+}
