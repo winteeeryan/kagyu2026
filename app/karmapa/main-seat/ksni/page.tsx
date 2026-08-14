@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { DecoratedHeading } from "@/components/ui/DecoratedHeading";
 import { EndMarker } from "@/components/ui/EndMarker";
 import { WatermarkHeading } from "@/components/ui/WatermarkHeading";
+import { MainSeatArticleNav } from "../_components/MainSeatArticleNav";
 import styles from "../tsurphu/page.module.css";
 
 export const metadata: Metadata = {
@@ -183,6 +184,7 @@ export default function KsniPage() {
             </figure>
 
             <EndMarker />
+            <MainSeatArticleNav currentSlug="ksni" />
           </div>
         </div>
       </article>

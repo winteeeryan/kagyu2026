@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { DecoratedHeading } from "@/components/ui/DecoratedHeading";
 import { EndMarker } from "@/components/ui/EndMarker";
 import { WatermarkHeading } from "@/components/ui/WatermarkHeading";
+import { MainSeatArticleNav } from "../_components/MainSeatArticleNav";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -95,6 +96,7 @@ export default function TsurphuMonasteryPage() {
             </figure>
 
             <EndMarker />
+            <MainSeatArticleNav currentSlug="tsurphu" />
           </div>
         </div>
       </article>

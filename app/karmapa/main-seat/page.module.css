@@ -22,6 +22,21 @@
   width: 100%;
 }
 
+@media (max-width: 767px) {
+  .page {
+    padding-top: 4.75rem;
+  }
+
+  .headerImage {
+    height: auto;
+    padding-top: 0;
+  }
+
+  .page :global(.karmapaArticleStart) {
+    padding-top: 1.25rem;
+  }
+}
+
 .articleInner {
   --temple-card-width: 230px;
   --temple-card-height: 430px;
