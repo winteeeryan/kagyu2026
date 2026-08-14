@@ -7,8 +7,6 @@ import supportStyles from "@/app/support-volunteer/page.module.css";
 import shopStyles from "@/app/support-volunteer/charity-shop/page.module.css";
 import { ActivityListingGrid } from "@/app/activities/latest/LatestActivitiesGrid";
 
-export const dynamic = "force-dynamic";
-
 export const metadata: Metadata = {
   title: "過往活動 | Kagyu",
   description: "噶瑪噶舉基金會過往活動與各中心共修紀錄。",
