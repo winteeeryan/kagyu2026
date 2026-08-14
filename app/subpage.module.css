@@ -268,4 +268,7 @@
   .bannerSection {
     padding: 0;
   }
+    .bannerImage {
+    object-position: center top;
+  }
 }
