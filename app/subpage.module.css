@@ -265,10 +265,15 @@
 }
 
 @media (max-width: 640px) {
-  .bannerSection {
-    padding: 0;
+  .imageSection {
+    padding-top: 4.75rem;
   }
-    .bannerImage {
+
+  .headerImage {
+    height: auto;
+    object-fit: contain;
     object-position: center top;
+    padding-top: 0;
+    width: 100%;
   }
 }
