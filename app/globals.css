@@ -92,6 +92,7 @@
 }
 
 html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -100,6 +101,7 @@ body {
   color: rgb(var(--color-ink));
   font-family: var(--font-body);
   margin: 0;
+  overflow-x: hidden;
 }
 
 img {
@@ -223,7 +225,7 @@ button {
 
 @media (max-width: 560px) {
   .karmapaArticleStart {
-    padding-left: 1.1rem;
-    padding-right: 1.1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
