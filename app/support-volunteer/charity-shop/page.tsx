@@ -34,7 +34,7 @@ export default function Page() {
 
         <nav className={pageStyles.categoryGrid} aria-label="義賣商店分類">
           {charityShopCategories.map((category) => (
-            <Link className={pageStyles.categoryCard} href={category.href} key={category.slug} rel="noreferrer" target="_blank">
+            <Link className={pageStyles.categoryCard} href={category.href} key={category.slug}>
               <div className={pageStyles.categoryMedia}>
                 {category.image ? (
                   <img alt="" className={pageStyles.categoryImage} src={category.image} />

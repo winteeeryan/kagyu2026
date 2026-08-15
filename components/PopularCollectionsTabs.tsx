@@ -13,7 +13,7 @@ export function PopularCollectionsTabs({
     <div className={styles.wrapper}>
       <nav className={styles.collectionNav} aria-label="義賣商店分類">
         {groups.map((group) => (
-          <Link className={styles.collectionCard} href={group.href} key={group.label} rel="noreferrer" target="_blank">
+          <Link className={styles.collectionCard} href={group.href} key={group.label}>
             <div className={styles.collectionMedia}>
               {group.image ? (
                 <img alt="" className={styles.collectionImage} src={group.image} />

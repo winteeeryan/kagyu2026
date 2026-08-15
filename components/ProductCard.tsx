@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Product } from "@/data/homepage";
+import { getLinkBehavior } from "@/utils/linkBehavior";
 import styles from "./ProductCard.module.css";
 
 export function ProductCard({ product }: { product: Product }) {
@@ -21,7 +22,7 @@ export function ProductCard({ product }: { product: Product }) {
       {product.href === "#" ? (
         <div className={styles.media}>{media}</div>
       ) : (
-        <Link className={styles.media} href={product.href} rel="noreferrer" target="_blank">
+        <Link className={styles.media} href={product.href} {...getLinkBehavior(product.href)}>
           {media}
         </Link>
       )}

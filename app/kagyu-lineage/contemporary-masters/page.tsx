@@ -98,7 +98,6 @@ export default function Page() {
                   imageAlt={card.imageAlt}
                   href={card.href}
                   key={card.id}
-                  openInNewTab={Boolean(card.href)}
                   subtitle={card.subtitle}
                   title={card.name}
                 />
@@ -112,7 +111,6 @@ export default function Page() {
                   imageAlt={card.imageAlt}
                   href={card.href}
                   key={card.id}
-                  openInNewTab={Boolean(card.href)}
                   subtitle={card.subtitle}
                   title={card.name}
                 />

@@ -124,7 +124,7 @@ export default function LatestInfoPage() {
                   className={styles.articleCard}
                   href={item.href}
                   key={`${item.title}-${item.date}-${index}`}
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <span className={styles.imageFrame}>

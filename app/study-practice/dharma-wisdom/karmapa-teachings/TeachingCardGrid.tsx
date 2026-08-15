@@ -34,7 +34,6 @@ export function TeachingCardGrid({ cards }: TeachingCardGridProps) {
             image={card.image}
             imageAlt={card.title}
             key={card.id}
-            openInNewTab
             subtitle={`第 ${card.number} 則`}
             title={card.title}
           />

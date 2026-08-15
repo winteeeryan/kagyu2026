@@ -8,6 +8,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Kagyu-2026-Update",
   description: "Homepage study inspired by tibetantreasures.com",
+  icons: {
+    icon: "/logo.png?v=20260815",
+    shortcut: "/logo.png?v=20260815",
+    apple: "/logo.png?v=20260815",
+  },
 };
 
 export default function RootLayout({

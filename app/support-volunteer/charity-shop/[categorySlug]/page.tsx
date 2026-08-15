@@ -74,7 +74,7 @@ export default async function Page({ params }: CategoryPageProps) {
         </section>
       ) : (
         <section className={pageStyles.hero}>
-          <Link className={pageStyles.backLink} href="/support-volunteer/charity-shop" rel="noreferrer" target="_blank">
+          <Link className={pageStyles.backLink} href="/support-volunteer/charity-shop">
             義賣商店
           </Link>
           <p className={pageStyles.eyebrow}>CHARITY SHOP</p>
@@ -94,8 +94,6 @@ export default async function Page({ params }: CategoryPageProps) {
             className={pageStyles.switchLink}
             href={item.href}
             key={item.slug}
-            rel="noreferrer"
-            target="_blank"
           >
             {item.title}
           </Link>
@@ -134,7 +132,7 @@ export default async function Page({ params }: CategoryPageProps) {
               : undefined);
 
           return itemHref ? (
-            <Link className={productCardClassName} href={itemHref} key={item.title} rel="noreferrer" target="_blank">
+            <Link className={productCardClassName} href={itemHref} key={item.title}>
               {cardContent}
             </Link>
           ) : (

@@ -221,8 +221,6 @@ export function Hero({ eyebrow, title, description, ctas, slides }: HeroProps) {
               }`}
               href={cta.href}
               key={`${cta.label}-${index}`}
-              rel="noreferrer"
-              target="_blank"
             >
               <span className={styles.heroButtonText}>{cta.label}</span>
             </Link>

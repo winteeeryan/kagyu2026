@@ -206,7 +206,13 @@ export default function Page() {
         </p>
         <p>
           轉載或引用本文請註明出處：
-          <a href="https://www.kagyuoffice.org.tw/">大寶法王噶瑪巴官方中文網</a>
+          <a
+            href="https://www.kagyuoffice.org.tw/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            大寶法王噶瑪巴官方中文網
+          </a>
         </p>
       </div>
     </AboutBannerPage>

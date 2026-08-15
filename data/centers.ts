@@ -53,3 +53,14 @@ export const centers: CenterInfo[] = [
     title: "財團法人高雄市噶瑪噶舉基金會",
   },
 ];
+
+export const instituteCenters = [
+  ...centers.slice(0, 3).map((center) => ({
+    contact: [center.contact[0], center.contact.slice(1).join(" / ")],
+    title: center.title,
+  })),
+  {
+    contact: ["地址 嘉義市新生路283號8樓", "電話 0909-809908"],
+    title: "噶瑪噶舉基金會［嘉義分處］",
+  },
+];

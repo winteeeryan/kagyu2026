@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { PromoTile } from "@/data/homepage";
+import { getLinkBehavior } from "@/utils/linkBehavior";
 import styles from "./PromoTiles.module.css";
 
 export function PromoTiles({ tiles }: { tiles: PromoTile[] }) {
@@ -13,8 +14,7 @@ export function PromoTiles({ tiles }: { tiles: PromoTile[] }) {
             }`}
             href={tile.href}
             key={tile.title}
-            rel="noreferrer"
-            target="_blank"
+            {...getLinkBehavior(tile.href)}
           >
             <img className={styles.image} src={tile.image} alt={tile.title} />
             <div className={styles.overlay} />

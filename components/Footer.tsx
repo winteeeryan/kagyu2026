@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import { instituteCenters } from "@/data/centers";
+import { getLinkBehavior } from "@/utils/linkBehavior";
 import styles from "./Footer.module.css";
 
 const utilityLinks = [
@@ -70,26 +72,7 @@ const socialLinks: SocialLinkItem[] = [
   { href: "mailto:mou.a58@msa.hinet.net", label: "E-mail", icon: "email" },
 ] as const;
 
-const footerCenters = [
-  {
-    contact: ["地址 台北市中山區民生東路一段 39 號10樓", "電話 (02) 2581-4395 / 傳真 (02) 2543-1818"],
-    title: "台北中心",
-  },
-  {
-    contact: ["地址 高雄市苓雅區光華一路226號10樓", "電話 (07) 223-7878 / 傳真 (07) 227-1919"],
-    title: "高雄中心",
-  },
-  {
-    contact: ["地址 花蓮縣吉安鄉文興街11號", "電話 (03) 854-1888"],
-    title: "花蓮中心",
-  },
-  {
-    contact: ["地址 嘉義市新生路283號8樓", "電話 0909-809908"],
-    title: "噶瑪噶舉基金會［嘉義分處］",
-  },
-];
-
-function CenterContact({ contact }: { contact: string[] }) {
+function CenterContact({ contact }: { contact: readonly string[] }) {
   return (
     <>
       {contact.map((line) => (
@@ -114,8 +97,7 @@ function FooterLink({
     <Link
       className={className}
       href={href}
-      rel={external ? "noreferrer" : undefined}
-      target={external ? "_blank" : undefined}
+      {...(external ? getLinkBehavior(href) : {})}
     >
       {children}
     </Link>
@@ -205,7 +187,7 @@ export function Footer() {
               className={styles.centerList}
               id="site-footer-address"
             >
-              {footerCenters.map((center) => (
+              {instituteCenters.map((center) => (
                 <p key={center.title}>
                   <span>{center.title}</span>
                   <CenterContact contact={center.contact} />
@@ -252,8 +234,9 @@ export function Footer() {
                       aria-label={item.label}
                       className={styles.socialLink}
                       href={item.href}
-                      rel={"external" in item && item.external ? "noreferrer" : undefined}
-                      target={"external" in item && item.external ? "_blank" : undefined}
+                      {...("external" in item && item.external
+                        ? getLinkBehavior(item.href)
+                        : {})}
                       title={item.label}
                     >
                       <SocialIcon icon={item.icon} />

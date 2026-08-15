@@ -78,7 +78,7 @@ export function SpecialEventsCarousel({
         <div className={styles.scroller} ref={scrollerRef}>
           {items.map((item) => (
             <article className={styles.card} key={item.title}>
-              <Link className={styles.cardLink} href={item.href} rel="noreferrer" target="_blank">
+              <Link className={styles.cardLink} href={item.href}>
                 <div className={styles.media}>
                   <img alt={item.title} className={styles.image} src={item.image} />
                 </div>
@@ -96,8 +96,6 @@ export function SpecialEventsCarousel({
             aria-label="查看全部活動"
             className={`${styles.control} ${styles.rightControl}`}
             href={allEventsHref}
-            rel="noreferrer"
-            target="_blank"
           >
             <span aria-hidden="true" className={styles.dots}>
               ...

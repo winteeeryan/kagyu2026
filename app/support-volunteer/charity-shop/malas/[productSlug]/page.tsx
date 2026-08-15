@@ -81,7 +81,7 @@ export default async function Page({ params }: MalaProductPageProps) {
           <SectionOpener />
         </div>
 
-        <Link className={pageStyles.productBackLink} href={category.href} rel="noreferrer" target="_blank">
+        <Link className={pageStyles.productBackLink} href={category.href}>
           返回商品列表
         </Link>
 
@@ -172,7 +172,7 @@ export default async function Page({ params }: MalaProductPageProps) {
             </div>
             <div className={pageStyles.relatedGrid}>
               {relatedProducts.map((relatedProduct) => (
-                <Link className={pageStyles.relatedCard} href={relatedProduct.href} key={relatedProduct.href} rel="noreferrer" target="_blank">
+                <Link className={pageStyles.relatedCard} href={relatedProduct.href} key={relatedProduct.href}>
                   <div>
                     <img alt={relatedProduct.title} src={relatedProduct.image} />
                   </div>

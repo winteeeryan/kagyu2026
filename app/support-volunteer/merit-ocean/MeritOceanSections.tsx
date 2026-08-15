@@ -467,7 +467,7 @@ export function MeritOceanSections() {
 
               <Accordion title="收支明細">
                 <p>
-                  <a href="https://www.kagyu.org.tw/images/files/醫護1105.xlsx">
+                  <a download href="https://www.kagyu.org.tw/images/files/醫護1105.xlsx">
                     請點選下載
                   </a>
                 </p>

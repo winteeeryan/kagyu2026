@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { navItems, navRouteMap } from "@/data/homepage";
+import { getLinkBehavior } from "@/utils/linkBehavior";
 import styles from "./Header.module.css";
 
 const getGroupKey = (itemLabel: string, groupTitle: string) =>
@@ -11,11 +12,6 @@ const getGroupKey = (itemLabel: string, groupTitle: string) =>
 
 const getNavHref = (title: string, fallback = "/") =>
   navRouteMap[title] ?? fallback;
-
-const menuLinkProps = {
-  rel: "noreferrer",
-  target: "_blank",
-};
 
 export function Header() {
   // Header state controls scroll styling, mobile visibility, and desktop flyouts.
@@ -171,7 +167,7 @@ export function Header() {
                                           <li key={link}>
                                             <Link
                                               href={linkHref}
-                                              {...menuLinkProps}
+                                              {...getLinkBehavior(linkHref)}
                                             >
                                               {link}
                                             </Link>
@@ -186,7 +182,7 @@ export function Header() {
                                 <Link
                                   className={styles.groupLeaf}
                                   href={groupHref}
-                                  {...menuLinkProps}
+                                  {...getLinkBehavior(groupHref)}
                                 >
                                   {group.title}
                                 </Link>
@@ -206,16 +202,14 @@ export function Header() {
             <Link
               className={styles.ctaButton}
               href="https://www.kagyu.org.tw/tem/data/application.doc"
-              rel="noopener noreferrer"
-              target="_blank"
+              {...getLinkBehavior("https://www.kagyu.org.tw/tem/data/application.doc")}
             >
               上課報名
             </Link>
             <Link
               className={styles.ctaButton}
               href="https://p.ecpay.com.tw/0D6EAD8"
-              rel="noopener noreferrer"
-              target="_blank"
+              {...getLinkBehavior("https://p.ecpay.com.tw/0D6EAD8")}
             >
               線上捐款
             </Link>
@@ -246,7 +240,7 @@ export function Header() {
                       <Link
                         className={styles.mobileLeaf}
                         href={getNavHref(group.title, item.href)}
-                        {...menuLinkProps}
+                        {...getLinkBehavior(getNavHref(group.title, item.href))}
                       >
                         {group.title}
                       </Link>
@@ -257,7 +251,7 @@ export function Header() {
                           <li key={link}>
                             <Link
                               href={getNavHref(link, item.href)}
-                              {...menuLinkProps}
+                              {...getLinkBehavior(getNavHref(link, item.href))}
                             >
                               {link}
                             </Link>

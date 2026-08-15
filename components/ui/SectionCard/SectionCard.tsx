@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { CSSProperties, ReactNode } from "react";
+import { getLinkBehavior } from "@/utils/linkBehavior";
 import styles from "./SectionCard.module.css";
 
 type SectionCardProps = {
@@ -21,7 +22,7 @@ export function SectionCard({
   image,
   imageAlt,
   imageStyle,
-  openInNewTab = true,
+  openInNewTab,
   subtitle,
   title,
 }: SectionCardProps) {
@@ -49,13 +50,19 @@ export function SectionCard({
   const cardClassName = `${styles.card} ${className}`.trim();
 
   if (href) {
+    const linkBehavior =
+      openInNewTab === undefined
+        ? getLinkBehavior(href)
+        : openInNewTab
+          ? { rel: "noopener noreferrer" as const, target: "_blank" as const }
+          : {};
+
     return (
       <Link
         aria-label={ariaLabel}
         className={cardClassName}
         href={href}
-        rel={openInNewTab ? "noreferrer" : undefined}
-        target={openInNewTab ? "_blank" : undefined}
+        {...linkBehavior}
       >
         {content}
       </Link>

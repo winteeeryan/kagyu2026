@@ -316,8 +316,6 @@ function ActivityCarouselPanel({
           aria-label={`查看 ${category.label} 全部活動`}
           className={`${styles.control} ${styles.rightControl}`}
           href="/activities/latest"
-          rel="noreferrer"
-          target="_blank"
         >
           <span aria-hidden="true" className={styles.dots}>
             ...

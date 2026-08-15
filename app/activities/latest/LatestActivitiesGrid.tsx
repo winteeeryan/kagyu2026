@@ -103,7 +103,7 @@ export function ActivityListingGrid({
       )}
 
       <nav className={styles.archiveNav} aria-label="活動頁面導覽">
-        <Link className={styles.archiveNavLink} href={archiveHref} rel="noreferrer" target="_blank">
+        <Link className={styles.archiveNavLink} href={archiveHref}>
           <span>{archiveLabel}</span>
         </Link>
       </nav>

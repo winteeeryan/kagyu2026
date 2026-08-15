@@ -153,8 +153,6 @@ export function VolunteerActivityCarousel({
                   aria-label={`前往${item.title}`}
                   className={styles.cardLink}
                   href={item.href}
-                  rel="noreferrer"
-                  target="_blank"
                 >
                   {content}
                 </Link>

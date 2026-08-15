@@ -35,8 +35,6 @@ export default function Home() {
               <Link
                 className={`${styles.mediaPanel} ${styles.mediaPanelVideo}`}
                 href="/visual-media/video-channel"
-                rel="noreferrer"
-                target="_blank"
               >
                 <div className={styles.mediaPanelVisual} aria-hidden="true">
                   <img
@@ -54,8 +52,6 @@ export default function Home() {
               <Link
                 className={`${styles.mediaPanel} ${styles.mediaPanelAlbum}`}
                 href="/visual-media/official-album"
-                rel="noreferrer"
-                target="_blank"
               >
                 <div className={styles.mediaPanelVisual} aria-hidden="true">
                   <img

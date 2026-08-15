@@ -546,6 +546,45 @@
   transform: translateY(-2px);
 }
 
+.volunteerContactsDisclosure {
+  display: grid;
+  gap: 1rem;
+  justify-items: center;
+  min-width: 0;
+}
+
+.volunteerCenterContacts {
+  border-top: 1px solid rgba(149, 69, 69, 0.22);
+  display: grid;
+  font-style: normal;
+  gap: 1rem 1.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding-top: 1.2rem;
+  width: 100%;
+}
+
+.volunteerCenterContacts p {
+  color: rgba(31, 27, 22, 0.72);
+  display: grid;
+  font-family: var(--font-serif-tc);
+  font-size: clamp(0.8rem, 0.96vw, 0.9rem);
+  gap: 0.18rem;
+  letter-spacing: 0.035em;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.volunteerCenterContacts strong {
+  color: #70231e;
+  font-size: 0.94rem;
+  font-weight: 600;
+  margin-bottom: 0.12rem;
+}
+
+.volunteerCenterContacts span {
+  display: block;
+}
+
 .panelLotus {
   display: none;
 }
@@ -692,6 +731,11 @@
     padding-left: 1.2rem;
     padding-right: 1.2rem;
     width: fit-content;
+  }
+
+  .volunteerCenterContacts {
+    grid-template-columns: 1fr;
+    text-align: left;
   }
 
   .roleContent h3 {

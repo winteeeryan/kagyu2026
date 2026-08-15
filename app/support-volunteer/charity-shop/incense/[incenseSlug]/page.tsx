@@ -71,8 +71,6 @@ export default async function Page({ params }: IncenseCategoryPageProps) {
             className={pageStyles.switchLink}
             href={item.href}
             key={item.slug}
-            rel="noreferrer"
-            target="_blank"
           >
             {item.title}
           </Link>
@@ -81,7 +79,7 @@ export default async function Page({ params }: IncenseCategoryPageProps) {
 
       <section className={pageStyles.productGrid} aria-label={`${category.title} 商品`}>
         {products.map((product, index) => (
-          <Link className={pageStyles.productCard} href={product.href} key={product.slug} rel="noreferrer" target="_blank">
+          <Link className={pageStyles.productCard} href={product.href} key={product.slug}>
             <div className={pageStyles.productMedia}>
               {product.image ? (
                 <img alt={product.title} className={pageStyles.productImage} src={product.image} />

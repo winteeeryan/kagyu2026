@@ -64,7 +64,12 @@ function NavLink({
 
   if (item.isExternal) {
     return (
-      <a className={className} href={item.href}>
+      <a
+        className={className}
+        href={item.href}
+        rel="noopener noreferrer"
+        target="_blank"
+      >
         {content}
       </a>
     );

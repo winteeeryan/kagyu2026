@@ -217,7 +217,7 @@ export default function Page() {
                         return (
                           <td key={`hundred-deeds-cell-${rowIndex}-${columnIndex}`}>
                             {item ? (
-                              <a href={item.href} rel="noreferrer" target="_blank">
+                              <a download href={item.href}>
                                 {item.title}
                               </a>
                             ) : null}

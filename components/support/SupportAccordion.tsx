@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { getLinkBehavior } from "@/utils/linkBehavior";
 import { EndMarker } from "@/components/ui/EndMarker";
 import { PosterLightbox } from "@/components/PosterLightbox";
 import { SectionOpener } from "@/components/ui/SectionOpener";
@@ -268,7 +269,7 @@ export function SupportAccordion() {
                           >
                             {line.label ? <span>{line.label}：</span> : null}
                             {line.href ? (
-                              <a href={line.href} rel="noreferrer" target="_blank">
+                              <a href={line.href} {...getLinkBehavior(line.href)}>
                                 {line.text}
                               </a>
                             ) : (

@@ -47,7 +47,7 @@ export function ActivityCarousel({ category }: ActivityCarouselProps) {
         <div className={styles.scroller} ref={scrollerRef}>
           {category.items.map((item) => (
             <article className={styles.card} key={`${category.label}-${item.title}`}>
-              <Link className={styles.cardLink} href={item.href} rel="noreferrer" target="_blank">
+              <Link className={styles.cardLink} href={item.href}>
                 <div className={styles.media}>
                   <img alt={item.title} className={styles.image} src={item.image} />
                 </div>
@@ -59,7 +59,7 @@ export function ActivityCarousel({ category }: ActivityCarouselProps) {
             </article>
           ))}
 
-          <Link className={`${styles.card} ${styles.moreCard}`} href={category.href} rel="noreferrer" target="_blank">
+          <Link className={`${styles.card} ${styles.moreCard}`} href={category.href}>
             <span className={styles.moreLabel}>更多活動</span>
             <span className={styles.moreHint}>View More</span>
           </Link>
