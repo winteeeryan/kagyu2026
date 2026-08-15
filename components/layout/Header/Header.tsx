@@ -234,7 +234,12 @@ export function Header() {
               <details className={styles.mobileGroup} key={item.label}>
                 <summary>{item.label}</summary>
                 {item.groups.map((group) => (
-                  <div className={styles.mobileGroupBody} key={group.title}>
+                  <div
+                    className={`${styles.mobileGroupBody} ${
+                      group.links.length === 0 ? styles.mobileLeafBody : ""
+                    }`}
+                    key={group.title}
+                  >
                     {group.links.length > 0 ? (
                       <p>{group.title}</p>
                     ) : (

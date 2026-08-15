@@ -23,9 +23,9 @@ export default function LatestActivitiesPage() {
           <p className={shopStyles.eyebrow}>共修活動</p>
           <WatermarkHeading as="h2">最新活動</WatermarkHeading>
           <p className={shopStyles.intro}>
-            整理全國與各中心近期活動，依日期由近至遠排列。
+            無論是日常共修、深入學習，或參與法會，都能在近期活動中找到適合自己的安排。
             <br />
-            歡迎依自身因緣參與共修、課程與法會。
+            歡迎依當下因緣參與，與法友同行，讓修學融入每一次相聚。
           </p>
           <SectionOpener />
         </header>
