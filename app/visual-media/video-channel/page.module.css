@@ -440,3 +440,10 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (min-width: 1600px) {
+  .inner {
+    max-width: 112rem;
+    width: 92%;
+  }
+}

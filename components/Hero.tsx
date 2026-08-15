@@ -180,13 +180,20 @@ export function Hero({ eyebrow, title, description, ctas, slides }: HeroProps) {
     <section className={styles.hero} style={heroStyle}>
       <div className={styles.media}>
         {slides.map((slide, index) => (
-          <img
-            alt={index === activeSlide ? slide.alt : ""}
+          <picture
             aria-hidden={index !== activeSlide}
             className={`${styles.slide} ${index === activeSlide ? styles.slideActive : ""}`}
             key={slide.image}
-            src={slide.image}
-          />
+          >
+            {slide.mobileImage ? (
+              <source media="(max-width: 640px)" srcSet={slide.mobileImage} />
+            ) : null}
+            <img
+              alt={index === activeSlide ? slide.alt : ""}
+              className={styles.slideImage}
+              src={slide.image}
+            />
+          </picture>
         ))}
       </div>
       <div aria-hidden="true" className={styles.overlay}>

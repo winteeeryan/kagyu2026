@@ -41,6 +41,7 @@ export type HeroCta = {
 
 export type HeroSlide = {
   image: string;
+  mobileImage?: string;
   alt: string;
 };
 
@@ -259,15 +260,18 @@ export const hero = {
   slides: [
     {
       image: "/hero/pc1.png?v=20260412-3",
-      alt: "Blue homepage hero slide featuring a monk in prayer and a bilingual institute wordmark.",
+      mobileImage: "/hero/mb1.png",
+      alt: "Homepage hero featuring a Karmapa teaching and the institute wordmark.",
     },
     {
       image: "/hero/pc2.png?v=20260412-3",
-      alt: "Red homepage hero slide featuring a monk in prayer and a bilingual institute wordmark.",
+      mobileImage: "/hero/mb2.png",
+      alt: "Homepage hero featuring a Karmapa teaching and the institute wordmark.",
     },
     {
       image: "/hero/pc3.png?v=20260412-3",
-      alt: "Gold homepage hero slide featuring a monk portrait and a bilingual institute wordmark.",
+      mobileImage: "/hero/mb3.png",
+      alt: "Homepage hero featuring a Karmapa teaching and the institute wordmark.",
     },
   ] satisfies HeroSlide[],
 };

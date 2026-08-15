@@ -85,3 +85,10 @@
     padding-top: 1.25rem;
   }
 }
+
+@media (min-width: 1600px) {
+  .articleInner {
+    max-width: 112rem;
+    width: 92%;
+  }
+}

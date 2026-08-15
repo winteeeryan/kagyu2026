@@ -137,3 +137,9 @@
     min-height: 0;
   }
 }
+
+@media (min-width: 1600px) {
+  .wrapper {
+    max-width: 100%;
+  }
+}

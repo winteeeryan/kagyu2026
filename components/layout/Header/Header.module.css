@@ -69,12 +69,14 @@
   transition: none;
 }
 
-.inner {
+.header .inner {
   align-items: center;
   display: grid;
   gap: 0.75rem;
   grid-template-columns: auto 1fr auto;
+  max-width: none;
   min-height: 4.75rem;
+  padding-inline: clamp(1.25rem, 4vw, 4rem);
 }
 
 .menuButton {
@@ -98,11 +100,11 @@
   align-items: center;
   aspect-ratio: 1911 / 544;
   display: inline-flex;
-  height: clamp(2.25rem, 3.3vw, 2.7rem);
-  max-width: min(18.5rem, 26vw);
+  height: clamp(2.75rem, 3.3vw, 3.4rem);
+  max-width: min(20rem, 26vw);
   position: relative;
   text-decoration: none;
-  width: clamp(7.9rem, 11.6vw, 9.5rem);
+  width: clamp(9.7rem, 12vw, 12rem);
 }
 
 .logo img {
@@ -566,9 +568,14 @@
 }
 
 @media (max-width: 1100px) {
+  .header .inner {
+    padding-inline: 1.25rem;
+  }
+
   .logo {
     height: clamp(2rem, 6vw, 2.45rem);
     max-width: min(15rem, 50vw);
+    width: clamp(7.9rem, 18vw, 9.5rem);
   }
 
   .desktopNav {

@@ -41,10 +41,8 @@
 .cardGrid {
   display: grid;
   gap: clamp(0.8rem, 1vw, 1.25rem);
-  grid-template-columns: repeat(5, minmax(0, 230px));
-  justify-content: center;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   margin: 0 auto;
-  max-width: calc((230px * 5) + (clamp(0.8rem, 1vw, 1.25rem) * 4));
   width: 100%;
 }
 
@@ -110,28 +108,31 @@
 
 @media (max-width: 1180px) {
   .cardGrid {
-    grid-template-columns: repeat(4, minmax(0, 230px));
-    max-width: calc((230px * 4) + (clamp(0.8rem, 1vw, 1.25rem) * 3));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 920px) {
   .cardGrid {
-    grid-template-columns: repeat(3, minmax(0, 230px));
-    max-width: calc((230px * 3) + (clamp(0.8rem, 1vw, 1.25rem) * 2));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 700px) {
   .cardGrid {
-    grid-template-columns: repeat(2, minmax(0, min(44vw, 230px)));
-    max-width: calc((min(44vw, 230px) * 2) + clamp(0.8rem, 1vw, 1.25rem));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 520px) {
   .cardGrid {
-    grid-template-columns: minmax(0, min(100%, 230px));
-    max-width: 230px;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 1600px) {
+  .articleInner {
+    max-width: 112rem;
+    width: 92%;
   }
 }

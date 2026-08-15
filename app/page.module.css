@@ -2,6 +2,10 @@
   padding: clamp(4rem, 7vw, 6rem) 0;
 }
 
+.homeContainer {
+  width: 100%;
+}
+
 .mediaGatewayShell {
   margin: 0 auto;
   max-width: 78rem;
@@ -281,5 +285,17 @@
 
   .mediaPanel {
     min-height: 16.5rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .homeContainer {
+    max-width: 112rem;
+    width: 92%;
+  }
+
+  .mediaGatewayShell,
+  .popularCollectionsBlock {
+    max-width: 100%;
   }
 }

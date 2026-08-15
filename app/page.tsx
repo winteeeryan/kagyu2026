@@ -15,7 +15,7 @@ export default function Home() {
       <Hero {...hero} />
 
       <section className={styles.section} id="new-arrivals">
-        <div className="container">
+        <div className={`container ${styles.homeContainer}`}>
           <div className={styles.heading}>
             <p className="eyebrow">LATEST EVENTS</p>
             <h2 className={styles.homeSectionTitle}>共修活動</h2>
@@ -25,7 +25,7 @@ export default function Home() {
       </section>
 
       <section className={`${styles.section} ${styles.visualMediaSection}`} id="visual-media">
-        <div className="container">
+        <div className={`container ${styles.homeContainer}`}>
           <div className={`${styles.heading} ${styles.mediaGatewayHeading}`}>
             <p className="eyebrow">VISUAL MEDIA</p>
             <h2 className={styles.homeSectionTitle}>影音圖片</h2>
@@ -71,7 +71,7 @@ export default function Home() {
       </section>
 
       <section className={`${styles.section} ${styles.charityShopSection}`} id="charity-shop">
-        <div className="container">
+        <div className={`container ${styles.homeContainer}`}>
           <div className={styles.popularCollectionsBlock}>
             <div className={styles.popularCollectionsHeading}>
               <p className={`eyebrow ${styles.popularCollectionsEyebrow}`}>

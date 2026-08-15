@@ -1361,3 +1361,11 @@
     white-space: normal;
   }
 }
+
+@media (min-width: 1600px) {
+  .categoryGrid,
+  .productGrid {
+    max-width: 112rem;
+    width: 92%;
+  }
+}

@@ -109,6 +109,14 @@ img {
   max-width: 100%;
 }
 
+body img[src*="hero"]:not([src^="/hero/"]) {
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  padding-top: 0;
+  width: 100%;
+}
+
 a,
 button,
 input,

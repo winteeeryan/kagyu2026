@@ -108,3 +108,12 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (min-width: 1600px) {
+  .articleInner {
+    --lineage-card-min: 0px;
+
+    max-width: 112rem;
+    width: 92%;
+  }
+}
