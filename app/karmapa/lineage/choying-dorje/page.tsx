@@ -6,7 +6,7 @@ import { LineageArticleNav } from "../_components/LineageArticleNav";
 import localStyles from "../dusum-khyenpa/page.module.css";
 import styles from "../../main-seat/tsurphu/page.module.css";
 
-const portrait = "/karmapa/karmapa010 (Chöying Dorje1604~1674).jpg";
+const portrait = "/karmapa/karmapa010%20(Ch%C3%B6ying%20Dorje1604~1674).jpg";
 
 export const metadata: Metadata = {
   title: "第十世噶瑪巴確映多傑 | Kagyu",

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const karmapaCards = [
   {
     href: "/karmapa/lineage/karmapa-1",
-    image: "/karmapa/karmapa001%20(Du%CC%88sum%20Khyenpa%201110-1193).jpg",
+    image: "/karmapa/karmapa001%20(D%C3%BCsum%20Khyenpa%201110-1193).jpg",
     name: "第一世噶瑪巴杜松虔巴",
     title: "Düsum Khyenpa (1110-1193)",
   },
@@ -66,7 +66,7 @@ const karmapaCards = [
   },
   {
     href: "/karmapa/lineage/karmapa-10",
-    image: "/karmapa/karmapa010%20(Cho%CC%88ying%20Dorje1604~1674).jpg",
+    image: "/karmapa/karmapa010%20(Ch%C3%B6ying%20Dorje1604~1674).jpg",
     name: "第十世噶瑪巴確映多傑",
     title: "Chöying Dorje (1604-1674)",
   },

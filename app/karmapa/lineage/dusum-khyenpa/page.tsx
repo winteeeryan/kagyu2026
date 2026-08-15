@@ -6,7 +6,7 @@ import { LineageArticleNav } from "../_components/LineageArticleNav";
 import localStyles from "./page.module.css";
 import styles from "../../main-seat/tsurphu/page.module.css";
 
-const portrait = "/karmapa/karmapa001 (Düsum Khyenpa 1110-1193).jpg";
+const portrait = "/karmapa/karmapa001%20(D%C3%BCsum%20Khyenpa%201110-1193).jpg";
 
 export const metadata: Metadata = {
   title: "第一世噶瑪巴杜松虔巴 | Kagyu",
