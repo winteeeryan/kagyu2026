@@ -4,13 +4,13 @@ import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
 const lineageTermLinks: Record<string, { href: string; key: string }> = {
-  金剛總持: { href: "/vajradhara", key: "vajradhara" },
-  帝洛巴: { href: "/tilopa", key: "tilopa" },
-  那洛巴: { href: "/naropa", key: "naropa" },
-  馬爾巴: { href: "/marpa", key: "marpa" },
-  密勒日巴: { href: "/milarepa", key: "milarepa" },
-  岡波巴: { href: "/gampopa", key: "gampopa" },
-  黃金珠鬘: { href: "/golden-rosary", key: "golden-rosary" },
+  金剛總持: { href: "/kagyu-lineage/golden-rosary/masters/vajradhara", key: "vajradhara" },
+  帝洛巴: { href: "/kagyu-lineage/golden-rosary/masters/tilopa", key: "tilopa" },
+  那洛巴: { href: "/kagyu-lineage/golden-rosary/masters/naropa", key: "naropa" },
+  馬爾巴: { href: "/kagyu-lineage/golden-rosary/masters/marpa", key: "marpa" },
+  密勒日巴: { href: "/kagyu-lineage/golden-rosary/masters/milarepa", key: "milarepa" },
+  岡波巴: { href: "/kagyu-lineage/golden-rosary/masters/gampopa", key: "gampopa" },
+  黃金珠鬘: { href: "/kagyu-lineage/golden-rosary/overview", key: "golden-rosary" },
 };
 
 const lineageTermPattern = new RegExp(
