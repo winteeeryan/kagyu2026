@@ -1,6 +1,46 @@
+@font-face {
+  font-display: swap;
+  font-family: "Source Han Serif CN";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/fonts/source-han-serif-cn-light.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Source Han Serif CN";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/source-han-serif-cn-regular.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Source Han Serif CN";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/source-han-serif-cn-medium.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Source Han Serif CN";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/source-han-serif-cn-semibold.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Source Han Serif CN";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/fonts/source-han-serif-cn-heavy.otf") format("opentype");
+}
+
 :root {
   --font-source-han-serif:
-    "Source Han Serif TC",
+    "Source Han Serif CN",
     "思源宋體",
     "Source Han Serif CN",
     "Source Han Serif",
