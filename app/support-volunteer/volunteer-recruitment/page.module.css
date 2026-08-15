@@ -294,21 +294,18 @@
 
 .roleCard {
   align-items: start;
-  background: rgb(var(--color-paper));
-  border: var(--card-border);
+  background-color: #fffaf8;
+  background-image: url("/support-volunteer/volunteer-recruitment/backgroundcard.jpg?v=20260814");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid rgba(149, 69, 69, 0.32);
   display: grid;
   gap: clamp(0.75rem, 1.35vw, 1rem);
   grid-template-columns: clamp(4.45rem, 6.8vw, 5.35rem) minmax(0, 1fr);
   min-height: 7.35rem;
   padding: clamp(0.72rem, 1.35vw, 0.95rem);
   transition: var(--card-transition);
-}
-
-.roleCard:hover,
-.roleCard:focus-within {
-  border-color: var(--card-hover-border-color);
-  box-shadow: var(--card-hover-shadow);
-  transform: var(--card-hover-lift);
 }
 
 .roleIconBox {
@@ -324,6 +321,7 @@
 .roleIcon {
   display: block;
   height: 100%;
+  mix-blend-mode: multiply;
   object-fit: contain;
   transform: translate(var(--role-icon-x, 0), var(--role-icon-y, 0))
     scale(var(--role-icon-scale, 1));
@@ -362,13 +360,32 @@
 
 .matchPanel,
 .registrationPanel {
-  background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.74), rgba(248, 244, 235, 0.38)),
-    rgba(255, 252, 246, 0.52);
-  border: 1px solid rgba(206, 176, 129, 0.72);
+  background-color: #fffdf8;
+  background-image: url("/support-volunteer/volunteer-recruitment/background.jpeg?v=20260814");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0;
   color: rgba(31, 27, 22, 0.78);
   min-height: clamp(11.5rem, 18vw, 15.25rem);
+  overflow: hidden;
   position: relative;
+}
+
+.matchPanel::before,
+.registrationPanel::before {
+  background: rgba(255, 253, 248, 0.84);
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+}
+
+.matchPanel > *,
+.registrationPanel > * {
+  position: relative;
+  z-index: 1;
 }
 
 .matchPanel {
@@ -379,12 +396,12 @@
 .registrationPanel h3 {
   color: #4a0e17;
   font-family: var(--font-serif-tc);
-  font-size: clamp(1.2rem, 1.75vw, 1.5rem);
-  font-weight: 500;
-  letter-spacing: 0.14em;
+  font-size: clamp(1.1rem, 1.55vw, 1.3rem);
+  font-weight: 400;
+  letter-spacing: 0.1em;
   line-height: 1.35;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .matchRows {
@@ -394,7 +411,6 @@
 
 .matchRow {
   align-items: center;
-  border-top: 1px solid rgba(206, 176, 129, 0.38);
   display: grid;
   gap: clamp(0.45rem, 0.8vw, 0.75rem);
   grid-template-columns: 1.25rem minmax(0, 1fr) auto minmax(4.7rem, auto);
@@ -403,11 +419,11 @@
 }
 
 .matchRow:first-child {
-  border-top: 0;
+  padding-top: 0;
 }
 
 .matchIcon {
-  color: rgba(122, 85, 46, 0.9);
+  color: rgba(149, 69, 69, 0.72);
   display: block;
   height: 1.15rem;
   width: 1.15rem;
@@ -434,7 +450,7 @@
 }
 
 .matchRole {
-  color: #bd1517;
+  color: #70231e;
   font-family: var(--font-serif-tc);
   font-size: clamp(0.9rem, 1.08vw, 1rem);
   font-weight: 600;
@@ -450,71 +466,21 @@
 }
 
 .registrationOrnament {
-  height: 0.8rem;
-  margin: 0.35rem auto clamp(0.9rem, 1.8vw, 1.25rem);
-  position: relative;
-  width: 2.35rem;
-}
-
-.registrationOrnament::before,
-.registrationOrnament::after {
-  background: rgba(206, 176, 129, 0.78);
-  content: "";
-  height: 1px;
-  position: absolute;
-  top: 50%;
-  width: 1rem;
-}
-
-.registrationOrnament::before {
-  left: 0;
-  transform: rotate(22deg);
-}
-
-.registrationOrnament::after {
-  right: 0;
-  transform: rotate(-22deg);
+  display: none;
 }
 
 .registrationContent {
-  align-items: center;
+  align-items: start;
   display: grid;
-  gap: clamp(1.15rem, 2.5vw, 2rem);
-  grid-template-columns: clamp(4.5rem, 8vw, 6rem) minmax(0, 1fr);
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  margin-top: clamp(1.35rem, 2.8vw, 2rem);
   position: relative;
   z-index: 1;
 }
 
 .prayerMark {
-  aspect-ratio: 1;
-  border: 1px solid rgba(122, 85, 46, 0.72);
-  border-radius: 50%;
-  position: relative;
-}
-
-.prayerMark::before,
-.prayerMark::after {
-  border-color: rgba(122, 85, 46, 0.76);
-  border-style: solid;
-  content: "";
-  position: absolute;
-  top: 24%;
-}
-
-.prayerMark::before {
-  border-width: 0 1px 1px 0;
-  height: 46%;
-  left: 42%;
-  transform: rotate(23deg);
-  width: 18%;
-}
-
-.prayerMark::after {
-  border-width: 0 0 1px 1px;
-  height: 46%;
-  right: 42%;
-  transform: rotate(-23deg);
-  width: 18%;
+  display: none;
 }
 
 .registrationText {
@@ -534,65 +500,50 @@
 
 .registrationButton {
   align-items: center;
-  background: linear-gradient(180deg, #d21d1f, #ad1015);
-  border: 1px solid rgba(138, 31, 33, 0.76);
-  color: #fff !important;
+  appearance: none;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(149, 69, 69, 0.4);
+  border-radius: 999px;
+  color: #2b0707 !important;
+  cursor: pointer;
   display: inline-flex;
   font-family: var(--font-serif-tc);
-  font-size: clamp(0.95rem, 1.15vw, 1.08rem);
-  font-weight: 500;
+  font-size: 0.84rem;
+  font-weight: 300;
   justify-content: center;
-  letter-spacing: 0.08em;
-  line-height: 1.4;
-  min-height: 2.9rem;
-  padding: 0.6rem 2.8rem;
-  text-decoration: none !important;
-  transition:
-    background 180ms ease,
-    box-shadow 180ms ease,
-    transform 180ms ease;
-  width: min(100%, 18rem);
+  letter-spacing: 0.15rem;
+  line-height: 1;
+  margin-top: 0;
+  min-height: 2.2rem;
+  min-width: 6.35rem;
+  padding: 0.625rem 1.35rem;
+  justify-self: center;
+  box-shadow:
+    0 2px 12px rgba(0, 0, 0, 0.04),
+    0 1px 2px rgba(0, 0, 0, 0.015);
+  white-space: nowrap;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  width: fit-content;
+  -webkit-backdrop-filter: blur(12px);
+  -webkit-font-smoothing: antialiased;
 }
 
 .registrationButton:hover,
 .registrationButton:focus-visible {
-  background: linear-gradient(180deg, #e12628, #bd1517);
-  box-shadow: 0 0.8rem 1.8rem rgba(138, 31, 33, 0.18);
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(149, 69, 69, 0.7);
+  color: rgba(149, 69, 69, 0.7) !important;
+  box-shadow:
+    0 2px 12px rgba(0, 0, 0, 0.04),
+    0 1px 2px rgba(0, 0, 0, 0.015);
+  outline: none;
   transform: translateY(-2px);
 }
 
 .panelLotus {
-  bottom: -0.45rem;
-  height: clamp(4.3rem, 8vw, 6.5rem);
-  opacity: 0.32;
-  position: absolute;
-  right: clamp(0.6rem, 1.5vw, 1rem);
-  width: clamp(5.4rem, 10vw, 8rem);
-}
-
-.panelLotus::before,
-.panelLotus::after {
-  border: 1px solid rgba(206, 176, 129, 0.72);
-  border-radius: 68% 32% 68% 32%;
-  content: "";
-  position: absolute;
-  transform-origin: bottom center;
-}
-
-.panelLotus::before {
-  bottom: 0.15rem;
-  height: 76%;
-  left: 30%;
-  transform: rotate(-46deg);
-  width: 34%;
-}
-
-.panelLotus::after {
-  bottom: 0.05rem;
-  height: 98%;
-  left: 45%;
-  transform: rotate(38deg);
-  width: 38%;
+  display: none;
 }
 
 .roleContent {
@@ -672,13 +623,13 @@
 
   .registrationContent {
     align-items: center;
-    grid-template-columns: 3.75rem minmax(0, 1fr);
+    grid-template-columns: 1fr;
   }
 
   .registrationButton {
     padding-left: 1.2rem;
     padding-right: 1.2rem;
-    width: 100%;
+    width: fit-content;
   }
 
   .quoteCard {

@@ -93,6 +93,18 @@
   text-underline-offset: 0.32em;
 }
 
+@media (max-width: 767px) {
+  .page {
+    padding-top: 4.75rem;
+  }
+
+  .bannerImage {
+    height: auto;
+    object-position: center top;
+    padding-top: 0;
+  }
+}
+
 .backLink:hover,
 .backLink:focus-visible {
   color: #954545;

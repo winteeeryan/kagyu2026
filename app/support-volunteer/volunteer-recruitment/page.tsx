@@ -6,6 +6,7 @@ import { WatermarkHeading } from "@/components/ui/WatermarkHeading";
 import pageStyles from "./page.module.css";
 import { volunteerProjects } from "./projects";
 import { VolunteerActivityCarousel } from "./VolunteerActivityCarousel";
+import { VolunteerContactButton } from "./VolunteerContactButton";
 
 export const metadata: Metadata = {
   title: "志工招募 | Kagyu",
@@ -294,14 +295,11 @@ export default function Page() {
                             <p>
                               如欲發心服務，請逕向各中心執事聯絡。
                               <br />
-                              您可以依所在地址選擇鄰近中心，透過電話洽詢志工服務與報名方式。
+                              您可以依所在地址選擇鄰近中心，
+                              <br />
+                              透過電話洽詢志工服務與報名方式。
                             </p>
-                            <a
-                              className={pageStyles.registrationButton}
-                              href="#volunteer-registration"
-                            >
-                              查看各中心聯絡方式
-                            </a>
+                            <VolunteerContactButton />
                           </div>
                         </div>
                         <span className={pageStyles.panelLotus} aria-hidden="true" />

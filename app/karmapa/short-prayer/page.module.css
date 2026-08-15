@@ -5,6 +5,22 @@
   padding-bottom: var(--page-footer-gap);
 }
 
+@media (max-width: 767px) {
+  .page {
+    padding-top: 4.75rem;
+  }
+
+  .headerImage {
+    height: auto;
+    object-position: center top;
+    padding-top: 0;
+  }
+
+  .page :global(.karmapaArticleStart) {
+    padding-top: 1.25rem;
+  }
+}
+
 .imageSection {
   background: #f7f7f7;
   margin: 0;
@@ -53,4 +69,20 @@
   color: rgba(34, 34, 34, 0.72);
   margin-top: clamp(2.75rem, 5vw, 4rem) !important;
   text-align: center;
+}
+
+@media (max-width: 767px) {
+  .page {
+    padding-top: 4.75rem;
+  }
+
+  .headerImage {
+    height: auto;
+    object-position: center top;
+    padding-top: 0;
+  }
+
+  .page :global(.karmapaArticleStart) {
+    padding-top: 1.25rem;
+  }
 }

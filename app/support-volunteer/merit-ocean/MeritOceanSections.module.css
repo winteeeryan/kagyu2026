@@ -70,7 +70,7 @@
 
 .nestedAccordion {
   background: transparent;
-  border-color: rgba(34, 34, 34, 0.13);
+  border-color: rgba(34, 34, 34, 0.16);
   border-radius: 0;
 }
 
@@ -236,8 +236,9 @@
 
 .bankCard {
   background:
-    linear-gradient(180deg, rgba(255, 253, 248, 0.94), rgba(249, 243, 235, 0.96)),
-    #fffdf8;
+    linear-gradient(180deg, rgba(255, 253, 248, 0.6), rgba(249, 243, 235, 0.6)),
+    url("/support-volunteer/volunteer-recruitment/backgroundcard.jpg?v=20260814")
+      center / cover no-repeat;
   border: 1px solid rgba(189, 21, 23, 0.18);
   border-radius: 10px;
   color: rgb(var(--color-ink));
@@ -330,7 +331,8 @@
 .thanksCard {
   background:
     linear-gradient(90deg, rgba(255, 253, 248, 0.98), rgba(255, 253, 248, 0.86)),
-    #fffdf8;
+    url("/support-volunteer/volunteer-recruitment/background.jpeg?v=20260814")
+      center / cover no-repeat;
   border: 1px solid rgba(189, 21, 23, 0.16);
   border-radius: 10px;
   overflow: hidden;

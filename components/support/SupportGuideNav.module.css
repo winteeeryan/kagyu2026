@@ -23,20 +23,19 @@
 }
 
 .list {
-  border-top: 1px solid rgba(216, 200, 174, 0.72);
+  border-top: 1px solid rgba(34, 34, 34, 0.16);
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .item {
-  border-bottom: 1px solid rgba(232, 221, 203, 0.88);
-  transition: border-color 180ms ease;
+  border-bottom: 1px solid rgba(34, 34, 34, 0.16);
 }
 
 .item:hover,
 .item:focus-within {
-  border-bottom-color: #bd1517;
+  border-bottom-color: rgba(34, 34, 34, 0.16);
 }
 
 .pageToc .link {

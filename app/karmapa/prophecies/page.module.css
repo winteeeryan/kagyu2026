@@ -45,3 +45,19 @@
     padding: 0;
   }
 }
+
+@media (max-width: 767px) {
+  .page {
+    padding-top: 4.75rem;
+  }
+
+  .headerImage {
+    height: auto;
+    object-position: center top;
+    padding-top: 0;
+  }
+
+  .page :global(.karmapaArticleStart) {
+    padding-top: 1.25rem;
+  }
+}

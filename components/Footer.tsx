@@ -200,7 +200,11 @@ export function Footer() {
       <footer className={styles.footer}>
         <div className={`container ${styles.footerInner}`}>
           <div className={styles.information}>
-            <address className={styles.centerList} aria-label="中心聯絡資訊">
+            <address
+              aria-label="中心聯絡資訊"
+              className={styles.centerList}
+              id="site-footer-address"
+            >
               {footerCenters.map((center) => (
                 <p key={center.title}>
                   <span>{center.title}</span>
@@ -270,7 +274,11 @@ export function Footer() {
           </div>
 
           <div className={styles.bottomRow}>
-            <p>© 2026 台灣噶舉佛學院</p>
+            <p>
+              <span>台灣噶舉佛學院</span>
+              <span>Copyright 2026.</span>
+              <span>@Taiwan Kagyu Buddhist Institute All rights reserved.</span>
+            </p>
           </div>
         </div>
       </footer>
