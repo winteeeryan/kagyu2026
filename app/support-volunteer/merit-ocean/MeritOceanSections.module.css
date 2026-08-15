@@ -446,6 +446,19 @@
 @media (max-width: 640px) {
   .sections {
     gap: 4rem;
+    max-width: 100%;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .section,
+  .sectionHeader,
+  .medicalGrid,
+  .accordionStack,
+  .thanksCard {
+    max-width: 100%;
+    min-width: 0;
+    width: 100%;
   }
 
   .summary {
@@ -468,6 +481,10 @@
 
   .thanksCard {
     padding: 1.5rem;
+  }
+
+  .watermark {
+    display: none;
   }
 }
 

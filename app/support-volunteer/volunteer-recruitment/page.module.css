@@ -87,6 +87,8 @@
   display: flex;
   justify-content: center;
   min-width: 0;
+  overflow: hidden;
+  width: 100%;
 }
 
 .introImage {
@@ -304,6 +306,7 @@
   gap: clamp(0.75rem, 1.35vw, 1rem);
   grid-template-columns: clamp(4.45rem, 6.8vw, 5.35rem) minmax(0, 1fr);
   min-height: 7.35rem;
+  min-width: 0;
   padding: clamp(0.72rem, 1.35vw, 0.95rem);
   transition: var(--card-transition);
 }
@@ -321,6 +324,7 @@
 .roleIcon {
   display: block;
   height: 100%;
+  max-width: 100%;
   mix-blend-mode: multiply;
   object-fit: contain;
   transform: translate(var(--role-icon-x, 0), var(--role-icon-y, 0))
@@ -581,12 +585,25 @@
     grid-template-columns: 1fr;
   }
 
+  .introImageBox {
+    padding-inline: 0.75rem;
+  }
+
+  .introImage {
+    width: 100%;
+  }
+
   .roleGrid {
     grid-template-columns: 1fr;
   }
 
   .roleGuidePanels {
     grid-template-columns: 1fr;
+    justify-items: center;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
+    width: 100%;
   }
 
   .quoteCard {
@@ -595,11 +612,38 @@
 }
 
 @media (max-width: 560px) {
+  .sections {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 0;
+    transform: none;
+  }
+
+  .section,
+  .sectionHeader,
+  .serviceIntro,
+  .roleGrid {
+    max-width: 100%;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .roleGrid {
+    gap: 0.65rem;
+    grid-template-columns: 1fr;
+    justify-items: stretch;
+  }
+
   .roleCard {
-    align-items: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     gap: 0.9rem;
-    grid-template-columns: 4.6rem minmax(0, 1fr);
     min-height: 0;
+    margin-inline: 0;
+    max-width: 100%;
+    width: 100%;
   }
 
   .roleIconBox {
@@ -607,9 +651,19 @@
     width: 4.6rem;
   }
 
+  .roleContent {
+    justify-items: center;
+    min-width: 0;
+    text-align: center;
+    width: 100%;
+  }
+
   .matchPanel,
   .registrationPanel {
+    box-sizing: border-box;
     min-height: 0;
+    max-width: 100%;
+    width: calc(100% - 1.5rem);
   }
 
   .matchRow {
@@ -618,7 +672,15 @@
 
   .matchRole {
     grid-column: 2 / 4;
+    min-width: 0;
     padding-left: 0.1rem;
+    white-space: normal;
+  }
+
+  .matchPrompt,
+  .matchRole {
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
   .registrationContent {
@@ -630,6 +692,23 @@
     padding-left: 1.2rem;
     padding-right: 1.2rem;
     width: fit-content;
+  }
+
+  .roleContent h3 {
+    justify-self: center;
+    font-size: 15.2px;
+    text-align: center;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  .roleContent p {
+    font-size: 12.48px;
+    justify-self: center;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
   .quoteCard {

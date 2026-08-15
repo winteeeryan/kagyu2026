@@ -330,14 +330,17 @@
   align-items: center;
   background: #8a1f21;
   border-top: 1px solid rgba(255, 255, 255, 0.22);
+  box-sizing: border-box;
   display: grid;
   gap: 1rem;
   grid-column: 1 / -1;
   justify-items: center;
-  margin-inline: calc(-1 * clamp(3rem, 8vw, 8rem));
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
   padding-block: clamp(1.15rem, 2vw, 1.6rem);
   padding-inline: clamp(3rem, 8vw, 8rem);
   text-align: center;
+  width: 100vw;
 }
 
 .bottomRow p {
@@ -454,6 +457,11 @@
 
   .bottomRow {
     justify-items: center;
+    padding-inline: 1.5rem;
     text-align: center;
+  }
+
+  .bottomRow p {
+    max-width: 100%;
   }
 }

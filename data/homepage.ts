@@ -188,7 +188,7 @@ export const navItems: NavItem[] = [
         links: [],
       },
       {
-        title: "義賣/商店",
+        title: "義賣商店",
         links: [],
       },
     ],
@@ -245,7 +245,7 @@ export const navRouteMap: Record<string, string> = {
   當期勸募專案: "/support-volunteer/current-fundraising",
   功德海: "/support-volunteer/merit-ocean",
   志工招募: "/support-volunteer/volunteer-recruitment",
-  "義賣/商店": "/support-volunteer/charity-shop",
+  義賣商店: "/support-volunteer/charity-shop",
 };
 
 export const hero = {
