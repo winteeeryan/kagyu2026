@@ -6,8 +6,8 @@ import { Header } from "@/components/layout/Header";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Kagyu-2026-Update",
-  description: "Homepage study inspired by tibetantreasures.com",
+  title: "財團法人 噶瑪噶舉基金會",
+  description: "財團法人 噶瑪噶舉僅基金會網站",
   icons: {
     icon: "/logo.png?v=20260815",
     shortcut: "/logo.png?v=20260815",
