@@ -63,6 +63,8 @@
   --color-royal-blue: 25, 86, 170;
   --color-soft-gold: 246, 234, 194;
   --page-footer-gap: clamp(6rem, 10vw, 9rem);
+  --wide-content-width: 92vw;
+  --wide-content-max: 112rem;
   --font-serif-tc: var(--font-source-han-serif);
   --font-serif-cn: var(--font-source-han-serif);
   --caption-color: rgba(74, 14, 23, 0.78);
@@ -152,6 +154,18 @@ button {
     transform 180ms ease,
     background-color 180ms ease,
     border-color 180ms ease;
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: var(--wide-content-max);
+    width: var(--wide-content-width);
+  }
+
+  .button {
+    min-width: 7.5rem;
+    white-space: nowrap;
+  }
 }
 
 @media (hover: hover) and (pointer: fine) {

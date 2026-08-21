@@ -88,7 +88,7 @@
 
 @media (min-width: 1600px) {
   .articleInner {
-    max-width: 112rem;
-    width: 92%;
+    max-width: var(--wide-content-max);
+    width: var(--wide-content-width);
   }
 }

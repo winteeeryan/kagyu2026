@@ -126,9 +126,20 @@ type HeroProps = {
 
 export function Hero({ eyebrow, title, description, ctas, slides }: HeroProps) {
   const [activeSlide, setActiveSlide] = useState(0);
+  const [useMobileSlides, setUseMobileSlides] = useState(false);
   const [overlayColors, setOverlayColors] = useState<string[]>(() =>
     slides.map(() => FALLBACK_OVERLAY_COLOR),
   );
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 640px)");
+    const updateSlideMode = () => setUseMobileSlides(mediaQuery.matches);
+
+    updateSlideMode();
+    mediaQuery.addEventListener("change", updateSlideMode);
+
+    return () => mediaQuery.removeEventListener("change", updateSlideMode);
+  }, []);
 
   useEffect(() => {
     if (slides.length <= 1) {
@@ -170,7 +181,11 @@ export function Hero({ eyebrow, title, description, ctas, slides }: HeroProps) {
     };
   }, [slides]);
 
-  const currentImage = slides[activeSlide]?.image ?? "";
+  const currentSlide = slides[activeSlide];
+  const currentImage =
+    (useMobileSlides ? currentSlide?.mobileImage : currentSlide?.image) ??
+    currentSlide?.image ??
+    "";
   const hasCopy = Boolean(eyebrow || title || description);
   const heroStyle = {
     ["--hero-cta-image" as string]: `url("${currentImage}")`,

@@ -1364,8 +1364,17 @@
 
 @media (min-width: 1600px) {
   .categoryGrid,
-  .productGrid {
-    max-width: 112rem;
-    width: 92%;
+  .productGrid,
+  .opener,
+  .categorySwitch,
+  .pageFooterNavigation {
+    max-width: var(--wide-content-max);
+    width: var(--wide-content-width);
+  }
+
+  .switchLink,
+  .pageFooterNavigationLink {
+    min-width: 7.5rem;
+    white-space: nowrap;
   }
 }

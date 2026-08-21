@@ -118,6 +118,20 @@
   outline: none;
 }
 
+@media (min-width: 1600px) {
+  .emptyState,
+  .archiveNav {
+    max-width: var(--wide-content-max);
+    width: var(--wide-content-width);
+  }
+
+  .filterButton,
+  .archiveNavLink {
+    min-width: 7.5rem;
+    white-space: nowrap;
+  }
+}
+
 .date {
   display: block;
   font-family: var(--font-serif-tc);

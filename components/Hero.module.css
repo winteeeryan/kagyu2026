@@ -142,6 +142,7 @@
   background: #f7f7f7;
   border-color: #f7f7f7;
   border-radius: 999px;
+  min-width: 7.5rem;
   min-height: 2.5rem;
   padding-inline: 1.35rem;
   transition:
@@ -156,11 +157,10 @@
   background-position: center;
   background-size: cover;
   color: transparent;
-  transition:
-    color 220ms ease,
-    background-image 220ms ease;
+  white-space: nowrap;
   -webkit-background-clip: text;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .secondaryButton {
@@ -177,18 +177,23 @@
   .heroButton:hover .heroButtonText {
     background-image: none;
     color: #f7f7f7;
+    -webkit-text-fill-color: #f7f7f7;
   }
 }
 
 @media (max-width: 640px) {
   .hero {
     aspect-ratio: auto;
-    min-height: 76vh;
+    min-height: 100dvh;
+  }
+
+  .slideImage {
+    object-fit: cover;
   }
 
   .content {
     height: auto;
-    min-height: 76vh;
+    min-height: 100dvh;
     padding-bottom: 2rem;
   }
 }

@@ -771,7 +771,7 @@
 
 @media (min-width: 1600px) {
   .sections {
-    max-width: 112rem;
-    width: 92vw;
+    max-width: var(--wide-content-max);
+    width: var(--wide-content-width);
   }
 }

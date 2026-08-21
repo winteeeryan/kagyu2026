@@ -488,6 +488,13 @@
   }
 }
 
+@media (min-width: 1600px) {
+  .sections {
+    max-width: var(--wide-content-max);
+    width: var(--wide-content-width);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .summary,
   .panel,

@@ -140,6 +140,7 @@
 
 @media (min-width: 1600px) {
   .wrapper {
-    max-width: 100%;
+    max-width: var(--wide-content-max);
+    width: var(--wide-content-width);
   }
 }

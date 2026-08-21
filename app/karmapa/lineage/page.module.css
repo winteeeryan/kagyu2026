@@ -113,7 +113,7 @@
   .articleInner {
     --lineage-card-min: 0px;
 
-    max-width: 112rem;
-    width: 92%;
+    max-width: var(--wide-content-max);
+    width: var(--wide-content-width);
   }
 }
