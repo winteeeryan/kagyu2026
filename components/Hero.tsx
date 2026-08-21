@@ -10,6 +10,8 @@ const FALLBACK_OVERLAY_COLOR = "rgba(42, 42, 42, 0.82)";
 const OVERLAY_ALPHA = 0.82;
 const DARKEN_MULTIPLIER = 0.58;
 const SAMPLE_SIZE = 48;
+const DESKTOP_SLIDE_INTERVAL_MS = 5000;
+const MOBILE_SLIDE_INTERVAL_MS = 4500;
 
 type RgbColor = {
   red: number;
@@ -148,10 +150,10 @@ export function Hero({ eyebrow, title, description, ctas, slides }: HeroProps) {
 
     const intervalId = window.setInterval(() => {
       setActiveSlide((currentSlide) => (currentSlide + 1) % slides.length);
-    }, 6000);
+    }, useMobileSlides ? MOBILE_SLIDE_INTERVAL_MS : DESKTOP_SLIDE_INTERVAL_MS);
 
     return () => window.clearInterval(intervalId);
-  }, [slides.length]);
+  }, [slides.length, useMobileSlides]);
 
   useEffect(() => {
     let isCancelled = false;
