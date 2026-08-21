@@ -11,7 +11,7 @@ const OVERLAY_ALPHA = 0.82;
 const DARKEN_MULTIPLIER = 0.58;
 const SAMPLE_SIZE = 48;
 const DESKTOP_SLIDE_INTERVAL_MS = 5000;
-const MOBILE_SLIDE_INTERVAL_MS = 4500;
+const MOBILE_SLIDE_INTERVAL_MS = 4000;
 
 type RgbColor = {
   red: number;

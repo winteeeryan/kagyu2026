@@ -275,10 +275,12 @@ export const hero = {
     },
     {
       image: "/hero/pc4.PNG?v=20260821-2",
+      mobileImage: "/hero/mb4.PNG?v=20260821-2",
       alt: "Homepage hero featuring a Karmapa teaching and the institute wordmark.",
     },
     {
       image: "/hero/pc5.PNG?v=20260821-2",
+      mobileImage: "/hero/mb5.PNG?v=20260821-2",
       alt: "Homepage hero featuring a Karmapa teaching and the institute wordmark.",
     },
   ] satisfies HeroSlide[],
