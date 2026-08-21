@@ -85,7 +85,7 @@
   cursor: pointer;
   display: none;
   flex-direction: column;
-  gap: 0.3rem;
+  gap: 5px;
   padding: 0;
 }
 
@@ -93,7 +93,7 @@
   background: currentColor;
   display: block;
   height: 1px;
-  width: 1.4rem;
+  width: 22px;
 }
 
 .logo {
@@ -459,7 +459,10 @@
 }
 
 .mobileOpen {
-  max-height: 80vh;
+  max-height: calc(100dvh - 4.75rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
 }
 
 .mobileGroup {
@@ -495,7 +498,7 @@
 }
 
 .mobileGroupBody {
-  padding-top: 2.5rem;
+  padding-top: 1.25rem;
 }
 
 .mobileLeafBody {

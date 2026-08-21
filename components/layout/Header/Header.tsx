@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { navItems, navRouteMap } from "@/data/homepage";
@@ -17,11 +17,18 @@ export function Header() {
   // Header state controls scroll styling, mobile visibility, and desktop flyouts.
   const pathname = usePathname();
   const isSubpage = pathname !== "/";
+  const previousPathname = useRef(pathname);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [openMobileSection, setOpenMobileSection] = useState<string | null>(null);
   const [scrolled, setScrolled] = useState(false);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
   const [activeGroup, setActiveGroup] = useState<string | null>(null);
   const [transitionsReady, setTransitionsReady] = useState(false);
+
+  const closeMobileMenu = () => {
+    setMobileOpen(false);
+    setOpenMobileSection(null);
+  };
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -34,6 +41,18 @@ export function Header() {
     const timer = window.setTimeout(() => setTransitionsReady(true), 0);
     return () => window.clearTimeout(timer);
   }, []);
+
+  useEffect(() => {
+    if (previousPathname.current === pathname) {
+      return;
+    }
+
+    previousPathname.current = pathname;
+    setMobileOpen(false);
+    setOpenMobileSection(null);
+    setActiveMenu(null);
+    setActiveGroup(null);
+  }, [pathname]);
 
   return (
     <>
@@ -63,7 +82,12 @@ export function Header() {
           <button
             className={styles.menuButton}
             type="button"
-            onClick={() => setMobileOpen((value) => !value)}
+            onClick={() => {
+              if (mobileOpen) {
+                setOpenMobileSection(null);
+              }
+              setMobileOpen((value) => !value);
+            }}
             aria-expanded={mobileOpen}
             aria-controls="mobile-nav"
           >
@@ -76,6 +100,7 @@ export function Header() {
             className={styles.logo}
             href="/"
             aria-label="Taiwan Kagyu Buddhist Institute home"
+            onClick={closeMobileMenu}
           >
             <img
               alt="Taiwan Kagyu Buddhist Institute"
@@ -223,10 +248,23 @@ export function Header() {
           }`}
           id="mobile-nav"
         >
-          <nav className="container" aria-label="Mobile">
+          <nav className="container" aria-label="Mobile" key={pathname}>
             {navItems.map((item) => (
-              <details className={styles.mobileGroup} key={item.label}>
-                <summary>{item.label}</summary>
+              <details
+                className={styles.mobileGroup}
+                key={item.label}
+                open={openMobileSection === item.label}
+              >
+                <summary
+                  onClick={(event) => {
+                    event.preventDefault();
+                    setOpenMobileSection((current) =>
+                      current === item.label ? null : item.label,
+                    );
+                  }}
+                >
+                  {item.label}
+                </summary>
                 {item.groups.map((group) => (
                   <div
                     className={`${styles.mobileGroupBody} ${
@@ -241,6 +279,7 @@ export function Header() {
                         className={styles.mobileLeaf}
                         href={getNavHref(group.title, item.href)}
                         {...getLinkBehavior(getNavHref(group.title, item.href))}
+                        onClick={closeMobileMenu}
                       >
                         {group.title}
                       </Link>
@@ -252,6 +291,7 @@ export function Header() {
                             <Link
                               href={getNavHref(link, item.href)}
                               {...getLinkBehavior(getNavHref(link, item.href))}
+                              onClick={closeMobileMenu}
                             >
                               {link}
                             </Link>
