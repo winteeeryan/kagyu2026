@@ -260,27 +260,27 @@ export const hero = {
   slides: [
     {
       image: "/hero/pc1.png?v=20260821-2",
-      mobileImage: "/hero/mb1.png?v=20260821-1",
+      mobileImage: "/hero/mb1.png?v=20260821-3",
       alt: "Homepage hero featuring a Karmapa teaching and the institute wordmark.",
     },
     {
       image: "/hero/pc2.png?v=20260821-2",
-      mobileImage: "/hero/mb2.png?v=20260821-1",
+      mobileImage: "/hero/mb2.png?v=20260821-3",
       alt: "Homepage hero featuring a Karmapa teaching and the institute wordmark.",
     },
     {
       image: "/hero/pc3.png?v=20260821-2",
-      mobileImage: "/hero/mb3.png?v=20260821-1",
+      mobileImage: "/hero/mb3.png?v=20260821-3",
       alt: "Homepage hero featuring a Karmapa teaching and the institute wordmark.",
     },
     {
       image: "/hero/pc4.PNG?v=20260821-2",
-      mobileImage: "/hero/mb4.PNG?v=20260821-2",
+      mobileImage: "/hero/mb4.PNG?v=20260821-3",
       alt: "Homepage hero featuring a Karmapa teaching and the institute wordmark.",
     },
     {
       image: "/hero/pc5.PNG?v=20260821-2",
-      mobileImage: "/hero/mb5.PNG?v=20260821-2",
+      mobileImage: "/hero/mb5.PNG?v=20260821-3",
       alt: "Homepage hero featuring a Karmapa teaching and the institute wordmark.",
     },
   ] satisfies HeroSlide[],
