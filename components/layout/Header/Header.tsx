@@ -90,10 +90,11 @@ export function Header() {
             }}
             aria-expanded={mobileOpen}
             aria-controls="mobile-nav"
+            aria-label={mobileOpen ? "關閉選單" : "開啟選單"}
           >
-            <span />
-            <span />
-            <span />
+            <span className={mobileOpen ? styles.menuLineOpen : ""} />
+            <span className={mobileOpen ? styles.menuLineOpen : ""} />
+            <span className={mobileOpen ? styles.menuLineOpen : ""} />
           </button>
 
           <Link
@@ -249,6 +250,24 @@ export function Header() {
           id="mobile-nav"
         >
           <nav className="container" aria-label="Mobile" key={pathname}>
+            <div className={styles.mobileActions}>
+              <Link
+                className={`${styles.ctaButton} ${styles.mobileCtaButton}`}
+                href="https://www.kagyu.org.tw/tem/data/application.doc"
+                {...getLinkBehavior("https://www.kagyu.org.tw/tem/data/application.doc")}
+                onClick={closeMobileMenu}
+              >
+                上課報名
+              </Link>
+              <Link
+                className={`${styles.ctaButton} ${styles.mobileCtaButton}`}
+                href="https://p.ecpay.com.tw/0D6EAD8"
+                {...getLinkBehavior("https://p.ecpay.com.tw/0D6EAD8")}
+                onClick={closeMobileMenu}
+              >
+                線上捐款
+              </Link>
+            </div>
             {navItems.map((item) => (
               <details
                 className={styles.mobileGroup}

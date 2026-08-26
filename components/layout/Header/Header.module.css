@@ -87,13 +87,45 @@
   flex-direction: column;
   gap: 5px;
   padding: 0;
+  position: relative;
+  height: 14px;
+  width: 22px;
 }
 
 .menuButton span {
   background: currentColor;
   display: block;
   height: 1px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transition: transform 220ms ease, opacity 180ms ease;
   width: 22px;
+}
+
+.menuButton span:nth-child(1) {
+  transform: translateY(calc(-50% - 6px));
+}
+
+.menuButton span:nth-child(2) {
+  transform: translateY(-50%);
+}
+
+.menuButton span:nth-child(3) {
+  transform: translateY(calc(-50% + 6px));
+}
+
+.menuButton span:nth-child(1).menuLineOpen {
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.menuButton span:nth-child(2).menuLineOpen {
+  opacity: 0;
+  transform: translateY(-50%);
+}
+
+.menuButton span:nth-child(3).menuLineOpen {
+  transform: translateY(-50%) rotate(-45deg);
 }
 
 .logo {
@@ -458,6 +490,20 @@
   transition: max-height 220ms ease;
 }
 
+.mobileActions {
+  display: none;
+}
+
+.mobileCtaButton {
+  color: #8a1f21;
+  justify-self: center;
+  width: 88%;
+}
+
+.mobilePanel .mobileCtaButton {
+  color: #8a1f21;
+}
+
 .mobileOpen {
   max-height: calc(100dvh - 4.75rem);
   overflow-y: auto;
@@ -587,10 +633,26 @@
 
   .menuButton {
     display: inline-flex;
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+  }
+
+  .logo {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
   }
 
   .actions {
-    gap: 0.45rem;
+    display: none;
+  }
+
+  .mobileActions {
+    display: grid;
+    gap: 0.6rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 1rem 0 0.6rem;
   }
 
   .ctaButton {
