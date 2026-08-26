@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     shortcut: "/logo.png?v=20260815",
     apple: "/logo.png?v=20260815",
   },
+  other: {
+    "format-detection": "telephone=no",
+  },
 };
 
 export default function RootLayout({
