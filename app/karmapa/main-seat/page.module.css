@@ -3,6 +3,7 @@
   color: #222222;
   min-height: 100vh;
   padding-bottom: var(--page-footer-gap);
+  padding-top: 4.75rem;
 }
 
 .imageSection {
