@@ -266,3 +266,26 @@ button {
     --body-text-color: #3a3030;
   }
 }
+
+@media (max-width: 767px) {
+  main:has(> section > img) .karmapaArticleStart {
+    padding-top: 0.5rem;
+  }
+
+  main:has(> section > img) .karmapaArticleStart .karmapaHiddenH1 > div {
+    margin-bottom: 0.75rem;
+    margin-top: 0;
+  }
+
+  main:has(> section > img) .karmapaArticleStart .karmapaHiddenH1 > div > img {
+    margin-top: 0.5rem;
+  }
+
+  main:has(> section > img) .karmapaArticleStart .prose > h2:first-child {
+    margin-top: 1.75rem;
+  }
+
+  main:has(> section > img) .karmapaArticleStart .karmapaHiddenH1 + section {
+    margin-top: 1rem;
+  }
+}
