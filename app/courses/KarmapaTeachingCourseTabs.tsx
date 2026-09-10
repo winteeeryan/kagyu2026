@@ -508,12 +508,6 @@ const karmapaCourseSpring2021Items: VideoItem[] = [
   },
 ];
 
-const karmapaCourseItems: VideoItem[] = [
-  ...karmapaCourseSpringItems,
-  ...karmapaCourseSpring2022Items,
-  ...karmapaCourseSpring2021Items,
-];
-
 const covidChineseTeachingItem: VideoItem = {
   date: "2020.04.14",
   excerpt: "視頻內含中文字幕",
@@ -798,8 +792,22 @@ const kagyuMonlamItems: VideoItem[] = [
 const courseCategories: CourseCategory[] = [
   {
     initialVisibleCount: INITIAL_COURSE_CARD_COUNT,
-    items: karmapaCourseItems,
-    label: "法王課程",
+    items: karmapaCourseSpring2021Items,
+    label: "2021年讖摩春季課程",
+  },
+  {
+    initialVisibleCount: INITIAL_COURSE_CARD_COUNT,
+    items: karmapaCourseSpring2022Items,
+    label: "2022年讖摩春季課程",
+  },
+  {
+    initialVisibleCount: INITIAL_COURSE_CARD_COUNT,
+    items: karmapaCourseSpringItems,
+    label: "2023年讖摩春季課程",
+  },
+  {
+    items: chineseTeachingItems.filter((item) => item.title.includes("新冠肺炎")),
+    label: "除障祈願念誦",
   },
   {
     items: buddhistTeachingItems,
@@ -818,7 +826,7 @@ const courseCategories: CourseCategory[] = [
     label: "傳承與祖師",
   },
   {
-    items: chineseTeachingItems,
+    items: chineseTeachingItems.filter((item) => !item.title.includes("新冠肺炎")),
     label: "中文弘法",
   },
 ];
@@ -827,32 +835,42 @@ export function KarmapaTeachingCourseTabs() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [activeVideo, setActiveVideo] = useState<VideoItem | null>(null);
   const [visibleCounts, setVisibleCounts] = useState<Record<string, number>>({
-    法王課程: INITIAL_COURSE_CARD_COUNT,
+    "2021年讖摩春季課程": INITIAL_COURSE_CARD_COUNT,
+    "2022年讖摩春季課程": INITIAL_COURSE_CARD_COUNT,
+    "2023年讖摩春季課程": INITIAL_COURSE_CARD_COUNT,
+    "除障祈願念誦": INITIAL_COURSE_CARD_COUNT,
   });
+
+  const renderTab = (category: CourseCategory, index: number) => {
+    const isActive = index === activeIndex;
+    const tabId = "karmapa-course-tab-" + index;
+    const panelId = "karmapa-course-panel-" + index;
+
+    return (
+      <button
+        aria-controls={panelId}
+        aria-selected={isActive}
+        className={isActive ? styles.tab + " " + styles.tabActive : styles.tab}
+        id={tabId}
+        key={category.label}
+        onClick={() => setActiveIndex(index)}
+        role="tab"
+        type="button"
+      >
+        {category.label}
+      </button>
+    );
+  };
 
   return (
     <div className={styles.wrapper}>
       <div className={styles.tabBar} role="tablist" aria-label="法王開示課程分類">
-        {courseCategories.map((category, index) => {
-          const isActive = index === activeIndex;
-          const tabId = `karmapa-course-tab-${index}`;
-          const panelId = `karmapa-course-panel-${index}`;
-
-          return (
-            <button
-              aria-controls={panelId}
-              aria-selected={isActive}
-              className={`${styles.tab} ${isActive ? styles.tabActive : ""}`}
-              id={tabId}
-              key={category.label}
-              onClick={() => setActiveIndex(index)}
-              role="tab"
-              type="button"
-            >
-              {category.label}
-            </button>
-          );
-        })}
+        <div className={styles.tabRow}>
+          {courseCategories.slice(0, 4).map((category, index) => renderTab(category, index))}
+        </div>
+        <div className={styles.tabRow}>
+          {courseCategories.slice(4).map((category, index) => renderTab(category, index + 4))}
+        </div>
       </div>
 
       <div className={styles.contentContainer}>

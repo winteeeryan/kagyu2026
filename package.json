@@ -4,17 +4,20 @@
   "private": true,
   "scripts": {
     "predev": "node scripts/check-node.js",
-    "prebuild": "node scripts/check-node.js",
+    "prebuild": "node scripts/check-node.js && node scripts/generate-search-index.mjs",
     "prestart": "node scripts/check-node.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "wisdom:posters": "node scripts/generate-wisdom-posters.js"
+    "wisdom:posters": "node scripts/generate-wisdom-posters.js",
+    "search:index": "node scripts/generate-search-index.mjs",
+    "search:check": "node scripts/check-search-index.mjs"
   },
   "engines": {
     "node": ">=20.9 <25"
   },
   "dependencies": {
+    "fuse.js": "^7.5.0",
     "next": "15.3.0",
     "react": "19.1.0",
     "react-dom": "19.1.0"

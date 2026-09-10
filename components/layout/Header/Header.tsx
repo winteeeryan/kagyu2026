@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { SiteSearch } from "@/components/search/SiteSearch";
 import { navItems, navRouteMap } from "@/data/homepage";
 import { getLinkBehavior } from "@/utils/linkBehavior";
 import styles from "./Header.module.css";
@@ -12,6 +13,15 @@ const getGroupKey = (itemLabel: string, groupTitle: string) =>
 
 const getNavHref = (title: string, fallback = "/") =>
   navRouteMap[title] ?? fallback;
+
+function SearchIcon() {
+  return (
+    <svg aria-hidden="true" viewBox="0 0 24 24">
+      <circle cx="10.8" cy="10.8" r="6.3" />
+      <path d="m15.5 15.5 4 4" />
+    </svg>
+  );
+}
 
 export function Header() {
   // Header state controls scroll styling, mobile visibility, and desktop flyouts.
@@ -24,10 +34,20 @@ export function Header() {
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
   const [activeGroup, setActiveGroup] = useState<string | null>(null);
   const [transitionsReady, setTransitionsReady] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
 
   const closeMobileMenu = () => {
     setMobileOpen(false);
     setOpenMobileSection(null);
+  };
+
+  const closeSearch = useCallback(() => setSearchOpen(false), []);
+
+  const openSearch = () => {
+    closeMobileMenu();
+    setActiveMenu(null);
+    setActiveGroup(null);
+    setSearchOpen(true);
   };
 
   useEffect(() => {
@@ -52,6 +72,7 @@ export function Header() {
     setOpenMobileSection(null);
     setActiveMenu(null);
     setActiveGroup(null);
+    setSearchOpen(false);
   }, [pathname]);
 
   return (
@@ -78,24 +99,36 @@ export function Header() {
         }}
       >
         <div className={`container ${styles.inner}`}>
-          {/* Mobile menu trigger */}
-          <button
-            className={styles.menuButton}
-            type="button"
-            onClick={() => {
-              if (mobileOpen) {
-                setOpenMobileSection(null);
-              }
-              setMobileOpen((value) => !value);
-            }}
-            aria-expanded={mobileOpen}
-            aria-controls="mobile-nav"
-            aria-label={mobileOpen ? "關閉選單" : "開啟選單"}
-          >
-            <span className={mobileOpen ? styles.menuLineOpen : ""} />
-            <span className={mobileOpen ? styles.menuLineOpen : ""} />
-            <span className={mobileOpen ? styles.menuLineOpen : ""} />
-          </button>
+          {/* Mobile search and menu controls */}
+          <div className={styles.mobileHeaderActions}>
+            <button
+              aria-expanded={searchOpen}
+              aria-haspopup="dialog"
+              aria-label="搜尋本站"
+              className={styles.mobileSearchLink}
+              onClick={openSearch}
+              type="button"
+            >
+              <SearchIcon />
+            </button>
+            <button
+              className={styles.menuButton}
+              type="button"
+              onClick={() => {
+                if (mobileOpen) {
+                  setOpenMobileSection(null);
+                }
+                setMobileOpen((value) => !value);
+              }}
+              aria-expanded={mobileOpen}
+              aria-controls="mobile-nav"
+              aria-label={mobileOpen ? "關閉選單" : "開啟選單"}
+            >
+              <span className={mobileOpen ? styles.menuLineOpen : ""} />
+              <span className={mobileOpen ? styles.menuLineOpen : ""} />
+              <span className={mobileOpen ? styles.menuLineOpen : ""} />
+            </button>
+          </div>
 
           <Link
             className={styles.logo}
@@ -225,6 +258,16 @@ export function Header() {
           </nav>
 
           <div className={styles.actions}>
+            <button
+              aria-expanded={searchOpen}
+              aria-haspopup="dialog"
+              aria-label="搜尋本站"
+              className={styles.searchLink}
+              onClick={openSearch}
+              type="button"
+            >
+              <SearchIcon />
+            </button>
             <Link
               className={styles.ctaButton}
               href="https://www.kagyu.org.tw/tem/data/application.doc"
@@ -325,6 +368,7 @@ export function Header() {
           </nav>
         </div>
       </header>
+      <SiteSearch mode="overlay" onClose={closeSearch} open={searchOpen} />
     </>
   );
 }

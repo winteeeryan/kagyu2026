@@ -84,7 +84,7 @@ export const announcement =
 
 export const navItems: NavItem[] = [
   {
-    label: "關於學院",
+    label: "關於基金會",
     href: "/about",
     groups: [
       { title: "學院簡介", links: [] },
@@ -254,8 +254,8 @@ export const hero = {
   title: "",
   description: "",
   ctas: [
-    { label: "課程開示", href: "/courses" },
-    { label: "最新資訊", href: "/latest-info" },
+    { label: "法王課程開示", href: "/courses" },
+    { label: "法王最新資訊", href: "/latest-info" },
   ] satisfies HeroCta[],
   slides: [
     {

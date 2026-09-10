@@ -13,7 +13,7 @@ const utilityLinks = [
 
 const footerNavGroups = [
   {
-    title: "關於學院",
+    title: "關於基金會",
     links: [
       { href: "/about/introduction", label: "學院簡介" },
       { href: "/about/origin", label: "成立緣起" },
@@ -258,9 +258,9 @@ export function Footer() {
 
           <div className={styles.bottomRow}>
             <p>
-              <span>台灣噶舉佛學院</span>
+              <span>財團法人 噶瑪噶舉基金會</span>
               <span>Copyright 2026.</span>
-              <span>@Taiwan Kagyu Buddhist Institute All rights reserved.</span>
+              <span>@Karma Kagyu Foundation All rights reserved.</span>
             </p>
           </div>
         </div>

@@ -92,6 +92,49 @@
   width: 22px;
 }
 
+.mobileHeaderActions {
+  display: none;
+}
+
+.searchLink,
+.mobileSearchLink {
+  align-items: center;
+  background: transparent;
+  border: 1px solid rgba(149, 69, 69, 0.4);
+  border-radius: 999px;
+  color: inherit;
+  display: inline-flex;
+  height: 2.2rem;
+  justify-content: center;
+  padding: 0;
+  text-decoration: none;
+  transition:
+    border-color 220ms ease,
+    color 220ms ease,
+    transform 220ms ease;
+  width: 2.2rem;
+}
+
+.searchLink svg,
+.mobileSearchLink svg {
+  fill: none;
+  height: 1rem;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: 1.5;
+  width: 1rem;
+}
+
+.searchLink:hover,
+.searchLink:focus-visible,
+.mobileSearchLink:hover,
+.mobileSearchLink:focus-visible {
+  border-color: rgba(149, 69, 69, 0.72);
+  color: #954545;
+  outline: none;
+  transform: translateY(-1px);
+}
+
 .menuButton span {
   background: currentColor;
   display: block;
@@ -202,24 +245,32 @@
 
 .top .navLink,
 .top .menuButton,
+.top .mobileSearchLink,
+.top .searchLink,
 .top .ctaButton {
   color: #ffffff;
 }
 
 .scrolled .navLink,
 .scrolled .menuButton,
+.scrolled .mobileSearchLink,
+.scrolled .searchLink,
 .scrolled .ctaButton {
   color: #2b0707;
 }
 
 .header:hover .navLink,
 .header:hover .menuButton,
+.header:hover .mobileSearchLink,
+.header:hover .searchLink,
 .header:hover .ctaButton {
   color: #2b0707;
 }
 
 .subpage .navLink,
 .subpage .menuButton,
+.subpage .mobileSearchLink,
+.subpage .searchLink,
 .subpage .ctaButton {
   color: #2b0707;
 }
@@ -633,9 +684,20 @@
 
   .menuButton {
     display: inline-flex;
+  }
+
+  .mobileHeaderActions {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
     grid-column: 3;
     grid-row: 1;
     justify-self: end;
+  }
+
+  .mobileSearchLink {
+    height: 2rem;
+    width: 2rem;
   }
 
   .logo {

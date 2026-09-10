@@ -63,15 +63,18 @@
 }
 
 .tabBar {
-  display: flex;
-  flex-wrap: nowrap;
+  display: grid;
   gap: 1.35rem;
-  justify-content: center;
-  overflow-x: auto;
   padding-bottom: 1.25rem;
   padding-top: 1.25rem;
   transition: all 0.3s ease-in-out;
   white-space: nowrap;
+}
+
+.tabRow {
+  display: flex;
+  gap: 1.35rem;
+  justify-content: center;
 }
 
 .tab {
@@ -423,9 +426,14 @@
 
   .tabBar {
     gap: 1rem;
-    justify-content: flex-start;
     padding-bottom: 0.85rem;
     padding-top: 1.25rem;
+  }
+
+  .tabRow {
+    gap: 1rem;
+    justify-content: flex-start;
+    overflow-x: auto;
   }
 
   .tab {
