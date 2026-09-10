@@ -132,7 +132,7 @@
 }
 
 .storyOverview p {
-  color: rgba(var(--color-ink), 0.82);
+  color: var(--body-text-color);
   font-family: var(--font-serif-tc);
   font-size: clamp(1rem, 1.25vw, 1.12rem);
   letter-spacing: 0.045em;

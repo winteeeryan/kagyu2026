@@ -47,7 +47,7 @@
 }
 
 .prose p {
-  color: rgba(34, 34, 34, 0.82);
+  color: var(--body-text-color);
   font-size: clamp(1rem, 1.25vw, 1.12rem);
   letter-spacing: 0.045em;
   line-height: 2.1;
@@ -103,7 +103,7 @@
 }
 
 .prose ul {
-  color: rgba(34, 34, 34, 0.82);
+  color: var(--body-text-color);
   display: grid;
   gap: 1rem;
   letter-spacing: 0.045em;
@@ -118,7 +118,7 @@
 }
 
 .prose ol {
-  color: rgba(34, 34, 34, 0.82);
+  color: var(--body-text-color);
   counter-reset: article-rule;
   display: grid;
   gap: 1.35rem;
@@ -237,7 +237,7 @@
 }
 
 .ruleList {
-  color: rgba(34, 34, 34, 0.82);
+  color: var(--body-text-color);
   display: grid;
   gap: 1.15rem;
   list-style: none;

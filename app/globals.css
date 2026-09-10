@@ -53,6 +53,7 @@
   --font-serif: var(--font-source-han-serif);
   --color-paper: 252, 249, 252;
   --color-ink: 31, 27, 22;
+  --body-text-color: rgba(34, 34, 34, 0.82);
   --color-black: 17, 17, 17;
   --color-bronze: 132, 84, 0;
   --color-sand: 240, 224, 208;
@@ -257,5 +258,11 @@ button {
   .karmapaArticleStart {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --body-text-color: #3a3030;
   }
 }
