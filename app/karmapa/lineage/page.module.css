@@ -22,7 +22,7 @@
   }
 
   .page :global(.karmapaArticleStart) :global(.karmapaHiddenH1) + .cardSection {
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
 }
 
