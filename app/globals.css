@@ -274,6 +274,10 @@ button {
     padding-top: 0;
   }
 
+  main:has(> section > img) .karmapaArticleStart .prose {
+    margin-top: 0;
+  }
+
   main:has(> section > img) .karmapaArticleStart .karmapaHiddenH1 h1 {
     display: none;
   }
