@@ -272,6 +272,10 @@ button {
     padding-top: 0;
   }
 
+  main:has(> section > img) .karmapaArticleStart .karmapaHiddenH1 h1 {
+    display: none;
+  }
+
   main:has(> section > img) .karmapaArticleStart .karmapaHiddenH1 > div {
     margin-bottom: 0rem;
     margin-top: 0;
@@ -283,7 +287,14 @@ button {
   }
 
   main:has(> section > img) .karmapaArticleStart .prose > h2:first-child {
+    margin-bottom: 0.5rem;
     margin-top: 0;
+    min-height: 2.5rem;
+  }
+
+  main:has(> section > img) .karmapaArticleStart .prose > h2:not(:first-child) {
+    margin-bottom: 0.75rem;
+    margin-top: 2rem;
     min-height: 3.5rem;
   }
 
