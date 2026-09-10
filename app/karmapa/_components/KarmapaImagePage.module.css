@@ -3,7 +3,7 @@
   color: #222222;
   min-height: 100vh;
   padding-bottom: var(--page-footer-gap);
-  padding-top: 4.75rem;
+  padding-top: var(--site-header-height);
 }
 
 .imageSection {
@@ -29,7 +29,7 @@
 
 @media (max-width: 767px) {
   .page {
-    padding-top: 4.75rem;
+    padding-top: var(--site-header-height);
   }
 
   .headerImage {

@@ -6,7 +6,7 @@
 }
 
 .bannerPage {
-  padding-top: 4.75rem;
+  padding-top: var(--site-header-height);
 }
 
 .bannerSection {
@@ -96,7 +96,7 @@
 
 @media (max-width: 767px) {
   .bannerPage {
-    padding-top: 4.75rem;
+    padding-top: var(--site-header-height);
   }
 
   .bannerImage {

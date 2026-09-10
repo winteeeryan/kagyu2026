@@ -8,7 +8,7 @@
   background: #f7f7f7;
   color: #222222;
   padding-bottom: var(--page-footer-gap);
-  padding-top: 4.75rem;
+  padding-top: var(--site-header-height);
 }
 
 .bannerSection {
@@ -266,7 +266,7 @@
 
 @media (max-width: 640px) {
   .imageSection {
-    padding-top: 4.75rem;
+    padding-top: var(--site-header-height);
   }
 
   .headerImage {
@@ -280,7 +280,7 @@
 
 @media (max-width: 767px) {
   .bannerPage {
-    padding-top: 4.75rem;
+    padding-top: var(--site-header-height);
   }
 
   .bannerImage {
