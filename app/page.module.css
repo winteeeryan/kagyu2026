@@ -141,7 +141,12 @@
 }
 
 .charityShopSection {
-  background: #f6e9e8;
+  background-color: #17080a;
+  background-image: url("/support-volunteer/charity-shop/charityshopbackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f0e0d0;
 }
 
 .popularCollectionsBlock {
@@ -158,6 +163,7 @@
 }
 
 .popularCollectionsEyebrow {
+  color: rgba(240, 224, 208, 0.72);
   font-weight: 200;
   letter-spacing: 0.24rem;
   margin: 0 0 2.5rem;
@@ -165,7 +171,7 @@
 }
 
 .popularCollectionsTitle {
-  color: #2b0707;
+  color: #f0e0d0;
   font-family: var(--font-serif-tc);
   font-size: clamp(36px, 3vw, 42px);
   font-weight: 400;

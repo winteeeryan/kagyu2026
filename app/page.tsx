@@ -24,6 +24,20 @@ export default function Home() {
         </div>
       </section>
 
+      <section className={`${styles.section} ${styles.charityShopSection}`} id="charity-shop">
+        <div className={`container ${styles.homeContainer}`}>
+          <div className={styles.popularCollectionsBlock}>
+            <div className={styles.popularCollectionsHeading}>
+              <p className={`eyebrow ${styles.popularCollectionsEyebrow}`}>
+                CHARITY SHOP
+              </p>
+              <h2 className={styles.popularCollectionsTitle}>義賣商店</h2>
+            </div>
+            <PopularCollectionsTabs groups={popularCollectionGroups} />
+          </div>
+        </div>
+      </section>
+
       <section className={`${styles.section} ${styles.visualMediaSection}`} id="visual-media">
         <div className={`container ${styles.homeContainer}`}>
           <div className={`${styles.heading} ${styles.mediaGatewayHeading}`}>
@@ -66,20 +80,6 @@ export default function Home() {
                 </div>
               </Link>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className={`${styles.section} ${styles.charityShopSection}`} id="charity-shop">
-        <div className={`container ${styles.homeContainer}`}>
-          <div className={styles.popularCollectionsBlock}>
-            <div className={styles.popularCollectionsHeading}>
-              <p className={`eyebrow ${styles.popularCollectionsEyebrow}`}>
-                CHARITY SHOP
-              </p>
-              <h2 className={styles.popularCollectionsTitle}>義賣商店</h2>
-            </div>
-            <PopularCollectionsTabs groups={popularCollectionGroups} />
           </div>
         </div>
       </section>
