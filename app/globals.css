@@ -271,7 +271,7 @@ button {
 
 @media (max-width: 767px) {
   main:has(> section > img) .karmapaArticleStart {
-    padding-top: 0;
+    padding-top: 3rem;
   }
 
   main:has(> section > img) .karmapaArticleStart .prose {
@@ -290,6 +290,9 @@ button {
   main:has(> section > img) .karmapaArticleStart .karmapaHiddenH1 > div > img {
     margin-top: 0;
     width: min(30vw, 8rem);
+    height: 2rem;
+    object-fit: cover;
+    object-position: center;
   }
 
   main:has(> section > img) .karmapaArticleStart .prose > h2:first-child {
