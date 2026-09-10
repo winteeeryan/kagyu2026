@@ -2,6 +2,14 @@
   padding: clamp(4rem, 7vw, 6rem) 0;
 }
 
+.activitySection {
+  background-color: #fcf9fc;
+  background-image: url("/activity/activitybackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .homeContainer {
   width: 100%;
 }
@@ -137,7 +145,11 @@
 }
 
 .visualMediaSection {
-  background: #f9f3f2;
+  background-color: #f9f3f2;
+  background-image: url("/media/mediabackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .charityShopSection {

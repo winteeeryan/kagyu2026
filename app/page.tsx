@@ -14,7 +14,7 @@ export default function Home() {
     <main>
       <Hero {...hero} />
 
-      <section className={styles.section} id="new-arrivals">
+      <section className={`${styles.section} ${styles.activitySection}`} id="new-arrivals">
         <div className={`container ${styles.homeContainer}`}>
           <div className={styles.heading}>
             <p className="eyebrow">LATEST EVENTS</p>
@@ -53,7 +53,7 @@ export default function Home() {
                 <div className={styles.mediaPanelVisual} aria-hidden="true">
                   <img
                     className={styles.mediaPanelImage}
-                    src="/media/video-channel.png"
+                    src="/media/video-channel.png?v=20260909"
                     alt=""
                   />
                 </div>
@@ -70,7 +70,7 @@ export default function Home() {
                 <div className={styles.mediaPanelVisual} aria-hidden="true">
                   <img
                     className={styles.mediaPanelImage}
-                    src="/media/official-album.png"
+                    src="/media/official-album.png?v=20260909"
                     alt=""
                   />
                 </div>
