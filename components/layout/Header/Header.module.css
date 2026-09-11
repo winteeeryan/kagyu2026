@@ -18,8 +18,8 @@
 }
 
 .top {
-  background: rgba(247, 247, 247, 0.9);
-  color: #2b0707;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
   backdrop-filter: blur(10px);
 }
 
@@ -207,11 +207,11 @@
 }
 
 .top .logoDark {
-  opacity: 0.85;
+  opacity: 0;
 }
 
 .top .logoLight {
-  opacity: 0;
+  opacity: 1;
 }
 
 .scrolled .logoDark {
@@ -248,7 +248,7 @@
 .top .mobileSearchLink,
 .top .searchLink,
 .top .ctaButton {
-  color: #2b0707;
+  color: #ffffff;
 }
 
 .scrolled .navLink,
@@ -668,6 +668,27 @@
 }
 
 @media (max-width: 1100px) {
+  .top {
+    background: rgba(247, 247, 247, 0.9);
+    color: #2b0707;
+  }
+
+  .top .logoDark {
+    opacity: 0.85;
+  }
+
+  .top .logoLight {
+    opacity: 0;
+  }
+
+  .top .navLink,
+  .top .menuButton,
+  .top .mobileSearchLink,
+  .top .searchLink,
+  .top .ctaButton {
+    color: #2b0707;
+  }
+
   .header .inner {
     padding-inline: 1.25rem;
   }

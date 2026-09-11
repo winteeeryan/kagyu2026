@@ -1,5 +1,7 @@
-.homePage {
-  padding-top: var(--site-header-height);
+@media (max-width: 1100px) {
+  .homePage {
+    padding-top: var(--site-header-height);
+  }
 }
 
 .section {
