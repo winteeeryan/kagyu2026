@@ -335,25 +335,29 @@
 
   .scroller {
     gap: 0.85rem;
-    grid-auto-columns: calc((100% - 0.85rem) / 2);
+    grid-auto-columns: calc((100% - 0.85rem) / 1.7);
   }
 
   .eventPill {
-    font-size: 0.62rem;
-    letter-spacing: 0.04em;
-    padding: 0.3rem 0.5rem;
+    font-size: 0.55rem;
+    letter-spacing: 0.02em;
+    padding: 0.25rem 0.42rem;
   }
 
   .cardContent h3 {
-    font-size: 0.8rem;
-    letter-spacing: 0.04em;
+    font-size: 0.78rem;
+    letter-spacing: 0.03em;
     line-height: 1.45;
   }
 
   .cardContent p {
-    font-size: 0.68rem;
-    letter-spacing: 0.04em;
+    font-size: 0.66rem;
+    letter-spacing: 0.03em;
     line-height: 1.5;
+  }
+
+  .cardContent {
+    width: 90%;
   }
 
   .control {
