@@ -303,7 +303,7 @@ export default async function Page({ params }: PageProps) {
         <img
           alt={`${teaching.title}橫幅`}
           className={styles.bannerImage}
-          src="/study-practice/dharmawisdomhero004.png"
+          src="/study-practice/dharmawisdomhero004.png?v=20260910"
         />
       </section>
 

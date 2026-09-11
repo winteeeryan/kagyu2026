@@ -81,7 +81,7 @@ export default function Page() {
         <img
           alt="黃金珠鬘法脈傳承祖師橫幅"
           className={styles.bannerImage}
-          src="/kagyu-lineage/kagyulineagehero006.png"
+          src="/kagyu-lineage/kagyulineagehero006.png?v=20260910"
         />
       </section>
 

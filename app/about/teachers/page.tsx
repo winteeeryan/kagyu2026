@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <AboutBannerPage
       alt="師資與上師橫幅"
-      imageSrc="/about/abouthero003.png"
+      imageSrc="/about/abouthero004.png"
       title="師資與上師"
     >
       <TeacherTabs />

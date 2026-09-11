@@ -53,7 +53,7 @@ export default function Page() {
   return (
     <AboutBannerPage
       alt="成立緣起橫幅"
-      imageSrc="/about/abouthero002.png"
+      imageSrc="/about/abouthero003.png"
       title="成立緣起"
     >
       <div className={styles.prose}>

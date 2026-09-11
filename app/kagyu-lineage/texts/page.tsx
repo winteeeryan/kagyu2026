@@ -38,7 +38,7 @@ export default function Page() {
         <img
           alt="噶舉經典橫幅"
           className={styles.bannerImage}
-          src="/kagyu-lineage/kagyulineagehero007.png"
+          src="/kagyu-lineage/kagyulineagehero007.png?v=20260910"
         />
       </section>
 

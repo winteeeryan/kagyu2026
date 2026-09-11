@@ -1,5 +1,6 @@
 .page {
   background: #f8f8f8;
+  padding-bottom: clamp(5rem, 9vw, 8rem);
 }
 
 .header {

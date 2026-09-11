@@ -94,7 +94,7 @@ export default async function Page({ params }: PageProps) {
         <img
           alt={`${saint.name}橫幅`}
           className={styles.bannerImage}
-          src="/study-practice/dharmawisdomhero003.png"
+          src="/study-practice/dharmawisdomhero003.png?v=20260910"
         />
       </section>
 

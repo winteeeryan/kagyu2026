@@ -17,7 +17,7 @@ export default function KarmapaCalligraphyPage() {
         <img
           alt="大寶法王墨寶圖像"
           className={styles.headerImage}
-          src="/karmapa/karmapahero006.png"
+          src="/karmapa/karmapahero007.png"
         />
       </section>
 

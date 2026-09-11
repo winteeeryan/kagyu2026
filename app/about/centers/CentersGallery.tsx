@@ -36,7 +36,7 @@ export function CentersGallery() {
         <img
           alt="全省中心橫幅"
           className={bannerStyles.bannerImage}
-          src="/about/abouthero004.png"
+          src="/about/abouthero005.png"
         />
       </section>
 

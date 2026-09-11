@@ -11,7 +11,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main>
+    <main className={styles.homePage}>
       <Hero {...hero} />
 
       <section className={`${styles.section} ${styles.activitySection}`} id="new-arrivals">

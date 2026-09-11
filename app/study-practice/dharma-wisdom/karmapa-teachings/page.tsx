@@ -30,7 +30,7 @@ export default function Page() {
         <img
           alt="法王教言橫幅"
           className={styles.bannerImage}
-          src="/study-practice/dharmawisdomhero004.png"
+          src="/study-practice/dharmawisdomhero004.png?v=20260910"
         />
       </section>
 

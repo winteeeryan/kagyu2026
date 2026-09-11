@@ -16,7 +16,7 @@ export default function Page() {
         <img
           alt="密續與大手印橫幅"
           className={styles.bannerImage}
-          src="/kagyu-lineage/kagyulineagehero003.png"
+          src="/kagyu-lineage/kagyulineagehero003.png?v=20260910"
         />
       </section>
 

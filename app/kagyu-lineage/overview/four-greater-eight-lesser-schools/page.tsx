@@ -17,7 +17,7 @@ export default function Page() {
         <img
           alt="四大八小傳承橫幅"
           className={styles.bannerImage}
-          src="/kagyu-lineage/kagyulineagehero002.png"
+          src="/kagyu-lineage/kagyulineagehero002.png?v=20260910"
         />
       </section>
 

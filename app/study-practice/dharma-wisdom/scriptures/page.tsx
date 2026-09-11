@@ -151,7 +151,7 @@ export default function Page() {
         <img
           alt="聞思經典橫幅"
           className={styles.bannerImage}
-          src="/study-practice/dharmawisdomhero001.png"
+          src="/study-practice/dharmawisdomhero001.png?v=20260910"
         />
       </section>
 

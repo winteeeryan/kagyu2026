@@ -17,7 +17,7 @@ export default function Page() {
         <img
           alt="噶舉寺院橫幅"
           className={styles.bannerImage}
-          src="/kagyu-lineage/kagyulineagehero004.png"
+          src="/kagyu-lineage/kagyulineagehero004.png?v=20260910"
         />
       </section>
 

@@ -1,7 +1,9 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import type { VideoItem } from "@/app/visual-media/video-channel/VideoChannelTabs";
+import { getCourseTranscriptSlug } from "@/app/courses/courseTranscriptSlug";
 import styles from "@/app/visual-media/video-channel/page.module.css";
 
 type CourseCategory = {
@@ -895,6 +897,7 @@ export function KarmapaTeachingCourseTabs() {
               <div className={styles.articleGrid}>
                 {visibleItems.map((item, itemIndex) => {
                   const isPlayable = Boolean(item.youtubeId);
+                  const transcriptSlug = getCourseTranscriptSlug(item);
 
                   return (
                     <article
@@ -932,14 +935,24 @@ export function KarmapaTeachingCourseTabs() {
                       {item.date ? <span className={styles.date}>{item.date}</span> : null}
                       {item.title ? <span className={styles.articleTitle}>{item.title}</span> : null}
                       {item.excerpt ? <p className={styles.excerpt}>{item.excerpt}</p> : null}
-                      <button
-                        className={styles.readMore}
-                        disabled={!isPlayable}
-                        onClick={() => setActiveVideo(item)}
-                        type="button"
-                      >
-                        開始觀看
-                      </button>
+                      <div className={styles.cardActions}>
+                        <button
+                          className={styles.readMore}
+                          disabled={!isPlayable}
+                          onClick={() => setActiveVideo(item)}
+                          type="button"
+                        >
+                          開始觀看
+                        </button>
+                        {transcriptSlug ? (
+                          <Link
+                            className={styles.readMore}
+                            href={"/courses/transcripts/" + transcriptSlug}
+                          >
+                            閱讀文字
+                          </Link>
+                        ) : null}
+                      </div>
                     </article>
                   );
                 })}

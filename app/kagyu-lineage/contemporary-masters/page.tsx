@@ -80,7 +80,7 @@ export default function Page() {
         <img
           alt="當代傳承上師橫幅"
           className={styles.bannerImage}
-          src="/kagyu-lineage/kagyulineagehero008.png"
+          src="/kagyu-lineage/kagyulineagehero008.png?v=20260910"
         />
       </section>
 

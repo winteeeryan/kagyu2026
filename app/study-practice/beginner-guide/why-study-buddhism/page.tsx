@@ -16,7 +16,7 @@ export default function Page() {
         <img
           alt="為什麼學佛橫幅"
           className={styles.bannerImage}
-          src="/study-practice/studypracticehero001.png"
+          src="/study-practice/studypracticehero001.png?v=20260910"
         />
       </section>
 

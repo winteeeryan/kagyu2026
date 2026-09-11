@@ -70,7 +70,7 @@ export default function Page() {
   return (
     <AboutBannerPage
       alt="學院簡介橫幅"
-      imageSrc="/about/abouthero001.png"
+      imageSrc="/about/abouthero002.png"
       title="學院簡介"
     >
       <div className={styles.prose}>

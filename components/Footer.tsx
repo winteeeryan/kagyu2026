@@ -15,6 +15,7 @@ const footerNavGroups = [
   {
     title: "關於基金會",
     links: [
+      { href: "/about/foundation", label: "基金會簡介" },
       { href: "/about/introduction", label: "學院簡介" },
       { href: "/about/origin", label: "成立緣起" },
       { href: "/about/teachers", label: "師資與上師" },

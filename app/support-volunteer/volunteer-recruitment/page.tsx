@@ -187,7 +187,6 @@ export default function Page() {
               <br />
               請逕向佛學院各中心報名。
             </p>
-            <EndMarker />
           </div>
 
           <SupportGuideNav items={guideItems} />
@@ -315,6 +314,7 @@ export default function Page() {
             ))}
           </div>
         </div>
+        <EndMarker />
       </article>
     </main>
   );

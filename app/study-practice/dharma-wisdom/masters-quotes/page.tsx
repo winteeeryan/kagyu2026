@@ -82,7 +82,7 @@ export default function Page() {
         <img
           alt="祖師語錄橫幅"
           className={styles.bannerImage}
-          src="/study-practice/dharmawisdomhero002.png"
+          src="/study-practice/dharmawisdomhero002.png?v=20260910"
         />
       </section>
 

@@ -41,7 +41,7 @@ export default function Page() {
         <img
           alt="聖者行傳橫幅"
           className={styles.bannerImage}
-          src="/study-practice/dharmawisdomhero003.png"
+          src="/study-practice/dharmawisdomhero003.png?v=20260910"
         />
       </section>
 

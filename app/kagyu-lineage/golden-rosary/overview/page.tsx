@@ -17,7 +17,7 @@ export default function Page() {
         <img
           alt="黃金珠鬘傳承概述橫幅"
           className={styles.bannerImage}
-          src="/kagyu-lineage/kagyulineagehero005.png"
+          src="/kagyu-lineage/kagyulineagehero005.png?v=20260910"
         />
       </section>
 

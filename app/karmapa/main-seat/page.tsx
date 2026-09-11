@@ -78,7 +78,7 @@ export default function KarmapaMainSeatPage() {
         <img
           alt="噶瑪巴主寺法座圖像"
           className={styles.headerImage}
-          src="/karmapa/karmapahero007.png"
+          src="/karmapa/karmapahero006.png"
         />
       </section>
 

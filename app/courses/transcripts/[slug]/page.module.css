@@ -1,0 +1,51 @@
+.page {
+  background: #f8f8f8;
+  padding-bottom: var(--page-footer-gap);
+}
+
+.articleInner {
+  max-width: 52rem;
+}
+
+.header {
+  margin: 0 auto clamp(2rem, 4vw, 3.25rem);
+  max-width: 48rem;
+  text-align: center;
+}
+
+.header h2 {
+  margin-top: 0;
+}
+
+.eyebrow {
+  color: #bd1517;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  line-height: 1.5;
+  margin: 0 auto clamp(0.28rem, 0.7vw, 0.5rem);
+  text-transform: uppercase;
+}
+
+.transcriptProse {
+  margin-top: 0;
+}
+
+.transcriptProse p {
+  margin-top: 1.35rem;
+  white-space: pre-line;
+}
+
+.transcriptProse p:first-child {
+  margin-top: 0;
+}
+
+.verse {
+  text-align: center;
+}
+
+.backNav {
+  margin-top: clamp(2.5rem, 6vw, 4rem);
+  padding-top: clamp(1.4rem, 3vw, 2rem);
+  text-align: center;
+}

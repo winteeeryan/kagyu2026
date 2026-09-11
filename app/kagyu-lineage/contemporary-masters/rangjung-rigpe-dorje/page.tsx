@@ -17,7 +17,7 @@ export default function Page() {
         <img
           alt="第十六世大寶法王讓炯立佩多傑橫幅"
           className={styles.bannerImage}
-          src="/kagyu-lineage/kagyulineagehero008.png"
+          src="/kagyu-lineage/kagyulineagehero008.png?v=20260910"
         />
       </section>
 

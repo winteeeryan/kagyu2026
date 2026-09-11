@@ -17,7 +17,7 @@ export default function Page() {
         <img
           alt="噶舉傳承於藏傳佛教橫幅"
           className={styles.bannerImage}
-          src="/kagyu-lineage/kagyulineagehero001.png"
+          src="/kagyu-lineage/kagyulineagehero001.png?v=20260910"
         />
       </section>
 

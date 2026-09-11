@@ -18,8 +18,8 @@
 }
 
 .top {
-  background: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
+  background: rgba(247, 247, 247, 0.9);
+  color: #2b0707;
   backdrop-filter: blur(10px);
 }
 
@@ -207,11 +207,11 @@
 }
 
 .top .logoDark {
-  opacity: 0;
+  opacity: 0.85;
 }
 
 .top .logoLight {
-  opacity: 1;
+  opacity: 0;
 }
 
 .scrolled .logoDark {
@@ -248,7 +248,7 @@
 .top .mobileSearchLink,
 .top .searchLink,
 .top .ctaButton {
-  color: #ffffff;
+  color: #2b0707;
 }
 
 .scrolled .navLink,

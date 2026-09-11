@@ -87,6 +87,7 @@ export const navItems: NavItem[] = [
     label: "關於基金會",
     href: "/about",
     groups: [
+      { title: "基金會簡介", links: [] },
       { title: "學院簡介", links: [] },
       { title: "成立緣起", links: [] },
       { title: "師資與上師", links: [] },
@@ -197,6 +198,7 @@ export const navItems: NavItem[] = [
 ];
 
 export const navRouteMap: Record<string, string> = {
+  基金會簡介: "/about/foundation",
   學院簡介: "/about/introduction",
   成立緣起: "/about/origin",
   師資與上師: "/about/teachers",

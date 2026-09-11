@@ -185,7 +185,7 @@ export default function Page() {
         <img
           alt="佛學百科橫幅"
           className={styles.bannerImage}
-          src="/study-practice/buddhismencyclopediahero.png"
+          src="/study-practice/buddhismencyclopediahero.png?v=20260910"
         />
       </section>
 
