@@ -338,6 +338,24 @@
     grid-auto-columns: calc((100% - 0.85rem) / 2);
   }
 
+  .eventPill {
+    font-size: 0.62rem;
+    letter-spacing: 0.04em;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .cardContent h3 {
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    line-height: 1.45;
+  }
+
+  .cardContent p {
+    font-size: 0.68rem;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+  }
+
   .control {
     display: none;
   }
@@ -350,8 +368,19 @@
     transform: none;
   }
 
+  .card:focus-within {
+    border-color: rgba(var(--color-black), 0.08);
+    box-shadow: none;
+    transform: none;
+  }
+
   .card:hover .activityImage,
   .card:hover .placeholder {
+    transform: none;
+  }
+
+  .card:focus-within .activityImage,
+  .card:focus-within .placeholder {
     transform: none;
   }
 

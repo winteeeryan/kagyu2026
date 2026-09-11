@@ -169,6 +169,17 @@
     gap: 0.5rem;
   }
 
+  .latestCard .latestContent .articleTitle {
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+    line-height: 1.45;
+  }
+
+  .latestCard .latestContent .date {
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+  }
+
   .archiveNavLink {
     min-width: 0;
     width: 100%;

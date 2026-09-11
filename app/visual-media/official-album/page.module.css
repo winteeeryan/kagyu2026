@@ -390,6 +390,24 @@
   .heading {
     margin-bottom: 3rem;
   }
+
+  .eventPill {
+    font-size: 0.62rem;
+    letter-spacing: 0.04em;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .cardContent h3 {
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+    line-height: 1.45;
+  }
+
+  .cardContent p {
+    font-size: 0.68rem;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+  }
 }
 
 @media (hover: none) and (pointer: coarse) {
@@ -412,15 +430,19 @@
 
 @media (max-width: 820px) {
   .previewOverlay {
-    padding: 4rem 0 7.4rem;
+    padding: 6.25rem 0 7.4rem;
   }
 
   .previewTopBar {
     right: 0;
+    top: 0.5rem;
   }
 
   .previewToolbar {
-    right: 0.55rem;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 3.25rem;
   }
 
   .previewTextButton {
@@ -429,7 +451,7 @@
   }
 
   .previewStage {
-    height: calc(100vh - 11.4rem);
+    height: calc(100vh - 13.65rem);
     padding: 0 1rem;
   }
 
